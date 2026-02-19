@@ -59,9 +59,9 @@ Data fetched February 13–16, 2026 from CCCBDB Release 22 (May 2022).
 
 ### Archival Process
 
-CCCBDB uses server-side ASP.NET sessions: the initial request (`expgeom2x.asp?casno=X&charge=Y`) establishes which molecule is being queried, and all subsequent pages (`spin2x.asp`, `energy2x.asp`, etc.) use that session. Fetching is done with Python `urllib` using a `CookieJar`-backed session per molecule (`curl` fails on certain pages due to Cloudflare token issues). Requests are rate-limited at 2 seconds between requests.
+CCCBDB uses server-side ASP.NET sessions: the initial request establishes which molecule is being queried, and all subsequent pages use that session. Requests are rate-limited at 2 seconds between requests.
 
-For each species, the following pages are archived — these provide the molecular geometry, spin state, and total energy data needed to set up quantum chemistry calculations (CCCBDB also contains vibrational frequencies, dipole moments, and other data types not covered by this mirror):
+For each species, the following pages are archived:
 
 1. `expgeom2x.asp` — establishes session + experimental geometry
 2. `geom2x.asp` — summary of available calculated methods
@@ -84,10 +84,6 @@ Parsed data is validated at multiple levels:
 ### Anomaly Investigation Protocol
 
 Every suspicious result is investigated with competing hypotheses and 3+ independent evidence sources (electron count, spin page text, energy methods, URL parameters, other species entries) before classifying as upstream error or parser bug. Full evidence for all 19 investigated anomalies is in [`ANOMALY_LOG.md`](data/suspected_errors/ANOMALY_LOG.md). Raw anomaly data is in [`anomalies.json`](data/suspected_errors/anomalies.json). Data gap classification and fetch campaign evidence is in [`DATA_GAPS_AUDIT.md`](data/suspected_errors/DATA_GAPS_AUDIT.md).
-
-### Reproducibility
-
-All source HTML pages are archived alongside parsed JSON in each molecule's directory, enabling independent verification of any parsed value against the original CCCBDB page. Every anomaly in `ANOMALY_LOG.md` includes verification commands that can be run against the archived HTML.
 
 ## CSV Quick Reference
 
@@ -208,52 +204,7 @@ data/molecules/
 
 > After a complete fetch run (`--pages all`), no species should have `null` for `spin` or `energy` — every species will have either `{}` (no data on CCCBDB) or a populated dict. `null` values indicate the fetch has not yet been run or was interrupted before reaching that species.
 
-The `hf_sto3g` field is a legacy convenience duplicate of `methods.HF["STO-3G"]`.
-
-The `properties` block is present only on enriched molecules (see `scripts/cccbdb_enrich_metadata.py`).
-
-Known data anomalies and parser corrections are documented in the [Data Quality](#data-quality-and-known-anomalies) section below.
-
-## Data Quality and Known Anomalies
-
-This mirror reproduces CCCBDB data faithfully, including upstream errors. All known anomalies are documented with evidence and verification instructions in [`data/suspected_errors/ANOMALY_LOG.md`](data/suspected_errors/ANOMALY_LOG.md) and [`data/suspected_errors/anomalies.json`](data/suspected_errors/anomalies.json).
-
-### Parser-Handled Anomalies (13 species)
-
-The parser detects and corrects the following upstream HTML issues. All corrections are documented with before/after states and can be independently verified against the archived HTML source files.
-
-| Category | Species Affected | Parser Fix |
-|----------|-----------------|------------|
-| Doubled conformer geometries | C2H6S, C3H5F, C2H2F4, H2S3, H3NS | Detect atom label restart, take first conformer only |
-| Truncated Cartesian coordinates | BrP | Reconstruct from internal coordinates bond length |
-| Wrong element labels | Br/Br+/Br- | Validate against formula; correct from single-atom formula |
-| Wrong element labels | OTi | Correct element labels using internal coordinate descriptions |
-| Dummy atom in geometry | D3N | Filter "X" (computational reference point) atoms |
-| Impossible spin state | CNZn | Electron parity check: 43 electrons cannot be singlet |
-| Unrecoverable missing data | C5H4O2 | Calculated geometry fallback (no experimental data on CCCBDB) |
-
-### Upstream Suspect Data (2 entries, not corrected)
-
-These anomalies are faithfully reproduced from CCCBDB and flagged for researcher awareness:
-
-- **CH4**: CCSD(T)=FULL/6-31G\* energy is identical to STO-3G (-39.806897 hartree) -- likely a copy error in CCCBDB
-- **BF3H3N**: CAS 137019869 is likely a typo of 13709869 (extra digit '1'). The typo entry has no data
-
-Note: B12H12^2- with two CAS numbers (12356137, 84912390) was investigated and confirmed not a duplicate -- they are different salts (Li2B12H12 vs Cs2B12H12).
-
-### Upstream Confirmed Issues (3 entries, not corrected)
-
-- **Fe**: Reported as closed shell (multiplicity=1), but atomic iron's ground state is 5D4 (multiplicity=5). Archived spin2x.html confirms CCCBDB genuinely reports "Fe (Iron atom) is closed shell. S²=0" — this is an upstream data error, not a session failure
-- **C3+**: Best S² = 1.823 at CCSD(T) (ideal for doublet: 0.75) — severe spin contamination
-- **CSi-**: Best S² = 1.751 at CCSD(T)=FULL (ideal for doublet: 0.75) — severe spin contamination
-
-### Data Completeness Notes
-
-- **Session failure recovery**: Session failures (server returns HTTP 200 but ASP.NET session not established) are now automatically detected and prevented by `_store_result`, which stores `None` instead of `{}` and deletes the bad HTML. For bulk recovery, use `--heal` which scans all species, clears bad data, and re-fetches until convergence
-- **Coordinate precision**: CCCBDB provides 4-5 decimal places; stored as 6 decimal places (trailing zeros added, no precision lost)
-- **Calculated geometry**: Only the single best non-DFT calculated geometry is stored per molecule. The archived `geom2x.html` lists all available methods
-
-See the [full anomaly log](data/suspected_errors/ANOMALY_LOG.md) for detailed evidence, verification commands, and discussion of parser design decisions.
+Known upstream data anomalies (19 investigated) and all parser corrections are documented in [`ANOMALY_LOG.md`](data/suspected_errors/ANOMALY_LOG.md) with evidence and verification instructions. Machine-readable anomaly data is in [`anomalies.json`](data/suspected_errors/anomalies.json).
 
 <details>
 <summary><h2>Available Methods and Basis Sets</h2></summary>
@@ -326,21 +277,13 @@ Ultrafine grid variants: `B3LYPultrafine`, `PBEPBEultrafine`, `B2PLYP=FULLultraf
 
 </details>
 
-## Related Projects
-
-This mirror is designed as a standalone data source for curated centralized database pipelines used in quantum chemistry molecule screening.
-
 ## License
 
 The mirror scripts are released under the [MIT License](LICENSE). The underlying CCCBDB data is a public domain U.S. Government work and is not subject to copyright.
 
 ## Citation
 
-If you use this data in your research, please cite both this mirror and the original CCCBDB database. See [CITATION.cff](CITATION.cff) for citation metadata.
-
-## Attribution
-
-This mirror contains data from the [NIST Computational Chemistry Comparison and Benchmark Database](https://cccbdb.nist.gov) (Release 22, May 2022). CCCBDB is a public domain U.S. Government work maintained by the National Institute of Standards and Technology.
+If you use this data in your research, please cite both this mirror and the original CCCBDB. See [CITATION.cff](CITATION.cff) for citation metadata.
 
 > NIST Computational Chemistry Comparison and Benchmark Database,
 > NIST Standard Reference Database Number 101,
