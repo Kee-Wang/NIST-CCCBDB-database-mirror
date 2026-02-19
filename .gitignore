@@ -25,4 +25,4 @@ data/cas_lookup.csv
 data/suspected_errors/VERIFY_REPORT.md
 
 # Generated reports (canonical copy lives in data/fetch_stats/)
-SERVER_STATUS.md
+/SERVER_STATUS.md

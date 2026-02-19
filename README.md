@@ -25,15 +25,15 @@ Three access formats, from lightest to most complete:
 
 | Format | Size | Contents |
 |--------|------|----------|
-| `cccbdb-selected-energy.csv` | 2.6 MB | Flat CSV, one row per species, 20 selected columns |
-| `cccbdb-molecules.json.gz` | ~4 MB | All parsed data for all 2,186 species (gzipped JSON) |
+| `cccbdb-selected-energy.csv` | 0.7 MB | Flat CSV, one row per species, 20 selected columns |
+| `cccbdb-molecules.json.gz` | 3.8 MB | All parsed data for all 2,186 species (gzipped JSON) |
 | `data/molecules/` | 27 MB JSON + 597 MB HTML | Per-molecule JSON + archived source HTML pages |
 
 For programmatic access, see [curated-database-pipeline](https://github.com/Kee-Wang/curated-database-pipeline).
 
 ### Lightweight Download
 
-If you only need the parsed data (no HTML archives), download `cccbdb-molecules.json.gz` (~4 MB) — it contains the same data as all 2,186 individual `molecule.json` files combined:
+If you only need the parsed data (no HTML archives), download `cccbdb-molecules.json.gz` (3.8 MB) — it contains the same data as all 2,186 individual `molecule.json` files combined:
 
 ```python
 import gzip, json
