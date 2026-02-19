@@ -1,0 +1,32 @@
+{
+  "casno": "20813325",
+  "charge": 0,
+  "formula": "CHN2",
+  "name": "diazomethyl radical",
+  "fetched_date": "2026-02-18",
+  "spin": {},
+  "point_group_cccbdb": "Cs",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -147.934264,
+        "cc-pVDZ": -147.948522,
+        "cc-pVTZ": -148.028802,
+        "aug-cc-pVTZ": -148.035559
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

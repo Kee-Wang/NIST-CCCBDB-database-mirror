@@ -1,0 +1,127 @@
+{
+  "casno": "9000219",
+  "charge": 0,
+  "formula": "HHe",
+  "name": "Helium hydride",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.75,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "MP3=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C∞v",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "MP3=FULL": {
+        "6-31+G**": {
+          "xyz": "He 0.000000 0.000000 0.993300\nH 0.000000 0.000000 -1.986600",
+          "point_group": "C∞v",
+          "n_atoms": 2,
+          "method_id": 71,
+          "basis_id": 4,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=71&basis=4"
+        }
+      }
+    },
+    "best_available": "calculated/MP3=FULL/6-31+G**"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "TZVP": -3.359706,
+        "daug-cc-pVTZ": -3.361006
+      },
+      "BLYP": {
+        "6-31G*": -3.39329
+      },
+      "B3LYP": {
+        "6-31G(2df,p)": -3.407307,
+        "TZVP": -3.415178,
+        "aug-cc-pVTZ": -3.416952
+      },
+      "M06-2X": {
+        "3-21G*": -3.368811,
+        "6-31G*": -3.395837,
+        "6-311+G(3df,2p)": -3.399823
+      },
+      "PBE1PBE": {
+        "6-31G*": -3.386837
+      },
+      "HSEh1PBE": {
+        "3-21G": -3.364881,
+        "6-31G*": -3.388448,
+        "6-31+G**": -3.388455,
+        "cc-pVTZ": -3.397049
+      },
+      "TPSSh": {
+        "6-31G*": -3.400022,
+        "6-31+G**": -3.400025,
+        "6-31G(2df,p)": -3.296309,
+        "cc-pVTZ": -3.408214
+      },
+      "wB97X-D": {
+        "3-21G*": -3.37891,
+        "6-31G*": -3.402412,
+        "6-31+G**": -3.402412,
+        "6-311G**": -3.410314,
+        "TZVP": -3.410311,
+        "cc-pVDZ": -3.402412,
+        "cc-pVTZ": -3.411526,
+        "aug-cc-pVTZ": -3.411807
+      },
+      "B97D3": {
+        "3-21G": -3.385169,
+        "6-31G*": -3.408808,
+        "6-31+G**": -3.408808,
+        "6-311G**": -3.416826,
+        "6-311+G(3df,2p)": -3.416827,
+        "TZVP": -3.416824,
+        "cc-pVTZ": -3.418267,
+        "aug-cc-pVTZ": -3.418926,
+        "daug-cc-pVTZ": -3.418948
+      },
+      "MP2": {
+        "6-31G*": -3.364594,
+        "6-311G*": -3.372613,
+        "TZVP": -3.386414
+      },
+      "MP3": {
+        "6-31+G**": -3.384315
+      },
+      "MP3=FULL": {
+        "6-31G*": -3.36746,
+        "6-31+G**": -3.384315
+      },
+      "B2PLYP": {
+        "6-31G*": -3.387044,
+        "cc-pVTZ": -3.40201
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -3.387051,
+        "cc-pVDZ": -3.392458,
+        "cc-pVTZ": -3.402011,
+        "aug-cc-pVTZ": -3.402348
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

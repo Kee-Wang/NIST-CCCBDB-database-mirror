@@ -1,0 +1,170 @@
+{
+  "casno": "57136",
+  "charge": 1,
+  "formula": "CH4N2O",
+  "name": "Urea cation",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.756,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "MP3=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C2v",
+  "geometries": {
+    "experimental": {
+      "xyz": "C 0.000000 0.000000 0.136000\nO 0.000000 0.000000 1.357100\nN -0.102400 1.155800 -0.607200\nN 0.102400 -1.155800 -0.607200\nH 0.000000 1.999900 -0.041600\nH 0.239900 1.164000 -1.544400\nH 0.000000 -1.999900 -0.041600\nH -0.239900 -1.164000 -1.544400",
+      "point_group": "C2v",
+      "n_atoms": 8,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=57136&charge=1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "MP3=FULL": {
+        "6-31+G**": {
+          "xyz": "C 0.000000 0.000000 0.132800\nO 0.000000 0.000000 1.361600\nN 0.000000 1.152100 -0.598700\nN 0.000000 -1.152100 -0.598700\nH 0.000000 2.004400 -0.043800\nH 0.000000 1.157800 -1.610100\nH 0.000000 -2.004400 -0.043800\nH 0.000000 -1.157800 -1.610100",
+          "point_group": "C2v",
+          "n_atoms": 8,
+          "method_id": 71,
+          "basis_id": 4,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=71&basis=4"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rCO",
+          "value": 1.221,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1997God/Bro:405",
+          "comment": ""
+        },
+        {
+          "description": "rCN",
+          "value": 1.378,
+          "atoms": [
+            1,
+            3
+          ],
+          "reference": "1997God/Bro:405",
+          "comment": ""
+        },
+        {
+          "description": "rNH",
+          "value": 0.998,
+          "atoms": [
+            4,
+            8
+          ],
+          "reference": "1997God/Bro:405",
+          "comment": "pointing away from O"
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -223.692779,
+        "TZVP": -223.720834,
+        "daug-cc-pVTZ": -223.735354
+      },
+      "BLYP": {
+        "6-31G*": -224.86605
+      },
+      "B3LYP": {
+        "6-31G(2df,p)": -224.942082,
+        "TZVP": -225.003198,
+        "aug-cc-pVTZ": -225.013078
+      },
+      "M06-2X": {
+        "3-21G*": -223.547031,
+        "6-31G*": -224.787296,
+        "6-311+G(3df,2p)": -224.880402
+      },
+      "PBE1PBE": {
+        "6-31G*": -224.669219
+      },
+      "HSEh1PBE": {
+        "3-21G": -223.459666,
+        "6-31G*": -224.688654,
+        "6-31+G**": -224.707167,
+        "cc-pVTZ": -224.781394
+      },
+      "TPSSh": {
+        "6-31G*": -224.919586,
+        "6-31+G**": -224.936955,
+        "6-31G(2df,p)": -224.947369,
+        "cc-pVTZ": -225.012899
+      },
+      "wB97X-D": {
+        "3-21G*": -223.620881,
+        "6-31G*": -224.843308,
+        "6-31+G**": -224.86049,
+        "6-311G**": -224.91137,
+        "TZVP": -224.928998,
+        "cc-pVDZ": -224.86049,
+        "cc-pVTZ": -224.935579,
+        "aug-cc-pVTZ": -224.938015
+      },
+      "B97D3": {
+        "3-21G": -223.560082,
+        "6-31G*": -224.789689,
+        "6-31+G**": -224.808139,
+        "6-311G**": -224.861683,
+        "6-311+G(3df,2p)": -224.880238,
+        "TZVP": -224.878185,
+        "cc-pVTZ": -224.883732,
+        "aug-cc-pVTZ": -224.856674,
+        "daug-cc-pVTZ": -224.654593
+      },
+      "MP2": {
+        "6-31G*": -224.237205,
+        "6-311G*": -224.332893,
+        "TZVP": -224.378958
+      },
+      "MP3": {
+        "6-31+G**": -224.286875
+      },
+      "MP3=FULL": {
+        "6-31G*": -224.265117,
+        "6-31+G**": -224.311239
+      },
+      "B2PLYP": {
+        "6-31G*": -224.675904,
+        "cc-pVTZ": -224.82157
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -224.680183,
+        "cc-pVDZ": -224.708885,
+        "cc-pVTZ": -224.838267,
+        "aug-cc-pVTZ": -224.847622
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

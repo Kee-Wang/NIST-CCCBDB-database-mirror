@@ -1,0 +1,65 @@
+{
+  "casno": "107164",
+  "charge": 0,
+  "formula": "C2H3NO",
+  "name": "cyanomethanol",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C1",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "aug-cc-pVDZ": {
+          "xyz": "C -0.581500 0.597000 0.038500\nC 0.831600 0.114800 -0.006100\nO -1.525900 -0.458900 -0.111100\nH -0.724700 1.157900 0.980500\nH -0.745700 1.285400 -0.804700\nH -1.409200 -1.078500 0.623000\nN 1.940900 -0.280700 -0.014900",
+          "point_group": "C1",
+          "n_atoms": 7,
+          "method_id": 63,
+          "basis_id": 17,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=17"
+        }
+      }
+    },
+    "best_available": "calculated/CCSD(T)=FULL/aug-cc-pVDZ"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -206.763449
+      },
+      "M06-2X": {
+        "6-311+G(3df,2p)": -207.950495
+      },
+      "B97D3": {
+        "daug-cc-pVTZ": -207.911508
+      },
+      "MP2": {
+        "cc-pVTZ": -207.592285
+      },
+      "B2PLYP": {
+        "aug-cc-pVTZ": -207.889826
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -207.750332,
+        "cc-pVDZ": -207.773379,
+        "cc-pVTZ": -207.897752,
+        "aug-cc-pVTZ": -207.909195
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

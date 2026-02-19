@@ -1,0 +1,78 @@
+{
+  "casno": "78999",
+  "charge": 0,
+  "formula": "C3H6Cl2",
+  "name": "1,1-dichloropropane",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C1",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null,
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rCH",
+          "value": 1.108,
+          "atoms": [
+            1,
+            6
+          ],
+          "reference": "1993Moh/Sti:111-140",
+          "comment": "ED"
+        },
+        {
+          "description": "rCC",
+          "value": 1.522,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1993Moh/Sti:111-140",
+          "comment": ""
+        },
+        {
+          "description": "rCCl",
+          "value": 1.781,
+          "atoms": [
+            1,
+            4
+          ],
+          "reference": "1993Moh/Sti:111-140",
+          "comment": ""
+        }
+      ],
+      "angles": [
+        {
+          "description": "aCCH",
+          "value": 108.6,
+          "atoms": [
+            2,
+            1,
+            6
+          ],
+          "reference": "1993Moh/Sti:111-140",
+          "comment": ""
+        },
+        {
+          "description": "aCCC",
+          "value": 113.3,
+          "atoms": [
+            1,
+            2,
+            3
+          ],
+          "reference": "1993Moh/Sti:111-140",
+          "comment": ""
+        }
+      ],
+      "dihedrals": []
+    }
+  }
+}

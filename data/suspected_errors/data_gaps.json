@@ -1,0 +1,1437 @@
+{
+  "generated": "2026-02-19 09:35:20",
+  "total_species": 2186,
+  "total_gaps": 215,
+  "summary": {
+    "missing_data": 213,
+    "data_quality": 2
+  },
+  "by_code": {
+    "cas_typo": 1,
+    "no_calc_geometry": 66,
+    "no_energy_data": 27,
+    "no_spin_data": 27,
+    "single_atom": 92,
+    "suspect_energy": 1,
+    "wrong_spin": 1
+  },
+  "gaps": {
+    "missing_data": [
+      {
+        "species_id": "Al+_7429905",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Al-_7429905",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Al_7429905",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "As+_7440382",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "As-_7440382",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "As_7440382",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "B+_7440428",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "B-_7440428",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "BCl3H3N_49860186",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "BF3H3N_137019869",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "BF3H3N_137019869",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "BF3H3N_137019869",
+        "data_type": "metadata",
+        "code": "cas_typo",
+        "description": "CAS 137019869 appears to be a typo of CAS 13709869 (extra digit '1'). This entry has no energy data and no geometry data. The valid entry is BF3H3N_13709869 with full data.",
+        "html_path": "expgeom2x.html"
+      },
+      {
+        "species_id": "B_7440428",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Be+_7440417",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Be-_7440417",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Be_7440417",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "BrO3-_32062149",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C+_7440440",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "C-_7440440",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "C13H10O_119619",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C18H12_92240",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C2Cl3F_359295",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C2F3N+_353855",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "C2F4+_116143",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "C2H2O2+_107222",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "C2H3N3_288880",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C2HCl5_76017",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C3H2Cl2_83682320",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C3H2O_2961800",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C3H3_9000220",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "C3H4O3_96491",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C3H5F_1184607",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C3H5F_1184607",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "C3H6Cl2_142289",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C3H6Cl2_78999",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C3H6Cl2_78999",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "C3H6F2_420451",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C3H6F2_420451",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "C3H7+_2143615",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C3H7+_2143615",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "C3H7N_503297",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C3H7O+_43022033",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C3H9B_593908",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C3H9O+_43625656",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C4H10O+_71363",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "C4H4O+_110009",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "C4H4O2_497234",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C4H5N_109751",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C4H5N_109751",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "C4H6S_627510",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C4H8Cl2_2211678",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C4H8O2S_126330",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C4H8O2S_126330",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "C4H8S_110010",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C4H9F_2366521",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C4H9F_359013",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C4H9F_359013",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "C4O4--_28737408",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C5H12S_1679090",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C5H5N_2180689",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C5H8_627214",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C6H12O_66251",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C6H12_18931710",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "C6H4F2_372189",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C6H5_2396012",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C6H6+_71432",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "C6H6S_108985",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C6H6_5291907",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C6H6_5291907",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "C7H10_26456633",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C7H7_3551277",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C7H8_278068",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C7H8_544252",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "C8H10_106423",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "CBr2F2_75616",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "CBr3I_14349805",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "CBr3I_14349805",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "CCl4+_56235",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "CH2S3_594081",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "CH3Cl+_74873",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "CH3N+_35430172",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "CH4NO+_50785803",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "CH4NO+_9000924",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "CH4NO+_9000924",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "CH4NO+_9000924",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "CH7N2+_62901706",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "CHCl2I_594047",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "CHCl2I_594047",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "CHI3_75478",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "CHI3_75478",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "CHN2_20813325",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "CHN2_20813325",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "CHO2_2564865",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "CHS2+_87552861",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "CHS2+_87552861",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "C_7440440",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Ca+_7440702",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Ca-_7440702",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "CaH+_14452756",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "Ca_7440702",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Cl+_22537151",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Cl-_22537151",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Cl3Si_19165345",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "Cl5Sb_7647189",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "ClH2N_110599903",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "ClH2N_110599903",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "ClH3N+_12432483",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "ClO3_13932100",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "ClO3_13932100",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "ClSb_19952126",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "ClSb_19952126",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "Cl_22537151",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Co_7440484",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Co_7440484",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "Co_7440484",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "Cr_7440473",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Cr_7440473",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "Cr_7440473",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "D+_16873179",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "D-_16873179",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "D_16873179",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "F+_14762948",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "F-_14762948",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "F2H_18130740",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "F7I_16921963",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "F7I_16921963",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "FSb_25285727",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "FSb_25285727",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "FZn+_9000139",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "F_14762948",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Fe_7439896",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Ga+_7440553",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Ga-_7440553",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Ga_7440553",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Ge+_7440564",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Ge-_7440564",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Ge_7440564",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "H+_12385136",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "H-_12385136",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "H2KO+_9000918",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "H2KO+_9000918",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "H2NO_13408292",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "HN2O_107190772",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "HN2O_107190772",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "HN2_36882130",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "H_12385136",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "I+_14362448",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "I-_14362448",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "IK_7681110",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "I_14362448",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "K+_7440097",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "K-_7440097",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "K_7440097",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Kr+_7439909",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Kr_7439909",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Li+_7439932",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Li-_7439932",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Li2O2_12031800",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "LiO2_120472248",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "LiO2_120472248",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "LiO2_120472248",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "Li_7439932",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Mg+_7439954",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Mg-_7439954",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Mg_7439954",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Mn_7439965",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Mn_7439965",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "Mn_7439965",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "N+_17778880",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "N-_17778880",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "NSb_12333572",
+        "data_type": "energy",
+        "code": "no_energy_data",
+        "description": "Energy page loaded with molecule name but no data",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "NTi_25583204",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "N_17778880",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Na+_7440235",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Na-_7440235",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Na2O_1313593",
+        "data_type": "geometry",
+        "code": "no_calc_geometry",
+        "description": "Geometry page loaded with molecule name but no coordinates",
+        "html_path": "geom3x.html"
+      },
+      {
+        "species_id": "Na_7440235",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Ni_7440020",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Ni_7440020",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "O+_17778802",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "O-_17778802",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "OTe_13451177",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "O_17778802",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "P+_7723140",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "P-_7723140",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "P_7723140",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "S+_7704349",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "S-_7704349",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "S_7704349",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Sb_7440360",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Sc+_7440202",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Sc_7440202",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Se+_7782492",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Se-_7782492",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Se_7782492",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Si+_7440213",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Si-_7440213",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Si_7440213",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Sn+_7440315",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Sn_7440315",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Te+_13494809",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Te_13494809",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Ti+_7440326",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Ti+_7440326",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "Ti-_7440326",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Ti-_7440326",
+        "data_type": "spin",
+        "code": "no_spin_data",
+        "description": "Spin page loaded but no spin data found (genuinely empty)",
+        "html_path": "spin2x.html"
+      },
+      {
+        "species_id": "Ti_7440326",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "V+_7440622",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "V_7440622",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Xe_7440633",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Zn+_7440666",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Zn-_7440666",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      },
+      {
+        "species_id": "Zn_7440666",
+        "data_type": "geometry",
+        "code": "single_atom",
+        "description": "Single atom — no molecular geometry possible"
+      }
+    ],
+    "data_quality": [
+      {
+        "species_id": "CH4_74828",
+        "data_type": "energy",
+        "code": "suspect_energy",
+        "description": "CCSD(T)=FULL/STO-3G and CCSD(T)=FULL/6-31G* report identical energy (-39.806897 hartree). Different basis sets should produce different energies — likely a data copy error in CCCBDB.",
+        "html_path": "energy2x.html"
+      },
+      {
+        "species_id": "Fe_7439896",
+        "data_type": "spin",
+        "code": "wrong_spin",
+        "description": "Fe reported as closed shell (multiplicity=1, S^2=0). Atomic iron ground state is 5D4 (multiplicity=5, four unpaired 3d electrons). Archived spin2x.html confirms CCCBDB genuinely reports 'Fe (Iron atom) is closed shell. S^2=0' — upstream data error.",
+        "html_path": "spin2x.html"
+      }
+    ]
+  }
+}

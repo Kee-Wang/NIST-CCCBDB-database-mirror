@@ -1,0 +1,200 @@
+{
+  "casno": "14452609",
+  "charge": 1,
+  "formula": "Be2",
+  "name": "Beryllium diatomic cation",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.75,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "MP4",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "D∞h",
+  "geometries": {
+    "experimental": {
+      "xyz": "Be 0.000000 0.000000 0.000000\nBe 0.000000 0.000000 2.460000",
+      "point_group": "D∞h",
+      "n_atoms": 2,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=14452609&charge=1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "aug-cc-pVQZ": {
+          "xyz": "Be 0.000000 0.000000 1.106900\nBe 0.000000 0.000000 -1.106900",
+          "point_group": "D∞h",
+          "n_atoms": 2,
+          "method_id": 63,
+          "basis_id": 26,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=26"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rBeBe",
+          "value": 2.46,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1984Bon/Eng:568",
+          "comment": "r0 value"
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -28.916443,
+        "TZVP": -28.908091,
+        "cc-pV(T+d)Z": -28.920861,
+        "daug-cc-pVTZ": -28.920915
+      },
+      "ROHF": {
+        "6-31G*": -28.901886
+      },
+      "LSDA": {
+        "STO-3G": -28.404442,
+        "6-31G": -28.777675,
+        "6-31G*": -28.781509,
+        "6-311G*": -28.782313,
+        "cc-pV(T+d)Z": -28.785121
+      },
+      "BLYP": {
+        "6-31G*": -29.073235,
+        "cc-pV(T+d)Z": -29.076444
+      },
+      "B1B95": {
+        "cc-pV(T+d)Z": -29.071073
+      },
+      "B3LYP": {
+        "TZVP": -29.086243,
+        "cc-pV(T+d)Z": -29.094309
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -29.094383
+      },
+      "B3PW91": {
+        "cc-pV(T+d)Z": -29.069751
+      },
+      "mPW1PW91": {
+        "cc-pV(T+d)Z": -29.07293
+      },
+      "M06-2X": {
+        "3-21G*": -28.898255,
+        "6-31G*": -29.077634,
+        "6-311+G(3df,2p)": -29.079885
+      },
+      "PBEPBE": {
+        "cc-pV(T+d)Z": -29.016601
+      },
+      "PBE1PBE": {
+        "6-31G*": -29.025206
+      },
+      "HSEh1PBE": {
+        "3-21G": -28.853144,
+        "6-31G*": -29.030127,
+        "6-31+G**": -29.030295,
+        "cc-pVTZ": -29.033353
+      },
+      "TPSSh": {
+        "6-31G*": -29.09301,
+        "6-31+G**": -29.093129,
+        "6-31G(2df,p)": -29.093529,
+        "cc-pVTZ": -29.096466
+      },
+      "wB97X-D": {
+        "3-21G*": -28.900972,
+        "6-31G*": -29.079455,
+        "6-31+G**": -29.079609,
+        "6-311G**": -29.080841,
+        "TZVP": -29.073334,
+        "cc-pVDZ": -29.079609,
+        "cc-pVTZ": -29.08266,
+        "aug-cc-pVTZ": -29.08273
+      },
+      "B97D3": {
+        "3-21G": -28.899354,
+        "6-31G*": -29.077816,
+        "6-31+G**": -29.078004,
+        "6-311G**": -29.079238,
+        "6-311+G(3df,2p)": -29.079683,
+        "TZVP": -29.072392,
+        "cc-pVTZ": -29.080853,
+        "aug-cc-pVTZ": -29.081019,
+        "daug-cc-pVTZ": -29.081071
+      },
+      "MP2": {
+        "6-31G*": -28.940168,
+        "6-311G*": -28.943182,
+        "TZVP": -28.927437,
+        "cc-pV(T+d)Z": -28.947783
+      },
+      "MP2=FULL": {
+        "aug-cc-pVDZ": -28.944437,
+        "cc-pV(T+d)Z": -28.963928
+      },
+      "MP3": {
+        "6-31+G**": -28.948429
+      },
+      "MP3=FULL": {
+        "6-31G*": -28.955355,
+        "6-31+G**": -28.955732
+      },
+      "MP4": {
+        "cc-pVTZ": -28.960292
+      },
+      "B2PLYP": {
+        "6-31G*": -29.040371,
+        "cc-pVTZ": -29.045323
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -29.042397,
+        "cc-pVDZ": -29.04116,
+        "cc-pVTZ": -29.050201,
+        "aug-cc-pVTZ": -29.051226
+      },
+      "QCISD": {
+        "cc-pV(T+d)Z": -28.967341
+      },
+      "QCISD(T)": {
+        "cc-pV(T+d)Z": -28.96822
+      },
+      "CCD": {
+        "cc-pV(T+d)Z": -28.962061
+      },
+      "CCSD(T)": {
+        "cc-pV(T+d)Z": -28.968019
+      }
+    },
+    "basis_sets": [
+      "STO-3G",
+      "3-21G",
+      "3-21G*",
+      "6-31G",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVDZ",
+      "aug-cc-pVTZ",
+      "cc-pV(T+d)Z",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

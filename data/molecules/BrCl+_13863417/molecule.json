@@ -1,0 +1,154 @@
+{
+  "casno": "13863417",
+  "charge": 1,
+  "formula": "BrCl",
+  "name": "bromine chloride cation",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.75,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C∞v",
+  "geometries": {
+    "experimental": {
+      "xyz": "Br 0.000000 0.000000 0.000000\nCl 0.000000 0.000000 2.136000",
+      "point_group": "C∞v",
+      "n_atoms": 2,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=13863417&charge=1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "6-31G*": {
+          "xyz": "Br 0.000000 0.000000 0.684900\nCl 0.000000 0.000000 -1.410000",
+          "point_group": "C∞v",
+          "n_atoms": 2,
+          "method_id": 63,
+          "basis_id": 1,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=1"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rClBr",
+          "value": 2.136,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "NISTdiatomic",
+          "comment": "re"
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -3028.951708,
+        "TZVP": -3031.502802,
+        "daug-cc-pVTZ": -3031.57738
+      },
+      "BLYP": {
+        "6-31G*": -3031.480797
+      },
+      "B3LYP": {
+        "TZVP": -3033.975971
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -3034.044903
+      },
+      "M06-2X": {
+        "3-21G*": -3019.718898,
+        "6-31G*": -3031.49579,
+        "6-311+G(3df,2p)": -3033.940522
+      },
+      "PBE1PBE": {
+        "6-31G*": -3030.974263
+      },
+      "HSEh1PBE": {
+        "3-21G": -3018.865882,
+        "6-31G*": -3030.967835,
+        "6-31+G**": -3030.979816,
+        "cc-pVTZ": -3033.550522
+      },
+      "TPSSh": {
+        "6-31G*": -3031.349172,
+        "6-31+G**": -3031.361169,
+        "6-31G(2df,p)": -3031.528531,
+        "cc-pVTZ": -3033.933817
+      },
+      "wB97X-D": {
+        "3-21G*": -3019.730447,
+        "6-31G*": -3031.474071,
+        "6-31+G**": -3031.486132,
+        "6-311G**": -3033.944531,
+        "TZVP": -3033.987434,
+        "cc-pVDZ": -3031.486132,
+        "cc-pVTZ": -3034.055931,
+        "aug-cc-pVTZ": -3034.057071
+      },
+      "B97D3": {
+        "3-21G": -3020.685136,
+        "6-31G*": -3032.800799,
+        "6-31+G**": -3032.81242,
+        "6-311G**": -3035.259786,
+        "6-311+G(3df,2p)": -3035.278911,
+        "TZVP": -3035.290858,
+        "cc-pVTZ": -3035.356501,
+        "aug-cc-pVTZ": -3035.357449,
+        "daug-cc-pVTZ": -3035.357735
+      },
+      "MP2": {
+        "6-31G*": -3029.180594,
+        "6-311G*": -3031.703118,
+        "TZVP": -3031.850314
+      },
+      "MP3": {
+        "6-31+G**": -3029.202674
+      },
+      "MP3=FULL": {
+        "6-31G*": -3029.237043,
+        "6-31+G**": -3029.251691
+      },
+      "B2PLYP": {
+        "6-31G*": -3030.829966,
+        "cc-pVTZ": -3033.473633
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -3030.841162,
+        "cc-pVDZ": -3033.334155,
+        "cc-pVTZ": -3033.497454,
+        "aug-cc-pVTZ": -3033.503383
+      },
+      "CCSD(T)=FULL": {
+        "6-31G*": -3029.252799
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

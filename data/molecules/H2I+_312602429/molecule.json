@@ -1,0 +1,120 @@
+{
+  "casno": "312602429",
+  "charge": 1,
+  "formula": "H2I",
+  "name": "Iodonium",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": null,
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "CCSD(T)": {
+        "6-311G*": {
+          "xyz": "I 0.000000 0.000000 0.042200\nH 0.000000 1.191300 -1.119400\nH 0.000000 -1.191300 -1.119400",
+          "point_group": null,
+          "n_atoms": 3,
+          "method_id": 12,
+          "basis_id": 7,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=12&basis=7"
+        }
+      }
+    },
+    "best_available": "calculated/CCSD(T)/6-311G*"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-311G*": -6917.623697
+      },
+      "BLYP": {
+        "6-311G*": -6920.364662
+      },
+      "B1B95": {
+        "6-311G*": -6921.136767
+      },
+      "B3LYP": {
+        "6-311G*": -6920.366573
+      },
+      "B3LYPultrafine": {
+        "6-311G*": -6920.366573
+      },
+      "B3PW91": {
+        "6-311G*": -6920.466192
+      },
+      "mPW1PW91": {
+        "6-311G*": -6920.795176
+      },
+      "M06-2X": {
+        "6-311G*": -6920.738034
+      },
+      "PBEPBE": {
+        "6-311G*": -6919.751365
+      },
+      "PBEPBEultrafine": {
+        "6-311G*": -6919.751365
+      },
+      "PBE1PBE": {
+        "6-311G*": -6919.934839
+      },
+      "HSEh1PBE": {
+        "6-311G*": -6919.813837
+      },
+      "TPSSh": {
+        "6-311G*": -6920.013857
+      },
+      "wB97X-D": {
+        "6-311G*": -6920.516362
+      },
+      "B97D3": {
+        "6-311G*": -6924.309086
+      },
+      "MP2": {
+        "6-311G*": -6917.831586
+      },
+      "MP2=FULL": {
+        "6-311G*": -6918.329309
+      },
+      "MP3=FULL": {
+        "6-311G*": -6918.301647
+      },
+      "B2PLYP": {
+        "6-311G*": -6919.675611
+      },
+      "B2PLYP=FULL": {
+        "6-311G*": -6919.816119
+      },
+      "CID": {
+        "6-311G*": -6917.831638
+      },
+      "CISD": {
+        "6-311G*": -6917.832829
+      },
+      "QCISD": {
+        "6-311G*": -6917.846184
+      },
+      "QCISD(T)": {
+        "6-311G*": -6917.849978
+      },
+      "CCD": {
+        "6-311G*": -6917.844462
+      },
+      "CCSD": {
+        "6-311G*": -6917.846023
+      },
+      "CCSD(T)": {
+        "6-311G*": -6917.849933
+      }
+    },
+    "basis_sets": [
+      "6-311G*"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

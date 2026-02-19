@@ -1,0 +1,131 @@
+{
+  "casno": "4218502",
+  "charge": 0,
+  "formula": "C2H4",
+  "name": "methylmethylene",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Cs",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "cc-pVTZ": {
+          "xyz": "C 0.047800 0.854400 0.000000\nC 0.047800 -0.614100 0.000000\nH -0.731900 1.593300 0.000000\nH 1.067100 -0.997000 0.000000\nH -0.454200 -1.019000 0.883100\nH -0.454200 -1.019000 -0.883100",
+          "point_group": "Cs",
+          "n_atoms": 6,
+          "method_id": 63,
+          "basis_id": 6,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=6"
+        }
+      }
+    },
+    "best_available": "calculated/CCSD(T)=FULL/cc-pVTZ"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -77.963578,
+        "TZVP": -77.991056,
+        "daug-cc-pVTZ": -77.993205
+      },
+      "BLYP": {
+        "6-31G*": -78.422381
+      },
+      "B3LYP": {
+        "TZVP": -78.50765
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -78.501296
+      },
+      "M06-2X": {
+        "3-21G*": -77.998193,
+        "6-31G*": -78.426873,
+        "6-311+G(3df,2p)": -78.457489
+      },
+      "PBE1PBE": {
+        "6-31G*": -78.374392
+      },
+      "HSEh1PBE": {
+        "3-21G": -77.953364,
+        "6-31G*": -78.381387,
+        "6-31+G**": -78.391741,
+        "cc-pVTZ": -78.41109
+      },
+      "TPSSh": {
+        "6-31G*": -78.487502,
+        "6-31+G**": -78.497283,
+        "6-31G(2df,p)": -78.495201,
+        "cc-pVTZ": -78.517469
+      },
+      "wB97X-D": {
+        "3-21G*": -78.019346,
+        "6-31G*": -78.446145,
+        "6-31+G**": -78.455948,
+        "6-311G**": -78.467981,
+        "TZVP": -78.475071,
+        "cc-pVDZ": -78.455948,
+        "cc-pVTZ": -78.475837,
+        "aug-cc-pVTZ": -78.476828
+      },
+      "B97D3": {
+        "3-21G": -77.997045,
+        "6-31G*": -78.424245,
+        "6-31+G**": -78.435153,
+        "6-311G**": -78.4483,
+        "6-311+G(3df,2p)": -78.454032,
+        "TZVP": -78.455021,
+        "cc-pVTZ": -78.456093,
+        "aug-cc-pVTZ": -78.457418,
+        "daug-cc-pVTZ": -78.45753
+      },
+      "MP2": {
+        "6-31G*": -78.174108,
+        "6-311G*": -78.202667,
+        "TZVP": -78.237505
+      },
+      "MP2=FULL": {
+        "aug-cc-pVTZ": -78.309103
+      },
+      "MP3": {
+        "6-31+G**": -78.232841
+      },
+      "MP3=FULL": {
+        "6-31G*": -78.207596,
+        "6-31+G**": -78.246966
+      },
+      "B2PLYP": {
+        "6-31G*": -78.367718,
+        "cc-pVTZ": -78.4232
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -78.370338,
+        "cc-pVDZ": -78.381918,
+        "cc-pVTZ": -78.431748,
+        "aug-cc-pVTZ": -78.435472
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "casno": "7783064",
+  "charge": -1,
+  "formula": "H2S",
+  "name": "Hydrogen sulfide anion",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.75,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "MP3=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C2v",
+  "geometries": {
+    "experimental": {
+      "xyz": "S 0.000000 0.000000 0.103000\nH 0.000000 0.961600 -0.823900\nH 0.000000 -0.961600 -0.823900",
+      "point_group": "C2v",
+      "n_atoms": 3,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=7783064&charge=-1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "aug-cc-pVQZ": {
+          "xyz": "S 0.000000 0.103700 0.000000\nH 0.973000 -0.828800 0.000000\nH -0.973000 -0.829700 0.000000",
+          "point_group": "C2v",
+          "n_atoms": 3,
+          "method_id": 63,
+          "basis_id": 26,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=26"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rSH",
+          "value": 1.336,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1975Coo/DeL:237",
+          "comment": ""
+        }
+      ],
+      "angles": [
+        {
+          "description": "aHSH",
+          "value": 92.11,
+          "atoms": [
+            2,
+            1,
+            3
+          ],
+          "reference": "1975Coo/DeL:237",
+          "comment": ""
+        }
+      ],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -398.540428,
+        "TZVP": -398.581411,
+        "daug-cc-pVTZ": -398.705328
+      },
+      "BLYP": {
+        "6-31G*": -399.26253
+      },
+      "B3LYP": {
+        "6-31G*": -399.323933,
+        "6-31G(2df,p)": -399.300333,
+        "TZVP": -399.337599
+      },
+      "M06-2X": {
+        "3-21G*": -397.37158,
+        "6-311+G(3df,2p)": -399.299479
+      },
+      "PBE1PBE": {
+        "6-31G*": -399.127756
+      },
+      "TPSSh": {
+        "6-31G*": -399.292049,
+        "6-31+G**": -399.338227,
+        "6-31G(2df,p)": -399.300011,
+        "cc-pVTZ": -399.345653
+      },
+      "wB97X-D": {
+        "3-21G*": -397.401432,
+        "6-31G*": -399.266002,
+        "6-31+G**": -399.316414,
+        "6-311G**": -399.335568,
+        "TZVP": -399.326453,
+        "cc-pVDZ": -399.316414,
+        "cc-pVTZ": -399.338643,
+        "aug-cc-pVTZ": -399.388097
+      },
+      "B97D3": {
+        "3-21G": -397.325582,
+        "6-31G*": -399.291895,
+        "6-31+G**": -399.337413,
+        "6-311G**": -399.364966,
+        "6-311+G(3df,2p)": -399.370529,
+        "TZVP": -399.353388,
+        "cc-pVTZ": -399.36505,
+        "aug-cc-pVTZ": -399.409138,
+        "daug-cc-pVTZ": -399.42848
+      },
+      "MP2": {
+        "6-31G*": -398.6646,
+        "6-311G*": -398.71345,
+        "TZVP": -398.737435
+      },
+      "MP3": {
+        "6-31+G**": -398.703259
+      },
+      "MP3=FULL": {
+        "6-31G*": -398.692564,
+        "6-31+G**": -398.781488
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -399.108875,
+        "cc-pVDZ": -399.140568,
+        "cc-pVTZ": -399.198437,
+        "aug-cc-pVTZ": -399.274224
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

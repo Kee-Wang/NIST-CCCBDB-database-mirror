@@ -1,0 +1,30 @@
+{
+  "casno": "18931710",
+  "charge": 0,
+  "formula": "C6H12",
+  "name": "1,1-dimethylcyclobutane",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Cs",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "CCD": {
+        "cc-pVDZ": {
+          "xyz": "C -0.102100 0.404700 0.000000\nC 0.378300 -1.730400 0.000000\nC -0.102100 -0.722600 1.085100\nC -0.102100 -0.722600 -1.085100\nC 1.217100 1.188400 0.000000\nC -1.298900 1.355700 0.000000\nH 1.475300 -1.849600 0.000000\nH -0.082400 -2.732200 0.000000\nH 0.538900 -0.570900 1.971900\nH 0.538900 -0.570900 -1.971900\nH -1.128500 -0.952900 1.423300\nH -1.128500 -0.952900 -1.423300\nH 2.091400 0.512200 0.000000\nH -2.251900 0.795800 0.000000\nH 1.288000 1.834100 -0.895400\nH 1.288000 1.834100 0.895400\nH -1.285700 2.007200 0.894500\nH -1.285700 2.007200 -0.894500",
+          "point_group": "Cs",
+          "n_atoms": 18,
+          "method_id": 6,
+          "basis_id": 5,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=6&basis=5"
+        }
+      }
+    },
+    "best_available": "calculated/CCD/cc-pVDZ"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "casno": "2143615",
+  "charge": 1,
+  "formula": "C3H7",
+  "name": "n-propyl cation",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C1",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  }
+}

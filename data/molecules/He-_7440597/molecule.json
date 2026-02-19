@@ -1,0 +1,109 @@
+{
+  "casno": "7440597",
+  "charge": -1,
+  "formula": "He",
+  "name": "Helium atom anion",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.75,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Kh",
+  "geometries": {
+    "experimental": {
+      "xyz": "He 0.000000 0.000000 0.000000",
+      "point_group": "Kh",
+      "n_atoms": 1,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=7440597&charge=-1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {},
+    "best_available": "experimental"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -1.495324,
+        "TZVP": -2.044187,
+        "daug-cc-pVTZ": -2.833383
+      },
+      "BLYP": {
+        "6-31G*": -1.574502
+      },
+      "B3LYP": {
+        "TZVP": -2.12699,
+        "aug-cc-pVTZ": -2.816115
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -2.816117
+      },
+      "M06-2X": {
+        "3-21G*": -0.89195
+      },
+      "PBE1PBE": {
+        "6-31G*": -1.553832
+      },
+      "TPSSh": {
+        "6-31G*": -1.572695,
+        "6-31+G**": -1.572695,
+        "6-31G(2df,p)": -1.572695,
+        "cc-pVTZ": -2.306724
+      },
+      "wB97X-D": {
+        "3-21G*": -0.880881,
+        "6-31G*": -1.571782,
+        "6-31+G**": -1.571782,
+        "6-311G**": -2.115097,
+        "TZVP": -2.114957,
+        "cc-pVDZ": -1.571782,
+        "cc-pVTZ": -2.300403,
+        "aug-cc-pVTZ": -2.805283
+      },
+      "B97D3": {
+        "3-21G": -0.887868,
+        "6-31G*": -1.582302,
+        "6-31+G**": -1.582302,
+        "6-311G**": -2.127412,
+        "6-311+G(3df,2p)": -2.188718,
+        "TZVP": -2.127272,
+        "cc-pVTZ": -2.312284,
+        "aug-cc-pVTZ": -2.811243
+      },
+      "MP2": {
+        "6-31G*": -1.495324,
+        "6-311G*": -2.052331,
+        "TZVP": -2.065649
+      },
+      "MP3": {
+        "6-31+G**": -1.511768
+      },
+      "MP3=FULL": {
+        "6-31G*": -1.495324,
+        "6-31+G**": -1.511768
+      },
+      "B2PLYP": {
+        "cc-pVTZ": -2.291392
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

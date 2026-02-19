@@ -1,0 +1,176 @@
+{
+  "casno": "13817066",
+  "charge": 1,
+  "formula": "HOP",
+  "name": "Hydrogen phosphorus oxide cation",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.752,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Cs",
+  "geometries": {
+    "experimental": {
+      "xyz": "P 0.057800 -0.488800 0.000000\nO 0.057800 1.023200 0.000000\nH -1.328300 -0.852500 0.000000",
+      "point_group": "Cs",
+      "n_atoms": 3,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=13817066&charge=1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "6-31G*": {
+          "xyz": "P 0.060800 -0.536400 0.000000\nO 0.060800 1.082900 0.000000\nH -1.398000 -0.617500 0.000000",
+          "point_group": "Cs",
+          "n_atoms": 3,
+          "method_id": 63,
+          "basis_id": 1,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=1"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rPH",
+          "value": 1.433,
+          "atoms": [
+            1,
+            3
+          ],
+          "reference": "1966Herzberg",
+          "comment": ""
+        },
+        {
+          "description": "rPO",
+          "value": 1.512,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1966Herzberg",
+          "comment": ""
+        }
+      ],
+      "angles": [
+        {
+          "description": "aHPO",
+          "value": 104.7,
+          "atoms": [
+            2,
+            1,
+            3
+          ],
+          "reference": "1966Herzberg",
+          "comment": ""
+        }
+      ],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -415.788171,
+        "TZVP": -415.838225,
+        "daug-cc-pVTZ": -415.860582
+      },
+      "BLYP": {
+        "6-31G*": -416.753933
+      },
+      "B3LYP": {
+        "TZVP": -416.817223
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -416.836386
+      },
+      "M06-2X": {
+        "3-21G*": -414.636436,
+        "6-31G*": -416.68469,
+        "6-311+G(3df,2p)": -416.758084
+      },
+      "PBE1PBE": {
+        "6-31G*": -416.533611
+      },
+      "HSEh1PBE": {
+        "3-21G": -414.390858,
+        "6-31G*": -416.556408,
+        "6-31+G**": -416.560267,
+        "cc-pVTZ": -416.625518
+      },
+      "TPSSh": {
+        "6-31G*": -416.76434,
+        "6-31+G**": -416.768079,
+        "6-31G(2df,p)": -416.783913,
+        "cc-pVTZ": -416.834144
+      },
+      "wB97X-D": {
+        "3-21G*": -414.671126,
+        "6-31G*": -416.712006,
+        "6-31+G**": -416.7157,
+        "6-311G**": -416.757635,
+        "TZVP": -416.763374,
+        "cc-pVDZ": -416.7157,
+        "cc-pVTZ": -416.781743,
+        "aug-cc-pVTZ": -416.782998
+      },
+      "B97D3": {
+        "3-21G": -414.560427,
+        "6-31G*": -416.717254,
+        "6-31+G**": -416.720969,
+        "6-311G**": -416.765376,
+        "6-311+G(3df,2p)": -416.786231,
+        "TZVP": -416.769676,
+        "cc-pVTZ": -416.786468,
+        "aug-cc-pVTZ": -416.787675,
+        "daug-cc-pVTZ": -416.787938
+      },
+      "MP2": {
+        "6-31G*": -416.047482,
+        "6-311G*": -416.105771,
+        "TZVP": -416.101741
+      },
+      "MP3": {
+        "6-31+G**": -416.050032
+      },
+      "MP3=FULL": {
+        "6-31G*": -416.055271,
+        "6-31+G**": -416.068596
+      },
+      "MP4": {
+        "cc-pVTZ": -416.233004
+      },
+      "B2PLYP": {
+        "6-31G*": -416.555474,
+        "cc-pVTZ": -416.651053
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -416.559773,
+        "cc-pVDZ": -416.582545,
+        "cc-pVTZ": -416.66748,
+        "aug-cc-pVTZ": -416.671844
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

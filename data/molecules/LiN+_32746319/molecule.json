@@ -1,0 +1,135 @@
+{
+  "casno": "32746319",
+  "charge": 1,
+  "formula": "LiN",
+  "name": "Lithium Nitride cation",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 3.75,
+    "closed_shell": false,
+    "multiplicity": 4,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C∞v",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "aug-cc-pVQZ": {
+          "xyz": "Li 0.000000 0.000000 -1.534700\nN 0.000000 0.000000 0.657700",
+          "point_group": "C∞v",
+          "n_atoms": 2,
+          "method_id": 63,
+          "basis_id": 26,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=26"
+        }
+      }
+    },
+    "best_available": "calculated/CCSD(T)=FULL/aug-cc-pVQZ"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "TZVP": -61.644576,
+        "daug-cc-pVTZ": -61.645599
+      },
+      "BLYP": {
+        "6-31G*": -61.856418
+      },
+      "B1B95": {
+        "6-31+G**": -61.859439,
+        "cc-pVDZ": -61.865869
+      },
+      "B3LYP": {
+        "TZVP": -61.896371
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -61.897418
+      },
+      "M06-2X": {
+        "3-21G*": -61.523084,
+        "6-311+G(3df,2p)": -61.874489
+      },
+      "PBE1PBE": {
+        "6-31G*": -61.795801
+      },
+      "TPSSh": {
+        "6-31G*": -61.885042,
+        "6-31+G**": -61.885949,
+        "6-31G(2df,p)": -61.886588,
+        "cc-pVTZ": -61.90355
+      },
+      "wB97X-D": {
+        "3-21G*": -61.538332,
+        "6-31G*": -61.868393,
+        "6-31+G**": -61.869064,
+        "6-311G**": -61.88192,
+        "TZVP": -61.885788,
+        "cc-pVDZ": -61.869064,
+        "cc-pVTZ": -61.886121,
+        "aug-cc-pVTZ": -61.886554
+      },
+      "B97D3": {
+        "3-21G": -61.519123,
+        "6-31G*": -61.85162,
+        "6-31+G**": -61.852488,
+        "6-311G**": -61.865084,
+        "6-311+G(3df,2p)": -61.866865,
+        "TZVP": -61.869975,
+        "cc-pVTZ": -61.869973,
+        "aug-cc-pVTZ": -61.870512,
+        "daug-cc-pVTZ": -61.870666
+      },
+      "MP2": {
+        "6-31G*": -61.700408,
+        "6-311G*": -61.719164,
+        "TZVP": -61.721498
+      },
+      "MP2=FULL": {
+        "aug-cc-pVTZ": -61.766303
+      },
+      "MP3": {
+        "6-31+G**": -61.714115
+      },
+      "MP3=FULL": {
+        "6-31G*": -61.717122,
+        "6-31+G**": -61.718727
+      },
+      "B2PLYP": {
+        "cc-pVTZ": -61.845007
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -61.821045,
+        "cc-pVDZ": -61.827564,
+        "cc-pVTZ": -61.851602,
+        "aug-cc-pVTZ": -61.852815
+      },
+      "CCSD": {
+        "6-31G*": -61.71672,
+        "cc-pVDZ": -61.72303,
+        "cc-pVTZ": -61.756986
+      },
+      "CCSD(T)=FULL": {
+        "6-31G*": -61.72068
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

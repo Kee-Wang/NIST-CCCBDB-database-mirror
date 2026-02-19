@@ -1,0 +1,19 @@
+{
+  "casno": "5291907",
+  "charge": 0,
+  "formula": "C6H6",
+  "name": "3,4-Dimethylenecyclobutene",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C2v",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  }
+}

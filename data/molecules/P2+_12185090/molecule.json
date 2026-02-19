@@ -1,0 +1,156 @@
+{
+  "casno": "12185090",
+  "charge": 1,
+  "formula": "P2",
+  "name": "phosphorus diatomic cation",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.75,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "D∞h",
+  "geometries": {
+    "experimental": {
+      "xyz": "P 0.000000 0.000000 0.000000\nP 0.000000 0.000000 1.893400",
+      "point_group": "D∞h",
+      "n_atoms": 2,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=12185090&charge=1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "6-31G*": {
+          "xyz": "P 0.000000 0.000000 1.001000\nP 0.000000 0.000000 -1.001000",
+          "point_group": "D∞h",
+          "n_atoms": 2,
+          "method_id": 63,
+          "basis_id": 1,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=1"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rPP",
+          "value": 1.893,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1979HUB/HER",
+          "comment": "re"
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -681.079008,
+        "TZVP": -681.124103,
+        "daug-cc-pVTZ": -681.153443
+      },
+      "BLYP": {
+        "6-31G*": -682.289831
+      },
+      "B3LYP": {
+        "TZVP": -682.352224
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -682.358659
+      },
+      "M06-2X": {
+        "3-21G*": -678.940451,
+        "6-31G*": -682.223035,
+        "6-311+G(3df,2p)": -682.292758
+      },
+      "PBE1PBE": {
+        "6-31G*": -681.994374
+      },
+      "HSEh1PBE": {
+        "3-21G": -678.564875,
+        "6-31+G**": -682.02789,
+        "cc-pVTZ": -682.093252
+      },
+      "TPSSh": {
+        "6-31G*": -682.299678,
+        "6-31+G**": -682.300601,
+        "6-31G(2df,p)": -682.311994,
+        "cc-pVTZ": -682.36668
+      },
+      "wB97X-D": {
+        "3-21G*": -678.972502,
+        "6-31G*": -682.249988,
+        "6-31+G**": -682.250919,
+        "6-311G**": -682.291198,
+        "TZVP": -682.295612,
+        "cc-pVDZ": -682.250919,
+        "cc-pVTZ": -682.318266,
+        "aug-cc-pVTZ": -682.31905
+      },
+      "B97D3": {
+        "3-21G": -678.823474,
+        "6-31G*": -682.282245,
+        "6-31+G**": -682.282952,
+        "6-311G**": -682.326448,
+        "6-311+G(3df,2p)": -682.343663,
+        "TZVP": -682.326758,
+        "cc-pVTZ": -682.347489,
+        "aug-cc-pVTZ": -682.34818,
+        "daug-cc-pVTZ": -682.348357
+      },
+      "MP2": {
+        "6-31G*": -681.26205,
+        "6-311G*": -681.30207,
+        "TZVP": -681.315855
+      },
+      "MP3": {
+        "6-31+G**": -681.285144
+      },
+      "MP3=FULL": {
+        "6-31G*": -681.306422,
+        "6-31+G**": -681.309781
+      },
+      "B2PLYP": {
+        "6-31G*": -682.015079,
+        "cc-pVTZ": -682.098663
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -682.021952,
+        "cc-pVDZ": -682.064808,
+        "cc-pVTZ": -682.12383,
+        "aug-cc-pVTZ": -682.126609
+      },
+      "CCSD": {
+        "6-31G*": -681.278011
+      },
+      "CCSD(T)=FULL": {
+        "6-31G*": -681.321947
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

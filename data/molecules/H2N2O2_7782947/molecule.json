@@ -1,0 +1,56 @@
+{
+  "casno": "7782947",
+  "charge": 0,
+  "formula": "H2N2O2",
+  "name": "nitramide",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Cs",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "aug-cc-pVTZ": {
+          "xyz": "N 0.077200 -1.247000 0.000000\nN 0.006500 0.143500 0.000000\nO 0.006500 0.681400 1.089700\nO 0.006500 0.681400 -1.089700\nH -0.345400 -1.588900 -0.851000\nH -0.345400 -1.588900 0.851000",
+          "point_group": "Cs",
+          "n_atoms": 6,
+          "method_id": 63,
+          "basis_id": 18,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=18"
+        }
+      }
+    },
+    "best_available": "calculated/CCSD(T)=FULL/aug-cc-pVTZ"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "M06-2X": {
+        "6-311+G(3df,2p)": -261.031501
+      },
+      "B97D3": {
+        "daug-cc-pVTZ": -261.011984
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -260.799223,
+        "cc-pVDZ": -260.830574,
+        "cc-pVTZ": -260.982917,
+        "aug-cc-pVTZ": -260.99786
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

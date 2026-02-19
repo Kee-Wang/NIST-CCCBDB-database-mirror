@@ -1,0 +1,45 @@
+{
+  "casno": "43625656",
+  "charge": 1,
+  "formula": "C3H9O",
+  "name": "trimethyl oxonium cation",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": null,
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "M06-2X": {
+        "6-311+G(3df,2p)": -194.623438
+      },
+      "B97D3": {
+        "daug-cc-pVTZ": -194.617473
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -194.42447,
+        "cc-pVDZ": -194.445139,
+        "cc-pVTZ": -194.572493,
+        "aug-cc-pVTZ": -194.580713
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

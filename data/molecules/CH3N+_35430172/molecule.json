@@ -1,0 +1,49 @@
+{
+  "casno": "35430172",
+  "charge": 1,
+  "formula": "CH3N",
+  "name": "Aminocarbene cation",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.751,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Cs",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "M06-2X": {
+        "6-311+G(3df,2p)": -94.260921
+      },
+      "PBEPBE": {
+        "6-311+G(3df,2p)": -94.188256
+      },
+      "B97D3": {
+        "daug-cc-pVTZ": -94.25699
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -94.173394,
+        "cc-pVDZ": -94.185681,
+        "cc-pVTZ": -94.239961,
+        "aug-cc-pVTZ": -94.242941
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

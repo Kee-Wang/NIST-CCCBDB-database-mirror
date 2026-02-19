@@ -1,0 +1,85 @@
+{
+  "summary": {
+    "run_start": "2026-02-16T17:27:27.601019",
+    "run_end": "2026-02-16T17:27:35.814427",
+    "total_requests": 6,
+    "successes": 6,
+    "errors": 0,
+    "error_rate_pct": 0.0,
+    "error_types": {},
+    "by_page_type": {
+      "expgeom2x": {
+        "total": 3,
+        "success": 3,
+        "errors": {}
+      },
+      "spin2x": {
+        "total": 3,
+        "success": 3,
+        "errors": {}
+      }
+    },
+    "timing_ms": {
+      "avg": 347,
+      "min": 208,
+      "max": 484
+    },
+    "max_consecutive_errors": 0
+  },
+  "requests": [
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=7429905&charge=1",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-16T17:27:27.995355",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 392,
+      "species": "Al+"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/spin2x.asp",
+      "page_type": "spin2x",
+      "timestamp": "2026-02-16T17:27:30.415178",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 388,
+      "species": "Al+"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=7429905&charge=-1",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-16T17:27:30.677196",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 249,
+      "species": "Al-"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/spin2x.asp",
+      "page_type": "spin2x",
+      "timestamp": "2026-02-16T17:27:33.061836",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 360,
+      "species": "Al-"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=32752946&charge=1",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-16T17:27:33.289264",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 208,
+      "species": "Al2+"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/spin2x.asp",
+      "page_type": "spin2x",
+      "timestamp": "2026-02-16T17:27:35.793838",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 484,
+      "species": "Al2+"
+    }
+  ]
+}

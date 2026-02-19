@@ -1,0 +1,36 @@
+{
+  "casno": "19952126",
+  "charge": 0,
+  "formula": "ClSb",
+  "name": "Antimony monochloride",
+  "fetched_date": "2026-02-16",
+  "spin": {},
+  "point_group_cccbdb": "C∞v",
+  "geometries": {
+    "experimental": {
+      "xyz": "Sb 0.000000 0.000000 0.000000\nCl 0.000000 0.000000 2.335500",
+      "point_group": "C∞v",
+      "n_atoms": 2,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=19952126&charge=0",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {},
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rClSb",
+          "value": 2.335,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "2005Coo/Ger:195-203",
+          "comment": "re"
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  }
+}

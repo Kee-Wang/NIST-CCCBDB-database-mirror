@@ -1,0 +1,138 @@
+{
+  "casno": "110009",
+  "charge": 1,
+  "formula": "C4H4O",
+  "name": "Furan cation",
+  "fetched_date": "2026-02-16",
+  "spin": {},
+  "point_group_cccbdb": "C2v",
+  "geometries": {
+    "experimental": {
+      "xyz": "O 0.000000 0.000000 1.162600\nC 0.000000 1.092000 0.348700\nC 0.000000 -1.092000 0.348700\nC 0.000000 0.716900 -0.959600\nC 0.000000 -0.716900 -0.959600\nH 0.000000 2.047300 0.843900\nH 0.000000 -2.047300 0.843900\nH 0.000000 1.350900 -1.829000\nH 0.000000 -1.350900 -1.829000",
+      "point_group": "C2v",
+      "n_atoms": 9,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=110009&charge=1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "MP2": {
+        "TZVP": {
+          "xyz": "O 0.000000 0.000000 1.172500\nC 0.000000 1.076200 0.370700\nC 0.000000 -1.076200 0.370700\nC 0.000000 0.686900 -0.990800\nC 0.000000 -0.686900 -0.990800\nH 0.000000 2.037800 0.861400\nH 0.000000 -2.037800 0.861400\nH 0.000000 1.362700 -1.830800\nH 0.000000 -1.362700 -1.830800",
+          "point_group": "C2v",
+          "n_atoms": 9,
+          "method_id": 3,
+          "basis_id": 32,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=3&basis=32"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rCO",
+          "value": 1.362,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1966Herzberg",
+          "comment": ""
+        },
+        {
+          "description": "rCC",
+          "value": 1.361,
+          "atoms": [
+            2,
+            4
+          ],
+          "reference": "1966Herzberg",
+          "comment": ""
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "TZVP": -228.428327,
+        "daug-cc-pVTZ": -228.442459
+      },
+      "BLYP": {
+        "6-31G*": -229.634513
+      },
+      "B3LYP": {
+        "TZVP": -229.781074
+      },
+      "M06-2X": {
+        "3-21G*": -228.318222,
+        "6-311+G(3df,2p)": -229.681198
+      },
+      "PBE1PBE": {
+        "6-31G*": -229.444184
+      },
+      "HSEh1PBE": {
+        "3-21G": -228.182672,
+        "6-31+G**": -229.472687,
+        "cc-pVTZ": -229.540774
+      },
+      "TPSSh": {
+        "6-31G(2df,p)": -229.747918
+      },
+      "wB97X-D": {
+        "3-21G*": -228.350347,
+        "6-31G*": -229.62892,
+        "6-31+G**": -229.637133,
+        "6-311G**": -229.680571,
+        "TZVP": -229.699207,
+        "cc-pVDZ": -229.637133,
+        "cc-pVTZ": -229.706711,
+        "aug-cc-pVTZ": -229.708651
+      },
+      "B97D3": {
+        "3-21G": -228.288154,
+        "6-31G*": -229.564058,
+        "6-31+G**": -229.573107,
+        "6-311G**": -229.619524,
+        "6-311+G(3df,2p)": -229.638749,
+        "TZVP": -229.636873,
+        "cc-pVTZ": -229.643857,
+        "aug-cc-pVTZ": -229.645597,
+        "daug-cc-pVTZ": -229.645944
+      },
+      "MP2": {
+        "6-31G*": -228.997078,
+        "6-311G*": -229.07785,
+        "TZVP": -229.121491
+      },
+      "B2PLYP": {
+        "6-31G*": -229.468606
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -229.475139,
+        "cc-pVDZ": -229.492622,
+        "cc-pVTZ": -229.621447,
+        "aug-cc-pVTZ": -229.630417
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

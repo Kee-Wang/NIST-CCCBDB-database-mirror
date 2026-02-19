@@ -1,0 +1,171 @@
+{
+  "casno": "10034852",
+  "charge": 1,
+  "formula": "HI",
+  "name": "Hydrogen iodide cation",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.75,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C∞v",
+  "geometries": {
+    "experimental": {
+      "xyz": "I 0.000000 0.000000 0.000000\nH 0.000000 0.000000 1.609200",
+      "point_group": "C∞v",
+      "n_atoms": 2,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=10034852&charge=1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "6-311G*": {
+          "xyz": "I 0.000000 0.000000 0.031000\nH 0.000000 0.000000 -1.643000",
+          "point_group": "C∞v",
+          "n_atoms": 2,
+          "method_id": 63,
+          "basis_id": 7,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=7"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rHI",
+          "value": 1.609,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "NISTdiatomic",
+          "comment": "re"
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-311G*": -6917.035767
+      },
+      "ROHF": {
+        "6-311G*": -6917.031729
+      },
+      "LSDA": {
+        "6-311G*": -6914.968602
+      },
+      "BLYP": {
+        "6-311G*": -6919.738811
+      },
+      "B1B95": {
+        "6-311G*": -6920.509214
+      },
+      "B3LYP": {
+        "6-311G*": -6919.735845
+      },
+      "B3LYPultrafine": {
+        "6-311G*": -6919.735845
+      },
+      "B3PW91": {
+        "6-311G*": -6919.83347
+      },
+      "mPW1PW91": {
+        "6-311G*": -6920.164338
+      },
+      "M06-2X": {
+        "6-311G*": -6920.125046
+      },
+      "PBEPBE": {
+        "6-311G*": -6919.121798
+      },
+      "PBEPBEultrafine": {
+        "6-311G*": -6919.121798
+      },
+      "PBE1PBE": {
+        "6-311G*": -6919.306241
+      },
+      "HSEh1PBE": {
+        "6-311G*": -6919.184932
+      },
+      "TPSSh": {
+        "6-311G*": -6919.3808
+      },
+      "wB97X-D": {
+        "6-311G*": -6919.884722
+      },
+      "B97D3": {
+        "6-311G*": -6923.675679
+      },
+      "MP2": {
+        "6-311G*": -6917.221006
+      },
+      "MP2=FULL": {
+        "6-311G*": -6917.718956
+      },
+      "ROMP2": {
+        "6-311G*": -6917.221503
+      },
+      "MP3": {
+        "6-311G*": -6917.228872
+      },
+      "MP3=FULL": {
+        "6-311G*": -6917.689993
+      },
+      "MP4": {
+        "6-311G*": -6917.235068
+      },
+      "MP4=FULL": {
+        "6-311G*": -6917.70829
+      },
+      "B2PLYP": {
+        "6-311G*": -6919.054117
+      },
+      "B2PLYP=FULL": {
+        "6-311G*": -6919.194704
+      },
+      "CID": {
+        "6-311G*": -6917.222481
+      },
+      "CISD": {
+        "6-311G*": -6917.223508
+      },
+      "QCISD": {
+        "6-311G*": -6917.233335
+      },
+      "QCISD(T)": {
+        "6-311G*": -6917.236281
+      },
+      "QCISD(T)=FULL": {
+        "6-311G*": -6917.706971
+      },
+      "CCD": {
+        "6-311G*": -6917.231942
+      },
+      "CCSD": {
+        "6-311G*": -6917.233223
+      },
+      "CCSD=FULL": {
+        "6-311G*": -6917.701815
+      },
+      "CCSD(T)": {
+        "6-311G*": -6917.236241
+      },
+      "CCSD(T)=FULL": {
+        "6-311G*": -6917.706886
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "6-311G*"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

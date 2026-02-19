@@ -1,0 +1,45 @@
+{
+  "casno": "9000139",
+  "charge": 1,
+  "formula": "FZn",
+  "name": "Zinc monofluoride cation",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C∞v",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "M06-2X": {
+        "6-311+G(3df,2p)": -1878.78353
+      },
+      "B97D3": {
+        "daug-cc-pVTZ": -1879.796201
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -1878.170815,
+        "cc-pVDZ": -1878.633592,
+        "cc-pVTZ": -1878.781511,
+        "aug-cc-pVTZ": -1878.797467
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "casno": "409212",
+  "charge": 1,
+  "formula": "CSi",
+  "name": "silicon monocarbide cation",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.757,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C∞v",
+  "geometries": {
+    "experimental": {
+      "xyz": "Si 0.000000 0.000000 0.000000\nC 0.000000 0.000000 1.721900",
+      "point_group": "C∞v",
+      "n_atoms": 2,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=409212&charge=1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "6-31G*": {
+          "xyz": "Si 0.000000 0.000000 0.519200\nC 0.000000 0.000000 -1.211400",
+          "point_group": "C∞v",
+          "n_atoms": 2,
+          "method_id": 63,
+          "basis_id": 1,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=1"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rCSi",
+          "value": 1.722,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1989Bra/Obr:7384",
+          "comment": "r0"
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -326.257591,
+        "TZVP": -326.283072,
+        "daug-cc-pVTZ": -326.239104
+      },
+      "BLYP": {
+        "6-31G*": -327.01329
+      },
+      "B3LYP": {
+        "TZVP": -327.015646
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -327.026583
+      },
+      "M06-2X": {
+        "3-21G*": -325.269143,
+        "6-31G*": -326.927471,
+        "6-311+G(3df,2p)": -326.967077
+      },
+      "PBE1PBE": {
+        "6-31G*": -326.794488
+      },
+      "HSEh1PBE": {
+        "3-21G": -325.088762,
+        "6-31G*": -326.814173,
+        "6-31+G**": -326.815273,
+        "cc-pVTZ": -326.851086
+      },
+      "TPSSh": {
+        "6-31G*": -326.988217,
+        "6-31+G**": -326.98927,
+        "6-31G(2df,p)": -326.995507,
+        "cc-pVTZ": -327.025498
+      },
+      "wB97X-D": {
+        "3-21G*": -325.285407,
+        "6-31G*": -326.937207,
+        "6-31+G**": -326.938251,
+        "6-311G**": -326.965228,
+        "TZVP": -326.964171,
+        "cc-pVDZ": -326.938251,
+        "cc-pVTZ": -326.974754,
+        "aug-cc-pVTZ": -326.975261
+      },
+      "B97D3": {
+        "3-21G": -325.253411,
+        "6-31G*": -326.975549,
+        "6-31+G**": -326.976793,
+        "6-311G**": -327.004659,
+        "6-311+G(3df,2p)": -327.01148,
+        "TZVP": -327.003037,
+        "cc-pVTZ": -327.013504,
+        "aug-cc-pVTZ": -327.01417,
+        "daug-cc-pVTZ": -327.014469
+      },
+      "MP2": {
+        "6-31G*": -326.353377,
+        "6-311G*": -326.383978,
+        "TZVP": -326.383042
+      },
+      "MP2=FULL": {
+        "aug-cc-pVTZ": -326.504585
+      },
+      "MP3": {
+        "6-31+G**": -326.40374
+      },
+      "MP3=FULL": {
+        "6-31G*": -326.418009,
+        "6-31+G**": -326.387648
+      },
+      "MP4": {
+        "cc-pVTZ": -326.444293
+      },
+      "B2PLYP": {
+        "6-31G*": -326.805579,
+        "cc-pVTZ": -326.852532
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -326.824072,
+        "cc-pVDZ": -326.843734,
+        "cc-pVTZ": -326.872442,
+        "aug-cc-pVTZ": -326.872185
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

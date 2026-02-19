@@ -1,0 +1,206 @@
+{
+  "summary": {
+    "run_start": "2026-02-18T21:28:44.458936",
+    "run_end": "2026-02-18T21:28:52.488104",
+    "total_requests": 20,
+    "successes": 20,
+    "errors": 0,
+    "error_rate_pct": 0.0,
+    "error_types": {},
+    "by_page_type": {
+      "expgeom2x": {
+        "total": 20,
+        "success": 20,
+        "errors": {}
+      }
+    },
+    "timing_ms": {
+      "avg": 360,
+      "min": 222,
+      "max": 730
+    },
+    "max_consecutive_errors": 0
+  },
+  "requests": [
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=7429905&charge=1",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-18T21:28:44.812665",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 351,
+      "species": "Al+"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=7429905&charge=-1",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-18T21:28:45.103264",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 271,
+      "species": "Al-"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=12004307&charge=0",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-18T21:28:45.345730",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 222,
+      "species": "Al2H6"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=12250429&charge=0",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-18T21:28:46.123063",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 730,
+      "species": "AlB"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=13497966&charge=0",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-18T21:28:46.465062",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 296,
+      "species": "AlCl2F"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=13814658&charge=0",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-18T21:28:47.043581",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 546,
+      "species": "AlClF2"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=39399558&charge=0",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-18T21:28:47.410122",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 337,
+      "species": "AlGa"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=7784216&charge=1",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-18T21:28:47.761721",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 312,
+      "species": "AlH3+"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=7784216&charge=-1",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-18T21:28:48.089161",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 283,
+      "species": "AlH3-"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=21645512&charge=0",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-18T21:28:48.433038",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 301,
+      "species": "AlH3O3"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=7784216&charge=0",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-18T21:28:48.905956",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 411,
+      "species": "AlH3"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=19469819&charge=-1",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-18T21:28:49.273079",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 323,
+      "species": "AlH4-"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=12042374&charge=0",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-18T21:28:49.578415",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 263,
+      "species": "AlLi"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=39422247&charge=0",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-18T21:28:49.920422",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 302,
+      "species": "AlNa"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=7429905&charge=0",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-18T21:28:50.340624",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 375,
+      "species": "Al"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=12254681&charge=1",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-18T21:28:50.704838",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 319,
+      "species": "ArH+"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=13939156&charge=0",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-18T21:28:51.149165",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 402,
+      "species": "ArH2"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=7440382&charge=1",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-18T21:28:51.466119",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 273,
+      "species": "As+"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=7440382&charge=-1",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-18T21:28:51.887958",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 368,
+      "species": "As-"
+    },
+    {
+      "url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=17522780&charge=0",
+      "page_type": "expgeom2x",
+      "timestamp": "2026-02-18T21:28:52.455692",
+      "status": "success",
+      "error_type": null,
+      "duration_ms": 524,
+      "species": "AsCl"
+    }
+  ]
+}

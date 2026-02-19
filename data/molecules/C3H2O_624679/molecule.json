@@ -1,0 +1,67 @@
+{
+  "casno": "624679",
+  "charge": 0,
+  "formula": "C3H2O",
+  "name": "2-propynal",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Cs",
+  "geometries": {
+    "experimental": {
+      "xyz": "C -0.395200 1.836300 0.000000\nC 0.000000 0.691600 0.000000\nC 0.507500 -0.669600 0.000000\nO -0.195000 -1.659700 0.000000\nH -0.749200 2.861900 0.000000\nH 1.635600 -0.733800 0.000000",
+      "point_group": "Cs",
+      "n_atoms": 6,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=624679&charge=0",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {},
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rCC",
+          "value": 1.453,
+          "atoms": [
+            2,
+            3
+          ],
+          "reference": "1998Kuc",
+          "comment": ""
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "M06-2X": {
+        "6-311+G(3df,2p)": -190.638231
+      },
+      "B97D3": {
+        "daug-cc-pVTZ": -190.603764
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -190.463637,
+        "cc-pVDZ": -190.480144,
+        "cc-pVTZ": -190.591486,
+        "aug-cc-pVTZ": -190.600464
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

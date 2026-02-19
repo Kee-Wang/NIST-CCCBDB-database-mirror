@@ -1,0 +1,19 @@
+{
+  "casno": "9000918",
+  "charge": 1,
+  "formula": "H2KO",
+  "name": "Potassium hydroxide, protonated",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": null,
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  }
+}

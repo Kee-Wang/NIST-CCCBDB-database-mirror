@@ -1,0 +1,59 @@
+{
+  "casno": "12356137",
+  "charge": -2,
+  "formula": "B12H12",
+  "name": "Dodecahydrododecaborate(2-)",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": null,
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "HF": {
+        "6-31G*": {
+          "xyz": "B 0.000000 0.000000 1.707300\nB 0.897600 -1.235400 0.763500\nB -0.897600 -1.235400 0.763500\nB -1.452300 0.471900 0.763500\nB 0.000000 1.527100 0.763500\nB 1.452300 0.471900 0.763500\nB 0.000000 0.000000 -1.707300\nB 1.452300 -0.471900 -0.763500\nB 0.897600 1.235400 -0.763500\nB -0.897600 1.235400 -0.763500\nB -1.452300 -0.471900 -0.763500\nB 0.000000 -1.527100 -0.763500\nH 0.000000 0.000000 2.910600\nH 1.530200 -2.106100 1.301700\nH -1.530200 -2.106100 1.301700\nH -2.475900 0.804500 1.301700\nH 0.000000 2.603300 1.301700\nH 2.475900 0.804500 1.301700\nH 0.000000 0.000000 -2.910600\nH 2.475900 -0.804500 -1.301700\nH 1.530200 2.106100 -1.301700\nH -1.530200 2.106100 -1.301700\nH -2.475900 -0.804500 -1.301700\nH 0.000000 -2.603300 -1.301700",
+          "point_group": null,
+          "n_atoms": 24,
+          "method_id": 1,
+          "basis_id": 1,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=1&basis=1"
+        }
+      }
+    },
+    "best_available": "calculated/HF/6-31G*"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -303.283321
+      },
+      "M06-2X": {
+        "6-311+G(3df,2p)": -305.694193
+      },
+      "B97D3": {
+        "daug-cc-pVTZ": -305.597829
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -305.271227,
+        "cc-pVDZ": -305.288241,
+        "cc-pVTZ": -305.498774,
+        "aug-cc-pVTZ": -305.513504
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

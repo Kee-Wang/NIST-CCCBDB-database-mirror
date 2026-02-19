@@ -1,0 +1,99 @@
+{
+  "casno": "544923",
+  "charge": 0,
+  "formula": "CCuN",
+  "name": "Copper cyanide",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C∞v",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "HF": {
+        "daug-cc-pVTZ": {
+          "xyz": "Cu 0.000000 0.000000 0.797600\nC 0.000000 0.000000 -1.167300\nN 0.000000 0.000000 -2.303700",
+          "point_group": "C∞v",
+          "n_atoms": 3,
+          "method_id": 1,
+          "basis_id": 35,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=1&basis=35"
+        }
+      }
+    },
+    "best_available": "calculated/HF/daug-cc-pVTZ"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "daug-cc-pVTZ": -1731.319725
+      },
+      "BLYP": {
+        "6-31G*": -1733.103499
+      },
+      "M06-2X": {
+        "3-21G*": -1724.699861,
+        "6-311+G(3df,2p)": -1733.249259
+      },
+      "wB97X-D": {
+        "3-21G*": -1724.787038,
+        "6-31G*": -1733.036888,
+        "6-31+G**": -1733.144818,
+        "6-311G**": -1733.252363,
+        "TZVP": -1733.391046,
+        "cc-pVDZ": -1733.144818,
+        "cc-pVTZ": -1733.441065,
+        "aug-cc-pVTZ": -1733.443669
+      },
+      "B97D3": {
+        "3-21G": -1725.517566,
+        "6-31G*": -1733.74073,
+        "6-31+G**": -1733.850001,
+        "6-311G**": -1733.96226,
+        "6-311+G(3df,2p)": -1734.036949,
+        "TZVP": -1734.097508,
+        "cc-pVTZ": -1734.149909,
+        "aug-cc-pVTZ": -1734.15298,
+        "daug-cc-pVTZ": -1734.153606
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -1732.641312,
+        "cc-pVDZ": -1733.105209,
+        "cc-pVTZ": -1733.238104,
+        "aug-cc-pVTZ": -1733.252335
+      },
+      "QCISD(T)=FULL": {
+        "6-31G*": -1731.553183,
+        "6-31+G**": -1731.726738,
+        "cc-pVDZ": -1732.16831,
+        "cc-pVTZ": -1732.558517,
+        "cc-pVQZ": -1732.780072,
+        "aug-cc-pVDZ": -1732.194884,
+        "aug-cc-pVTZ": -1732.598516,
+        "aug-cc-pVQZ": -1732.797991
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G**",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "cc-pVQZ",
+      "aug-cc-pVDZ",
+      "aug-cc-pVTZ",
+      "aug-cc-pVQZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "casno": "108985",
+  "charge": 0,
+  "formula": "C6H6S",
+  "name": "Benzenethiol",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Cs",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "M06-2X": {
+        "6-311+G(3df,2p)": -630.404315
+      },
+      "B97D3": {
+        "daug-cc-pVTZ": -630.397758
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -630.017023,
+        "cc-pVDZ": -630.062923,
+        "cc-pVTZ": -630.236648,
+        "aug-cc-pVTZ": -630.251315
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

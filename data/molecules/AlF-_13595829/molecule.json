@@ -1,0 +1,154 @@
+{
+  "casno": "13595829",
+  "charge": -1,
+  "formula": "AlF",
+  "name": "Aluminum monofluoride anion",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.75,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C∞v",
+  "geometries": {
+    "experimental": {
+      "xyz": "Al 0.000000 0.000000 0.000000\nF 0.000000 0.000000 1.654400",
+      "point_group": "C∞v",
+      "n_atoms": 2,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=13595829&charge=-1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "6-31G*": {
+          "xyz": "Al 0.000000 0.000000 0.718700\nF 0.000000 0.000000 -1.038200",
+          "point_group": "C∞v",
+          "n_atoms": 2,
+          "method_id": 63,
+          "basis_id": 1,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=1"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rAlF",
+          "value": 1.654,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "NISTdiatomic",
+          "comment": "re"
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -341.369111,
+        "TZVP": -341.432892,
+        "daug-cc-pVTZ": -341.464927
+      },
+      "BLYP": {
+        "6-31G*": -342.280608
+      },
+      "B3LYP": {
+        "TZVP": -342.382522
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -342.408622
+      },
+      "M06-2X": {
+        "3-21G*": -340.40044,
+        "6-31G*": -342.227636,
+        "6-311+G(3df,2p)": -342.316428
+      },
+      "PBE1PBE": {
+        "6-31G*": -342.07928
+      },
+      "HSEh1PBE": {
+        "3-21G": -340.228504,
+        "6-31G*": -342.103095,
+        "6-31+G**": -342.134887,
+        "cc-pVTZ": -342.177595
+      },
+      "TPSSh": {
+        "6-31G*": -342.294206,
+        "6-31+G**": -342.32466,
+        "6-31G(2df,p)": -342.308053,
+        "cc-pVTZ": -342.369641
+      },
+      "wB97X-D": {
+        "3-21G*": -340.443353,
+        "6-31G*": -342.250351,
+        "6-31+G**": -342.281078,
+        "6-311G**": -342.305862,
+        "TZVP": -342.320755,
+        "cc-pVDZ": -342.281078,
+        "cc-pVTZ": -342.325103,
+        "aug-cc-pVTZ": -342.342078
+      },
+      "B97D3": {
+        "3-21G": -340.350807,
+        "6-31G*": -342.220609,
+        "6-31+G**": -342.253692,
+        "6-311G**": -342.279273,
+        "6-311+G(3df,2p)": -342.307703,
+        "TZVP": -342.293911,
+        "cc-pVTZ": -342.298345,
+        "aug-cc-pVTZ": -342.318471,
+        "daug-cc-pVTZ": -342.329896
+      },
+      "MP2": {
+        "6-31G*": -341.587686,
+        "6-311G*": -341.672012,
+        "TZVP": -341.690331
+      },
+      "MP3": {
+        "6-31+G**": -341.591934
+      },
+      "MP3=FULL": {
+        "6-31G*": -341.602868,
+        "6-31+G**": -341.640479
+      },
+      "MP4": {
+        "cc-pVTZ": -341.778105
+      },
+      "B2PLYP": {
+        "6-31G*": -342.090303,
+        "cc-pVTZ": -342.194779
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -342.093813,
+        "cc-pVDZ": -342.119015,
+        "cc-pVTZ": -342.21775,
+        "aug-cc-pVTZ": -342.242687
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

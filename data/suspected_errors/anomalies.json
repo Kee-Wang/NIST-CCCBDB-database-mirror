@@ -1,0 +1,196 @@
+{
+  "generated": "2026-02-15",
+  "description": "Known data anomalies in CCCBDB source HTML pages and their resolution status. Most are parser-fixable issues in the upstream HTML, not genuine data errors. See ANOMALY_LOG.md for peer-reviewable documentation.",
+  "anomalies": [
+    {
+      "species_id": "BrP_59727161",
+      "casno": "59727161",
+      "category": "truncated_cartesian",
+      "description": "Br's z-coordinate is &nbsp; in Cartesian table. Only P extracted (1 of 2 atoms).",
+      "evidence": "expgeom2x.html Cartesian table: P1 has full coordinates (0,0,0), but Br2's z-coordinate is &nbsp; instead of numeric value",
+      "html_source": "data/molecules/BrP_59727161/expgeom2x.html",
+      "status": "fixed_by_parser",
+      "resolution": "Parser reconstructs Br position from internal coordinates table (rPBr=2.171 angstrom). Second atom placed at (0,0,2.171)."
+    },
+    {
+      "species_id": "C5H4O2_980101",
+      "casno": "980101",
+      "category": "truncated_cartesian",
+      "description": "Furfural page states 'No coordinate data available'. Only 1 of 11 atoms (O) in Cartesian table.",
+      "evidence": "expgeom2x.html explicitly states 'No coordinate data available'. Only O1 extracted.",
+      "html_source": "data/molecules/C5H4O2_980101/expgeom2x.html",
+      "status": "upstream_unrecoverable",
+      "resolution": "No parser fix possible. Calculated geometry fallback used as best_available."
+    },
+    {
+      "species_id": "C2H6S_75081",
+      "casno": "75081",
+      "category": "doubled_conformer",
+      "description": "Ethanethiol experimental geometry has two conformers concatenated in one table — 18 atoms instead of 9.",
+      "evidence": "expgeom2x.html Cartesian table has 18 rows; atom labels restart at row 10 (C1 appears twice)",
+      "html_source": "data/molecules/C2H6S_75081/expgeom2x.html",
+      "status": "fixed_by_parser",
+      "resolution": "Parser detects label restart and takes only first conformer (9 atoms)."
+    },
+    {
+      "species_id": "C3H5F_818928",
+      "casno": "818928",
+      "category": "doubled_conformer",
+      "description": "Allyl Fluoride experimental geometry has two conformers concatenated — 18 atoms instead of 9.",
+      "evidence": "expgeom2x.html Cartesian table has 18 rows with label restart",
+      "html_source": "data/molecules/C3H5F_818928/expgeom2x.html",
+      "status": "fixed_by_parser",
+      "resolution": "Parser detects label restart and takes only first conformer (9 atoms)."
+    },
+    {
+      "species_id": "C2H2F4_359353",
+      "casno": "359353",
+      "category": "doubled_conformer",
+      "description": "1,1,2,2-Tetrafluoroethane experimental geometry has two conformers concatenated — 16 atoms instead of 8.",
+      "evidence": "expgeom2x.html Cartesian table has 16 rows with label restart",
+      "html_source": "data/molecules/C2H2F4_359353/expgeom2x.html",
+      "status": "fixed_by_parser",
+      "resolution": "Parser detects label restart and takes only first conformer (8 atoms)."
+    },
+    {
+      "species_id": "H2S3_13845233",
+      "casno": "13845233",
+      "category": "doubled_conformer",
+      "description": "Trisulfane experimental geometry has two conformers concatenated — 10 atoms instead of 5.",
+      "evidence": "expgeom2x.html Cartesian table has 10 rows with label restart",
+      "html_source": "data/molecules/H2S3_13845233/expgeom2x.html",
+      "status": "fixed_by_parser",
+      "resolution": "Parser detects label restart and takes only first conformer (5 atoms)."
+    },
+    {
+      "species_id": "H3NS_14097008",
+      "casno": "14097008",
+      "category": "doubled_conformer",
+      "description": "Thiohydroxylamine experimental geometry has two conformers concatenated — 10 atoms instead of 5.",
+      "evidence": "expgeom2x.html Cartesian table has 10 rows with label restart",
+      "html_source": "data/molecules/H3NS_14097008/expgeom2x.html",
+      "status": "fixed_by_parser",
+      "resolution": "Parser detects label restart and takes only first conformer (5 atoms)."
+    },
+    {
+      "species_id": "CNZn_748101419",
+      "casno": "748101419",
+      "category": "impossible_spin",
+      "description": "ZnCN has 43 electrons (odd) but CCCBDB reports 'closed shell' / singlet — violates electron parity. Confirmed as upstream spin label error (not wrong charge) by three independent evidence sources.",
+      "evidence": "(1) Electron parity: Zn(30)+C(6)+N(7)=43 electrons (odd), cannot be singlet. (2) spin2x.html states 'ZnNC (Zinc isocyanide) is closed shell. S^2=0.' (3) energy2x.html provides ROHF (Restricted Open-shell Hartree-Fock) energies — a method exclusively for open-shell systems — confirming CCCBDB internally treats this molecule as open-shell despite the spin page label. HF/3-21G=-1860.945896 vs ROHF/3-21G=-1860.945491 (different, confirming open-shell). Alternative hypothesis (wrong charge) ruled out: all URL parameters use charge=0, no CNZn+/CNZn- entries exist in the 2,186-species list.",
+      "html_source": "data/molecules/CNZn_748101419/spin2x.html",
+      "status": "fixed_by_parser",
+      "resolution": "Parser checks electron parity before trusting 'closed shell' text. Odd electrons -> return None -> spin stored as {} (attempted, no valid data)."
+    },
+    {
+      "species_id": "D3N_13550497",
+      "casno": "13550497",
+      "category": "dummy_atom",
+      "description": "Trideuteroamine (ND3) calculated geometry includes a dummy atom 'X' — 5 atoms instead of 4.",
+      "evidence": "geom3x.html contains atom 'X1' at (0, 0, 1.1195) which is a computational reference point, not a real atom",
+      "html_source": "data/molecules/D3N_13550497/geom2x.html",
+      "status": "fixed_by_parser",
+      "resolution": "Parser filters atoms with symbol 'X' during coordinate extraction."
+    },
+    {
+      "species_id": "Br_10097322",
+      "casno": "10097322",
+      "category": "wrong_element",
+      "description": "Bromine atom geometry page labels the atom as 'D1' instead of 'Br1'. Affects Br, Br+, and Br- (all charge variants).",
+      "evidence": "expgeom2x.html Cartesian table has label 'D1' but formula and page title say 'Bromine atom'",
+      "html_source": "data/molecules/Br_10097322/expgeom2x.html",
+      "status": "fixed_by_parser",
+      "resolution": "Parser validates single-atom element against formula. Mismatch ('D' vs 'Br') corrected to formula element."
+    },
+    {
+      "species_id": "Br+_10097322",
+      "casno": "10097322",
+      "category": "wrong_element",
+      "description": "Bromine cation geometry page labels the atom as 'D1' instead of 'Br1'.",
+      "evidence": "expgeom2x.html Cartesian table has label 'D1' but formula is Br",
+      "html_source": "data/molecules/Br+_10097322/expgeom2x.html",
+      "status": "fixed_by_parser",
+      "resolution": "Parser validates single-atom element against formula. Mismatch corrected."
+    },
+    {
+      "species_id": "Br-_10097322",
+      "casno": "10097322",
+      "category": "wrong_element",
+      "description": "Bromine anion geometry page labels the atom as 'D1' instead of 'Br1'.",
+      "evidence": "expgeom2x.html Cartesian table has label 'D1' but formula is Br",
+      "html_source": "data/molecules/Br-_10097322/expgeom2x.html",
+      "status": "fixed_by_parser",
+      "resolution": "Parser validates single-atom element against formula. Mismatch corrected."
+    },
+    {
+      "species_id": "OTi_12137201",
+      "casno": "12137201",
+      "category": "wrong_element",
+      "description": "TiO experimental geometry labels both atoms as Ti (Ti1, Ti2) instead of O1, Ti2. Coordinates are correct; only element labels are wrong.",
+      "evidence": "expgeom2x.html Cartesian table has {Ti:2} but formula OTi implies {O:1, Ti:1}. Internal coordinates table says 'rO=Ti' confirming atom 1 is O and atom 2 is Ti.",
+      "html_source": "data/molecules/OTi_12137201/expgeom2x.html",
+      "status": "fixed_by_parser",
+      "resolution": "Element labels corrected using internal coordinate descriptions (rO=Ti -> atom 1 is O, atom 2 is Ti). Experimental geometry preserved with corrected elements."
+    },
+    {
+      "species_id": "CH4_74828",
+      "casno": "74828",
+      "category": "suspect_energy",
+      "description": "CCSD(T)=FULL/STO-3G and CCSD(T)=FULL/6-31G* report identical energy (-39.806897 hartree). Different basis sets should produce different energies — likely a data copy error in CCCBDB.",
+      "evidence": "energy2x.html: both STO-3G and 6-31G* columns for CCSD(T)=FULL show -39.806897. All other methods show different values for these two basis sets.",
+      "html_source": "data/molecules/CH4_74828/energy2x.html",
+      "status": "upstream_suspect",
+      "resolution": "Faithfully reproduced from HTML. No parser fix applied. Researchers should treat the CCSD(T)=FULL/6-31G* value for CH4 as unreliable."
+    },
+    {
+      "species_id": "Fe_7439896",
+      "casno": "7439896",
+      "category": "suspect_spin",
+      "description": "Fe reported as closed shell (multiplicity=1, S^2=0). Atomic iron ground state is 5D4 (multiplicity=5, four unpaired 3d electrons). Archived spin2x.html confirms CCCBDB genuinely reports 'Fe (Iron atom) is closed shell. S^2=0' — upstream data error.",
+      "evidence": "molecule.json: spin={S_squared:0.0, closed_shell:true, multiplicity:1}. Fe has 26 electrons (even, so parity check passes). Known ground state: [Ar]3d6 4s2, term symbol 5D4, multiplicity 5. spin2x.html archived and confirms 'Fe (Iron atom) is closed shell. S^2=0.'",
+      "html_source": "data/molecules/Fe_7439896/spin2x.html",
+      "status": "upstream_confirmed",
+      "resolution": "Faithfully reproduced from CCCBDB spin page (upstream error confirmed via archived HTML). Researchers should not trust Fe's spin/multiplicity values."
+    },
+    {
+      "species_id": "BF3H3N_137019869",
+      "casno": "137019869",
+      "category": "suspect_cas_typo",
+      "description": "CAS 137019869 appears to be a typo of CAS 13709869 (extra digit '1'). This entry has no energy data and no geometry data. The valid entry is BF3H3N_13709869 with full data.",
+      "evidence": "BF3H3N_137019869: name='Boron trifluoride monoammoniate', energy=None, geometry=None. BF3H3N_13709869: name='Amminetrifluoroboron', energy has 28 methods, geometry=CCSD(T)=FULL/aug-cc-pVDZ. CAS numbers differ by one inserted digit.",
+      "html_source": null,
+      "status": "upstream_suspect",
+      "resolution": "Both entries faithfully mirrored from CCCBDB species list. Empty entry retained for completeness."
+    },
+    {
+      "species_id": "B12H12--_12356137",
+      "casno": "12356137",
+      "category": "verified_not_duplicate",
+      "description": "B12H12^2- appears under two CAS numbers (12356137 and 84912390). Initially suspected as duplicate, but CAS lookup confirms these are different salts: CAS 12356-13-7 = lithium dodecaborate (Li2B12H12), CAS 84912-39-0 = cesium dodecaborate (Cs2B12H12). CCCBDB strips the counterion and treats both as the bare B12H12^2- anion.",
+      "evidence": "CAS 12356-13-7 confirmed as Li2B12H12 via CAS Common Chemistry / Chemsrc. CAS 84912-39-0 confirmed as Cs2B12H12 via Wikipedia / ACS Molecule of the Week. Different counterions explain different data availability (4 vs 25 energy methods).",
+      "html_source": null,
+      "status": "resolved_not_anomaly",
+      "resolution": "Not a duplicate. Two distinct salts of the same anion, legitimately listed as separate CCCBDB entries."
+    },
+    {
+      "species_id": "C3+_12075353",
+      "casno": "12075353",
+      "category": "severe_spin_contamination",
+      "description": "C3+ (carbon trimer cation, 17e doublet) has CCSD(T) S^2=1.823, far from ideal 0.75. No after-annihilation value available.",
+      "evidence": "spin2x.html CCSD(T) row: '1.850<br>&nbsp;' (STO-3G) and '1.823<br>&nbsp;' (6-31+G**). No after-annihilation values. Parser selects 1.823 from highest-ranked basis. 17 electrons = odd → doublet is correct multiplicity.",
+      "html_source": "data/molecules/C3+_12075353/spin2x.html",
+      "status": "upstream_confirmed",
+      "resolution": "Legitimate severe spin contamination in CCCBDB data. Whitelisted in test_s_squared_vs_multiplicity."
+    },
+    {
+      "species_id": "CSi-_409212",
+      "casno": "409212",
+      "category": "severe_spin_contamination",
+      "description": "CSi- (silicon monocarbide anion, 21e doublet) has CCSD(T)=FULL S^2=1.751, far from ideal 0.75. No after-annihilation value available.",
+      "evidence": "spin2x.html CCSD(T)=FULL row: '1.751<br>&nbsp;' in two basis sets. No after-annihilation values. 21 electrons = odd → doublet is correct multiplicity.",
+      "html_source": "data/molecules/CSi-_409212/spin2x.html",
+      "status": "upstream_confirmed",
+      "resolution": "Legitimate severe spin contamination in CCCBDB data. Whitelisted in test_s_squared_vs_multiplicity."
+    }
+  ]
+}

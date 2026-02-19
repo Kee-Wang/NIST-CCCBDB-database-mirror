@@ -1,0 +1,179 @@
+{
+  "casno": "14332286",
+  "charge": -1,
+  "formula": "HNO",
+  "name": "Nitrosyl hydride anion",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.751,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Cs",
+  "geometries": {
+    "experimental": {
+      "xyz": "H 0.000000 -0.971800 0.921100\nN 0.000000 0.064800 0.583400\nO 0.000000 0.064800 -0.625600",
+      "point_group": "Cs",
+      "n_atoms": 3,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=14332286&charge=-1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "aug-cc-pVQZ": {
+          "xyz": "H -0.943400 0.933900 0.000000\nN 0.062900 0.647400 0.000000\nO 0.062900 -0.683200 0.000000",
+          "point_group": "Cs",
+          "n_atoms": 3,
+          "method_id": 63,
+          "basis_id": 26,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=26"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rNH",
+          "value": 1.09,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1976OGI:407",
+          "comment": ""
+        },
+        {
+          "description": "rNO",
+          "value": 1.209,
+          "atoms": [
+            2,
+            3
+          ],
+          "reference": "1976OGI:407",
+          "comment": ""
+        }
+      ],
+      "angles": [
+        {
+          "description": "aHNO",
+          "value": 108.047,
+          "atoms": [
+            1,
+            2,
+            3
+          ],
+          "reference": "1976OGI:407",
+          "comment": ""
+        }
+      ],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -129.755981,
+        "TZVP": -129.823412,
+        "daug-cc-pVTZ": -129.835508
+      },
+      "BLYP": {
+        "6-31G*": -130.431676
+      },
+      "B3LYP": {
+        "TZVP": -130.536171
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -130.551142
+      },
+      "M06-2X": {
+        "3-21G*": -129.640948,
+        "6-31G*": -130.396996,
+        "6-311+G(3df,2p)": -130.482493
+      },
+      "PBE1PBE": {
+        "6-31G*": -130.312288
+      },
+      "HSEh1PBE": {
+        "3-21G": -129.572135,
+        "6-31G*": -130.323849,
+        "6-31+G**": -130.367788,
+        "cc-pVTZ": -130.38982
+      },
+      "TPSSh": {
+        "6-31G*": -130.454867,
+        "6-31+G**": -130.498552,
+        "6-31G(2df,p)": -130.463031,
+        "cc-pVTZ": -130.521785
+      },
+      "wB97X-D": {
+        "3-21G*": -129.662581,
+        "6-31G*": -130.410459,
+        "6-31+G**": -130.453512,
+        "6-311G**": -130.454757,
+        "TZVP": -130.485062,
+        "cc-pVDZ": -130.453512,
+        "cc-pVTZ": -130.475258,
+        "aug-cc-pVTZ": -130.457274
+      },
+      "B97D3": {
+        "3-21G": -129.632043,
+        "6-31G*": -130.380081,
+        "6-31+G**": -130.42796,
+        "6-311G**": -130.427333,
+        "6-311+G(3df,2p)": -130.469289,
+        "TZVP": -130.459606,
+        "cc-pVTZ": -130.448816,
+        "aug-cc-pVTZ": -130.475247,
+        "daug-cc-pVTZ": -130.487429
+      },
+      "MP2": {
+        "6-31G*": -130.088275,
+        "6-311G*": -130.149665,
+        "TZVP": -130.194808
+      },
+      "MP3": {
+        "6-31+G**": -130.104429
+      },
+      "MP3=FULL": {
+        "6-31G*": -130.098966,
+        "6-31+G**": -130.151226
+      },
+      "MP4": {
+        "cc-pVTZ": -130.285451
+      },
+      "B2PLYP": {
+        "6-31G*": -130.330369,
+        "cc-pVTZ": -130.42995
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -130.331951,
+        "cc-pVDZ": -130.341087,
+        "cc-pVTZ": -130.437222,
+        "aug-cc-pVTZ": -130.4677
+      },
+      "CCSD": {
+        "6-31G*": -130.098873
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

@@ -1,0 +1,3258 @@
+
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="cccbdbx.css">
+<link rel="stylesheet" type="text/css" href="pulldown.css">
+<meta charset="UTF-8">
+<TITLE>CCCBDB Calculated Energy page 2</TITLE>
+<style id="antiClickjack">body{display:none !important;}</style>
+<script type="text/javascript">
+   if (self === top) {
+       var antiClickjack = document.getElementById("antiClickjack");
+       antiClickjack.parentNode.removeChild(antiClickjack);
+   } else {
+       top.location = self.location;
+   }
+</script>
+<script async type="text/javascript" id="_fed_an_ua_tag" src="https://cccbdb.nist.gov/js/federated-analytics.all.min.js?agency=NIST&subagency=cccbdb&pua=UA-37115410-45&yt=true%20HTTP/1.1"></script> </head>
+
+<body>
+
+ <table class="noborder">
+<tr>
+<td rowspan=2 class="noborder"> <A HREF="introx.asp"> <IMG SRC="gifs/cccbdb_logosmall.gif" alt="return to home page" title="Computational Chemistry Comparison and Benchmark Database" width="42" height="60"> </A>
+</td>
+<td class="noborder"><span class="title"><b>C</b>omputational <b>C</b>hemistry <b>C</b>omparison and <b>B</b>enchmark <b>D</b>ata<b>B</b>ase</span>
+Release 22 (May 2022) Standard Reference Database 101 
+<a href="https://www.nist.gov">National Institute of Standards and Technology</a>
+</td>
+</tr>
+<tr>
+
+<td class="noborder">
+
+<div class="pdmenu">
+
+<ul> <li class="homeclass pdheading">
+<a Href="introx.asp">Home</a> 
+<ul> <li class=homesubclass>
+<a Href="alldata1x.asp">All data for one species</a> 
+<li class=homesubclass>
+<a Href="geometriesx.asp">Geometry</a> 
+<ul> <li class=homesub2class>Experimental<ul> <li class=homesub3class>
+<a Href="expgeom1x.asp">Experimental Geometries</a> 
+<li class=homesub3class>
+<a Href="listbondexpx.asp">Same bond/angle many molecules</a> 
+<li class=homesub3class>
+<a Href="expbondlengths1x.asp">Internal Coordinates by type</a> 
+<li class=homesub3class>
+<a Href="expangle1x.asp">Bond angles</a> 
+</ul> <li class=homesub2class>Calculated<ul> <li class=homesub3class>
+<a Href="geom1x.asp">Calculated geometry</a> 
+<li class=homesub3class>
+<a Href="rotcalc1x.asp">Rotational constant</a> 
+<li class=homesub3class>
+<a Href="calcmomint1x.asp">Moments of inertia</a> 
+<li class=homesub3class>
+<a Href="momint1x.asp">Products of moments of inertia</a> 
+<li class=homesub3class>
+<a Href="bsebond1x.asp">BSE Bond lengths</a> 
+<li class=homesub3class>
+<a Href="justgeomx.asp">Show me a  calculated geometry</a> 
+</ul> <li class=homesub2class>Comparisons<ul> <li class=homesub3class>
+<a Href="compgeom1x.asp">Bonds, angles</a> 
+<li class=homesub3class>
+<a Href="rotcomp1x.asp">Rotational Constants</a> 
+<li class=homesub3class>
+<a Href="compmomint1x.asp">Products of moments of inertia</a> 
+<li class=homesub3class>
+<a Href="comppg1x.asp">Point group</a> 
+</ul> <li class=homesub2class>Bad Calculations<ul> <li class=homesub3class>
+<a Href="badcalcgeomx.asp">Bad moment of inertia</a> 
+</ul> <li class=homesub2class>Tutorials and Explanations<ul> <li class=homesub3class>
+<a Href="anglesx.asp">Angle formulas</a> 
+</ul> </ul> <li class=homesubclass>
+<a Href="vibrationsx.asp">Vibrations</a> 
+<ul> <li class=homesub2class>Experimental<ul> <li class=homesub3class>
+<a Href="expvibs1x.asp">Vibrational frequencies</a> 
+</ul> <li class=homesub2class>Calculated<ul> <li class=homesub3class>
+<a Href="vibs1x.asp">Frequencies</a> 
+</ul> <li class=homesub2class>
+<a Href="vibscalejustx.asp">Scale factors</a> 
+</ul> <li class=homesubclass>
+<a Href="reactionsx.asp">Reactions</a> 
+<li class=homesubclass>
+<a Href="entropiesx.asp">Entropies</a> 
+<li class=homesubclass>
+<a Href="ionsx.asp">Ions</a> 
+<ul> <li class=homesub2class>
+<a Href="ionlistx.asp">List Ions</a> 
+<li class=homesub2class>
+<a Href="energy1x.asp">Energy</a> 
+<ul> <li class=homesub3class>
+<a Href="ie1x.asp">Calculated Ionization Energy</a> 
+<li class=homesub3class>
+<a Href="compie1x.asp">Compare Ionzation energy</a> 
+</ul> <li class=homesub2class>Electron Affinity<ul> <li class=homesub3class>
+<a Href="elecaff1x.asp">Calculated Electron affinity</a> 
+<li class=homesub3class>
+<a Href="compea1x.asp">Compare Electron affinity</a> 
+</ul> <li class=homesub2class>Proton Affinity<ul> <li class=homesub3class>
+<a Href="pa1x.asp">Calculated Proton affinity</a> 
+<li class=homesub3class>
+<a Href="comppa1x.asp">Compare Proton affinity</a> 
+</ul> <li class=homesub2class>
+<a Href="ionpgdiffx.asp">Ionization changes point group</a> 
+</ul> </ul> <li class="experclass pdheading">
+<a Href="expdatax.asp">Experimental</a> 
+<ul> <li class=expersubclass>
+<a Href="exp1x.asp">One molecule all properties</a> 
+<li class=expersubclass>
+<a Href="xpx.asp">One property a few molecules</a> 
+<ul> <li class=expersub2class>
+<a Href="xp1x.asp?prop=1">Enthalpy of formation</a> 
+<li class=expersub2class>
+<a Href="xp1x.asp?prop=2">Entropy</a> 
+<li class=expersub2class>
+<a Href="xp1x.asp?prop=3">Integrated Heat Capacity</a> 
+<li class=expersub2class>
+<a Href="xp1x.asp?prop=4">Heat Capacity</a> 
+<li class=expersub2class>
+<a Href="xp1x.asp?prop=5">Rotational Constants</a> 
+<li class=expersub2class>
+<a Href="xp1x.asp?prop=6">Vibrational Frequencies</a> 
+<li class=expersub2class>
+<a Href="xp1x.asp?prop=7">Dipole moment</a> 
+<li class=expersub2class>
+<a Href="xp1x.asp?prop=8">Ionization Energy</a> 
+<li class=expersub2class>
+<a Href="xp1x.asp?prop=9">Polarizability</a> 
+<li class=expersub2class>
+<a Href="xp1x.asp?prop=10">Quadrupole</a> 
+<li class=expersub2class>
+<a Href="exppg1x.asp">Point Groups</a> 
+</ul> <li class=expersubclass>Geometry<ul> <li class=expersub2class>
+<a Href="expgeom1x.asp">Experimental Geometries</a> 
+<li class=expersub2class>
+<a Href="expbondlengths1x.asp">Internal Coordinates by type</a> 
+<li class=expersub2class>
+<a Href="expangle1x.asp">Bond angles</a> 
+<li class=expersub2class>
+<a Href="exprot1x.asp">Rotational Constants</a> 
+<li class=expersub2class>
+<a Href="exppg1x.asp">Point Groups</a> 
+<li class=expersub2class>
+<a Href="diatomicexpbondx.asp">Diatomic bond lengths</a> 
+</ul> <li class=expersubclass>Vibrations<ul> <li class=expersub2class>
+<a Href="expvibs1x.asp">Vibrational frequencies</a> 
+<li class=expersub2class>
+<a Href="expdiatomicsx.asp">Diatomic</a> 
+<li class=expersub2class>
+<a Href="exptriatomicsx.asp">Triatomics</a> 
+</ul> <li class=expersubclass>
+<a Href="energy1x.asp">Energy</a> 
+<ul> <li class=expersub2class>
+<a Href="ea1x.asp">Atomization Energy</a> 
+<li class=expersub2class>
+<a Href="exprotbarx.asp">Internal Rotation</a> 
+</ul> <li class=expersubclass>Electrostatics<ul> <li class=expersub2class>
+<a Href="diplistx.asp">Dipole</a> 
+<li class=expersub2class>
+<a Href="quadlistx.asp">Quadrupole</a> 
+<li class=expersub2class>
+<a Href="pollistx.asp">Polarizability</a> 
+</ul> <li class=expersubclass>Reference Data<ul> <li class=expersub2class>
+<a Href="refstatex.asp">Reference states</a> 
+<li class=expersub2class>
+<a Href="elecspinx.asp">Spin Splittings</a> 
+<li class=expersub2class>
+<a Href="goodlistx.asp">Molecules with good enthalpy</a> 
+<li class=expersub2class>
+<a Href="hf0kx.asp">Enthalpy at 0 Kelvin</a> 
+</ul> </ul> <li class="calcclass pdheading">Calculated<ul> <li class=calcsubclass>
+<a Href="energy1x.asp">Energy</a> 
+<ul> <li class=calcsub2class>Optimized<ul> <li class=calcsub3class>
+<a Href="energy1x.asp">Energy</a> 
+<li class=calcsub3class>
+<a Href="energy1_298x.asp">Energy 298K</a> 
+<li class=calcsub3class>
+<a Href="confmin1x.asp">Minimum conformation</a> 
+<li class=calcsub3class>
+<a Href="dimer_bond1x.asp">Hydrogen bonds</a> 
+<li class=calcsub3class>
+<a Href="dimer_cp_energy1x.asp">H bond with counterpoise</a> 
+</ul> <li class=calcsub2class>Reaction<ul> <li class=calcsub3class>
+<a Href="spec1x.asp">Reaction Energy 0K</a> 
+<li class=calcsub3class>
+<a Href="spec1_298x.asp">Reaction Energy 298K</a> 
+</ul> <li class=calcsub2class>Internal Rotation<ul> <li class=calcsub3class>
+<a Href="rotbar1x.asp">Barriers to internal rotation</a> 
+<li class=calcsub3class>
+<a Href="rotdip1x.asp">Rotational barrier and dipole</a> 
+<li class=calcsub3class>
+<a Href="rbc1x.asp">Rotational Barrier 2 molecules</a> 
+</ul> <li class=calcsub2class>Orbital<ul> <li class=calcsub3class>
+<a Href="gap1x.asp">HOMO LUMO gap</a> 
+<li class=calcsub3class>
+<a Href="homo1x.asp">HOMO</a> 
+<li class=calcsub3class>
+<a Href="orbitalenergy1x.asp">Orbital Energies</a> 
+</ul> <li class=calcsub2class>
+<a Href="nure1x.asp">Nuclear repulsion energy</a> 
+<li class=calcsub2class>Correlation<ul> <li class=calcsub3class>
+<a Href="coreenergy1x.asp">Full vs Frozen core energies</a> 
+<li class=calcsub3class>
+<a Href="correlation1x.asp">Partial correlation energies</a> 
+</ul> <li class=calcsub2class>Ion<ul> <li class=calcsub3class>
+<a Href="ie1x.asp">Calculated Ionization Energy</a> 
+<li class=calcsub3class>
+<a Href="vertie1x.asp">Vertical ionization Energy</a> 
+<li class=calcsub3class>
+<a Href="elecaff1x.asp">Calculated Electron affinity</a> 
+<li class=calcsub3class>
+<a Href="pa1x.asp">Calculated Proton affinity</a> 
+<li class=calcsub3class>
+<a Href="bondcharge1x.asp">Atom charge differences</a> 
+</ul> <li class=calcsub2class>Excited State<ul> <li class=calcsub3class>
+<a Href="stgap1x.asp">Singlet triplet gap</a> 
+<li class=calcsub3class>
+<a Href="calcES1x.asp">Electronic state</a> 
+<li class=calcsub3class>
+<a Href="ts1x.asp">Transition state</a> 
+</ul> <li class=calcsub2class>Basis Set Extrapolation<ul> <li class=calcsub3class>
+<a Href="bseenergy1x.asp">BSE energy</a> 
+<li class=calcsub3class>
+<a Href="bsebond1x.asp">BSE Bond lengths</a> 
+</ul> </ul> <li class=calcsubclass>Geometry<ul> <li class=calcsub2class>
+<a Href="geom1x.asp">Calculated geometry</a> 
+<ul> <li class=calcsub3class>
+<a Href="bondorder1x.asp">AIM bond orders</a> 
+<li class=calcsub3class>
+<a Href="calcbondcomp1x.asp">One type of bond</a> 
+</ul> <li class=calcsub2class>Rotation<ul> <li class=calcsub3class>
+<a Href="rotcalc1x.asp">Rotational constant</a> 
+<li class=calcsub3class>
+<a Href="momint1x.asp">Products of moments of inertia</a> 
+<li class=calcsub3class>
+<a Href="mieigen1x.asp">Moments of inertia</a> 
+<li class=calcsub3class>
+<a Href="inertialdefect1x.asp">Inertial defects</a> 
+<li class=calcsub3class>
+<a Href="calc2moment1x.asp">Second moments</a> 
+</ul> <li class=calcsub2class>
+<a Href="pg1x.asp">Point group</a> 
+<li class=calcsub2class>
+<a Href="elecstate1x.asp">State symmetry</a> 
+<li class=calcsub2class>
+<a Href="r2_1x.asp">&lt;r2&gt;</a> 
+<ul> <li class=calcsub3class>
+<a Href="r2comp1x.asp">Sorted by r2</a> 
+</ul> <li class=calcsub2class>
+<a Href="zmatx.asp">Z-matrix</a> 
+<li class=calcsub2class>Bad Calculations<ul> <li class=calcsub3class>
+<a Href="badcalcgeomx.asp">Bad moment of inertia</a> 
+<li class=calcsub3class>
+<a Href="badbondlengths1x.asp">Bad Calculated Bond Lengths</a> 
+<li class=calcsub3class>
+<a Href="diffpgx.asp">Bad point group</a> 
+<li class=calcsub3class>
+<a Href="badbondsmostx.asp">Worst molecules</a> 
+</ul> </ul> <li class=calcsubclass>Vibrations<ul> <li class=calcsub2class>
+<a Href="vibs1x.asp">Frequencies</a> 
+<ul> <li class=calcsub3class>
+<a Href="anivib1x.asp">Animated vibrations</a> 
+<li class=calcsub3class>
+<a Href="anharm1x.asp">Anharmonic</a> 
+</ul> <li class=calcsub2class>
+<a Href="zpe1x.asp">Zero point energy (ZPE)</a> 
+<li class=calcsub2class>Scale Factors<ul> <li class=calcsub3class>
+<a Href="vibscalejustx.asp">Scale factors</a> 
+<li class=calcsub3class>
+<a Href="vibscalex.asp">Scale factor uncertainty</a> 
+<li class=calcsub3class>
+<a Href="vsfcalc1x.asp">Calculate a scale factor</a> 
+<li class=calcsub3class>
+<a Href="vibnotesx.asp">Why scale vibrations</a> 
+<li class=calcsub3class>
+<a Href="vsfx.asp">Set scaling factors</a> 
+</ul> <li class=calcsub2class>Bad Calculations<ul> <li class=calcsub3class>
+<a Href="badvibpred1x.asp">Bad Vib. HF vs MP2</a> 
+<li class=calcsub3class>
+<a Href="badvib1x.asp">Bad vib. Calc. vs exp.</a> 
+<li class=calcsub3class>
+<a Href="biganharm1x.asp">Big anharmonicity</a> 
+</ul> </ul> <li class=calcsubclass>Electrostatics<ul> <li class=calcsub2class>Charges<ul> <li class=calcsub3class>
+<a Href="mulliken1x.asp">Mulliken</a> 
+<li class=calcsub3class>
+<a Href="chelpg1x.asp">CHELP</a> 
+<li class=calcsub3class>
+<a Href="aimcharge1x.asp">Aim</a> 
+<li class=calcsub3class>
+<a Href="esp1x.asp">ESP</a> 
+</ul> <li class=calcsub2class>Dipole<ul> <li class=calcsub3class>
+<a Href="dipole1x.asp">Dipole</a> 
+<li class=calcsub3class>
+<a Href="dipoleangle1x.asp">Dipole angle</a> 
+<li class=calcsub3class>
+<a Href="diprecalcx.asp">Dipole calculation types</a> 
+</ul> <li class=calcsub2class>
+<a Href="quadrupole1x.asp">Quadrupole</a> 
+<li class=calcsub2class>
+<a Href="polcalc1x.asp">Polarizability</a> 
+<li class=calcsub2class>
+<a Href="spin1x.asp">Spin</a> 
+<ul> <li class=calcsub3class>
+<a Href="spindensity1x.asp">Spin density</a> 
+</ul> </ul> <li class=calcsubclass>
+<a Href="sanyt1x.asp">Entropy and Heat Capacity</a> 
+<ul> <li class=calcsub2class>
+<a Href="entropy1x.asp">Entropy</a> 
+<li class=calcsub2class>
+<a Href="re1x.asp">Reaction entropy</a> 
+<li class=calcsub2class>
+<a Href="cp1x.asp">Heat Capacity</a> 
+</ul> <li class=calcsubclass>Reaction<ul> <li class=calcsub2class>
+<a Href="spec1x.asp">Reaction Energy 0K</a> 
+<li class=calcsub2class>
+<a Href="spec1_298x.asp">Reaction Energy 298K</a> 
+<li class=calcsub2class>
+<a Href="isodesmicx.asp">Isodesmic reactions</a> 
+<li class=calcsub2class>Transition State<ul> <li class=calcsub3class>
+<a Href="ts1x.asp">Transition state</a> 
+<li class=calcsub3class>
+<a Href="tsvib1x.asp">Transition state frequencies</a> 
+<li class=calcsub3class>
+<a Href="tsgeom1x.asp">Transition state geometries</a> 
+<li class=calcsub3class>
+<a Href="irc1x.asp">IRC</a> 
+</ul> </ul> <li class=calcsubclass>Lookup by property<ul> <li class=calcsub2class>
+<a Href="viblookup1x.asp">By frequency</a> 
+</ul> </ul> <li class="compclass pdheading">Comparisons<ul> <li class=compsubclass>Geometry<ul> <li class=compsub2class>
+<a Href="compgeom1x.asp">Bonds, angles</a> 
+<ul> <li class=compsub3class>
+<a Href="geomcalc1x.asp">Bond, angle, or dihedral</a> 
+<li class=compsub3class>
+<a Href="compufpgx.asp">DFT grid size on point group</a> 
+<li class=compsub3class>
+<a Href="compufb1x.asp">DFT grid on bond length</a> 
+<li class=compsub3class>
+<a Href="corebond1x.asp">Core correlation - bond length</a> 
+<li class=compsub3class>
+<a Href="listbondexpx.asp">Same bond/angle many molecules</a> 
+<li class=compsub3class>
+<a Href="isoelectronic1x.asp">Isoelectronic diatomics</a> 
+<li class=compsub3class>
+<a Href="angleiso1x.asp">Isoelectronic triatomic angles</a> 
+<li class=compsub3class>
+<a Href="bondlengthmodel1x.asp">Average bond lengths</a> 
+</ul> <li class=compsub2class>Rotation<ul> <li class=compsub3class>
+<a Href="rotcomp1x.asp">Rotational Constants</a> 
+<li class=compsub3class>
+<a Href="compmomint1x.asp">Products of moments of inertia</a> 
+</ul> <li class=compsub2class>
+<a Href="comppg1x.asp">Point group</a> 
+</ul> <li class=compsubclass>Vibrations<ul> <li class=compsub2class>
+<a Href="compvibs1x.asp">Vibrations</a> 
+<ul> <li class=compsub3class>
+<a Href="comp2vib1x.asp">2 calculations</a> 
+<li class=compsub3class>
+<a Href="vibdiff1x.asp">Frequency differences</a> 
+</ul> <li class=compsub2class>
+<a Href="comp1vib1x.asp">One frequency</a> 
+<li class=compsub2class>
+<a Href="compzpe1x.asp">Zero point energy</a> 
+<li class=compsub2class>Intensity<ul> <li class=compsub3class>
+<a Href="comp1int1x.asp">Intensity for one mode</a> 
+<li class=compsub3class>
+<a Href="compint1x.asp">Vibrational intensities</a> 
+<li class=compsub3class>
+<a Href="comp1redmass1x.asp">Reduced mass comparison</a> 
+</ul> <li class=compsub2class>
+<a Href="companhvibs1x.asp">Anharmonic</a> 
+<ul> <li class=compsub3class>
+<a Href="comptriatomic1x.asp">Triatomic</a> 
+</ul> <li class=compsub2class>
+<a Href="vibscalejustx.asp">Scale factors</a> 
+</ul> <li class=compsubclass>
+<a Href="energy1x.asp">Energy</a> 
+<ul> <li class=compsub2class>Reaction<ul> <li class=compsub3class>
+<a Href="spec1x.asp">Reaction Energy 0K</a> 
+<li class=compsub3class>
+<a Href="spec1_298x.asp">Reaction Energy 298K</a> 
+<li class=compsub3class>
+<a Href="atomize1x.asp">Atomization 0K</a> 
+<li class=compsub3class>
+<a Href="atomize298_1x.asp">Atomization 298K</a> 
+</ul> <li class=compsub2class>
+<a Href="specomp1x.asp">Single point vs optimized</a> 
+<li class=compsub2class>
+<a Href="compufex.asp">DFT grid size on energy</a> 
+<li class=compsub2class>
+<a Href="se298ax.asp">Semiempirical enthalpy</a> 
+<li class=compsub2class>
+<a Href="comprotbarx.asp">Internal rotation</a> 
+<li class=compsub2class>Similar molecules<ul> <li class=compsub3class>
+<a Href="confenergy1x.asp">Conformation</a> 
+<li class=compsub3class>
+<a Href="isoset1x.asp">Sets of isomers</a> 
+<li class=compsub3class>
+<a Href="tauto1x.asp">Sets of tautomers</a> 
+<li class=compsub3class>
+<a Href="isocountx.asp">Isomers</a> 
+</ul> </ul> <li class=compsubclass>Entropy<ul> <li class=compsub2class>
+<a Href="entropy1x.asp">Entropy</a> 
+<li class=compsub2class>
+<a Href="compcpx.asp">Heat capacity</a> 
+<li class=compsub2class>
+<a Href="entropyhist1x.asp">Entropy of several molecules</a> 
+<li class=compsub2class>
+<a Href="compihc1x.asp">Integrated heat capacity</a> 
+<li class=compsub2class>
+<a Href="re1x.asp">Reaction entropy</a> 
+</ul> <li class=compsubclass>Electrostatics<ul> <li class=compsub2class>
+<a Href="compdipole1x.asp">Dipole</a> 
+<li class=compsub2class>
+<a Href="polcomp1x.asp">Polarizability</a> 
+<ul> <li class=compsub3class>
+<a Href="polcalccomp1x.asp">Several molecules</a> 
+</ul> <li class=compsub2class>
+<a Href="compquad1x.asp">Quadrupole</a> 
+</ul> <li class=compsubclass>Ion<ul> <li class=compsub2class>
+<a Href="compie1x.asp">Compare Ionzation energy</a> 
+<ul> <li class=compsub3class>
+<a Href="koopman1x.asp">Koopman ionization energy</a> 
+<li class=compsub3class>
+<a Href="koopmany1x.asp">Koopman IE for a few molecules</a> 
+</ul> <li class=compsub2class>
+<a Href="compea1x.asp">Compare Electron affinity</a> 
+<li class=compsub2class>
+<a Href="comppa1x.asp">Compare Proton affinity</a> 
+<li class=compsub2class>
+<a Href="protonationsitex.asp">Protonation Site</a> 
+</ul> </ul> <li class="resclass pdheading">Resources<ul> <li class=ressubclass>Info on Results<ul> <li class=ressub2class>Calculations Done<ul> <li class=ressub3class>
+<a Href="calcdonex.asp">Method and basis set</a> 
+<li class=ressub3class>
+<a Href="moleculedonex.asp">List molecules</a> 
+<li class=ressub3class>
+<a Href="onecalc1x.asp">One molecule</a> 
+<li class=ressub3class>
+<a Href="conformers1x.asp">Multiple conformers, states</a> 
+<li class=ressub3class>
+<a Href="conformerlistx.asp">Multiple conformers, states</a> 
+</ul> <li class=ressub2class>
+<a Href="nbfx.asp">Basis functions used</a> 
+<li class=ressub2class>
+<a Href="outputx.asp">I/O files</a> 
+<ul> <li class=ressub3class>
+<a Href="gaufiles1x.asp">Input/output files</a> 
+<li class=ressub3class>
+<a Href="mdlmol1x.asp">MOL file</a> 
+<li class=ressub3class>
+<a Href="zmatx.asp">Z-matrix</a> 
+<li class=ressub3class>
+<a Href="wfn1x.asp">wfn files</a> 
+</ul> </ul> <li class=ressubclass>
+<a Href="glossaryx.asp">Glossary</a> 
+<li class=ressubclass>Conversion Forms<ul> <li class=ressub2class>
+<a Href="convertmomintx.asp">B to I, I to B</a> 
+<li class=ressub2class>
+<a Href="anglesx.asp">Angle formulas</a> 
+<li class=ressub2class>
+<a Href="ihccalc1x.asp">Integrated heat Capacity</a> 
+<li class=ressub2class>
+<a Href="enthcalcx.asp">Calculating Enthalpy</a> 
+</ul> <li class=ressubclass>Links<ul> <li class=ressub2class>NIST Links<ul> <li class=ressub3class>
+<a Href="http://webbook.nist.gov/chemistry">NIST webbook</a> 
+<li class=ressub3class>
+<a Href="bibliox.asp">bibliographic data</a> 
+<li class=ressub3class>
+<a Href="http://catalog.data.gov/dataset/nist-computational-chemistry-comparison-and-benchmark-database-srd-101">CCCBDB Experimental data</a> 
+</ul> <li class=ressub2class>External links<ul> <li class=ressub3class>
+<a Href="https://www.basissetexchange.org/">Basis Set Exchange</a> 
+<li class=ressub3class>
+<a Href="http://www.ccl.net/chemistry">Computational Chemistry List</a> 
+<li class=ressub3class>
+<a Href="http://www.gaussian.com/g_whitepap/thermo.htm">Thermochemistry in Gaussian</a> 
+<li class=ressub3class>
+<a Href="http://t1.chem.umn.edu/misc/database_group/database_therm_bh/">Minnesota Database Collection</a> 
+<li class=ressub3class>
+<a Href="http://www.begdb.com">Benchmark Energy and Geometry</a> 
+<li class=ressub3class>
+<a Href="http://symmetry.jacobs-university.de">Point Groups</a> 
+</ul> </ul> <li class=ressubclass>Thermochemistry<ul> <li class=ressub2class>
+<a Href="thermox.asp">Thermochemistry</a> 
+<li class=ressub2class>
+<a Href="goodlistx.asp">Molecules with good enthalpy</a> 
+<li class=ressub2class>
+<a Href="binary1x.asp">A &rarr; B + C</a> 
+<li class=ressub2class>
+<a Href="refstatex.asp">Reference states</a> 
+</ul> <li class=ressubclass>Tutorials<ul> <li class=ressub2class>Vibrations<ul> <li class=ressub3class>
+<a Href="vibnotesx.asp">Why scale vibrations</a> 
+<li class=ressub3class>
+<a Href="zpenotesx.asp">Zero-point energies</a> 
+</ul> <li class=ressub2class>Entropy<ul> <li class=ressub3class>
+<a Href="methylrotorx.asp">Methyl rotor entropy</a> 
+<li class=ressub3class>
+<a Href="configx.asp">Entropy and conformations</a> 
+</ul> <li class=ressub2class>
+<a Href="energy1x.asp">Energy</a> 
+<ul> <li class=ressub3class>
+<a Href="enthformationx.asp">Getting enthalpy of formation</a> 
+<li class=ressub3class>
+<a Href="adiabaticx.asp">Vertical vs adiabatic IE</a> 
+<li class=ressub3class>
+<a Href="nato_asi_1/index.htm">Thermo from calculations</a> 
+</ul> <li class=ressub2class>Electrostatics<ul> <li class=ressub3class>
+<a Href="elecmomsymx.asp">Dipole parts  by point group</a> 
+<li class=ressub3class>
+<a Href="quadrupolex.asp">Quadrupoles</a> 
+</ul> <li class=ressub2class>Geometry<ul> <li class=ressub3class>
+<a Href="anglesx.asp">Angle formulas</a> 
+</ul> <li class=ressub2class>Cost<ul> <li class=ressub3class>
+<a Href="costirikurax.asp">Cost Comparison</a> 
+<li class=ressub3class>
+<a Href="timingsx.asp">Timings Comparison</a> 
+</ul> </ul> <li class=ressubclass>Bad Calculations<ul> <li class=ressub2class>Geometry<ul> <li class=ressub3class>
+<a Href="badcalcgeomx.asp">Bad moment of inertia</a> 
+<li class=ressub3class>
+<a Href="badbondlengths1x.asp">Bad Calculated Bond Lengths</a> 
+<li class=ressub3class>
+<a Href="diffpgx.asp">Bad point group</a> 
+<li class=ressub3class>
+<a Href="badbondsmostx.asp">Worst molecules</a> 
+</ul> <li class=ressub2class>Vibrations<ul> <li class=ressub3class>
+<a Href="badvib1x.asp">Bad vib. Calc. vs exp.</a> 
+<li class=ressub3class>
+<a Href="badvibpred1x.asp">Bad Vib. HF vs MP2</a> 
+<li class=ressub3class>
+<a Href="vsfratiox.asp">Bad scale factors</a> 
+</ul> <li class=ressub2class>
+<a Href="cis1x.asp">Low excited states</a> 
+<li class=ressub2class>
+<a Href="odditiesx.asp">Oddities</a> 
+<ul> <li class=ressub3class>
+<a Href="nacnx.asp">NaCN Is not linear</a> 
+</ul> </ul> </ul> <li class="faqclass pdheading">FAQ Help<ul> <li class=faqsubclass>Units<ul> <li class=faqsub2class>Choose Units<ul> <li class=faqsub3class>
+<a Href="unitsx.asp">Energy</a> 
+<li class=faqsub3class>
+<a Href="bondunitsx.asp">Bond length</a> 
+<li class=faqsub3class>
+<a Href="rotunitsx.asp">Rotational Constant</a> 
+<li class=faqsub3class>
+<a Href="momintunitsx.asp">Moment of Inertia</a> 
+<li class=faqsub3class>
+<a Href="dipunitsx.asp">Dipole and Quadrupole</a> 
+<li class=faqsub3class>
+<a Href="punitsx.asp">Polarizability</a> 
+</ul> <li class=faqsub2class>Explanations<ul> <li class=faqsub3class>
+<a Href="hartreex.asp">Hartree</a> 
+<li class=faqsub3class>
+<a Href="wavenumberx.asp">cm-1</a> 
+<li class=faqsub3class>
+<a Href="debyex.asp">Debye</a> 
+</ul> </ul> <li class=faqsubclass>
+<a Href="creditsx.asp">Credits</a> 
+<li class=faqsubclass>Just show me<ul> <li class=faqsub2class>
+<a Href="justgeomx.asp">Show me a  calculated geometry</a> 
+</ul> <li class=faqsubclass>
+<a Href="summaryx.asp">Summary</a> 
+<li class=faqsubclass>
+<a Href="usingx.asp">Using</a> 
+<ul> <li class=faqsub2class>
+<a Href="oldinterfacex.asp">older interface</a> 
+<li class=faqsub2class>
+<a Href="selectbasis1x.asp">Limit Basis sets</a> 
+<li class=faqsub2class>
+<a Href="mboptionsx.asp">Method options</a> 
+</ul> <li class=faqsubclass>
+<a Href="listx.asp">List</a> 
+<ul> <li class=faqsub2class>
+<a Href="newlistx.asp">Recent molecules</a> 
+<ul> <li class=faqsub3class>
+<a Href="listsomex.asp">Choose a few</a> 
+</ul> <li class=faqsub2class>Molecules<ul> <li class=faqsub3class>
+<a Href="listallnumx.asp">Number of atoms</a> 
+<li class=faqsub3class>
+<a Href="listallx.asp">By heavy atoms</a> 
+<li class=faqsub3class>
+<a Href="diatomics1x.asp">Diatomics</a> 
+<li class=faqsub3class>
+<a Href="inchix.asp">InChI</a> 
+<li class=faqsub3class>
+<a Href="deuteratedx.asp">Deuterated</a> 
+<li class=faqsub3class>
+<a Href="dimerlistx.asp">Dimers</a> 
+</ul> <li class=faqsub2class>Geometry<ul> <li class=faqsub3class>
+<a Href="pglistx.asp">Point group</a> 
+<li class=faqsub3class>
+<a Href="bypg1x.asp">Point group count</a> 
+<li class=faqsub3class>
+<a Href="listbondtypesx.asp">Bonds types</a> 
+<li class=faqsub3class>
+<a Href="isodesmicx.asp">Isodesmic reactions</a> 
+<li class=faqsub3class>
+<a Href="diffpgx.asp">Bad point group</a> 
+<li class=faqsub3class>
+<a Href="conformerlistx.asp">Multiple conformers, states</a> 
+</ul> <li class=faqsub2class>Vibrations<ul> <li class=faqsub3class>
+<a Href="biganharm1x.asp">Big anharmonicity</a> 
+</ul> <li class=faqsub2class>
+<a Href="energy1x.asp">Energy</a> 
+<ul> <li class=faqsub3class>
+<a Href="hf0kx.asp">Enthalpy at 0 Kelvin</a> 
+</ul> <li class=faqsub2class>Similar molecules<ul> <li class=faqsub3class>
+<a Href="similarx.asp">Similar</a> 
+<li class=faqsub3class>
+<a Href="isocountx.asp">Isomers</a> 
+<li class=faqsub3class>
+<a Href="cistransx.asp">Cis/trans</a> 
+<li class=faqsub3class>
+<a Href="tautomersx.asp">Tautomers</a> 
+<li class=faqsub3class>
+<a Href="conformerlistx.asp">Multiple conformers, states</a> 
+</ul> <li class=faqsub2class>Ions, Dipoles, etc.<ul> <li class=faqsub3class>
+<a Href="ionlistx.asp">List Ions</a> 
+<li class=faqsub3class>
+<a Href="ionpgdiffx.asp">Ionization changes point group</a> 
+<li class=faqsub3class>
+<a Href="diplistx.asp">Dipole</a> 
+<li class=faqsub3class>
+<a Href="quadlistx.asp">Quadrupole</a> 
+<li class=faqsub3class>
+<a Href="pollistx.asp">Polarizability</a> 
+<li class=faqsub3class>
+<a Href="palistx.asp">Proton Affinities</a> 
+</ul> </ul> <li class=faqsubclass>
+<a Href="cccbdbindexx.asp">Index of CCCBDB</a> 
+<li class=faqsubclass>Feedback<ul> <li class=faqsub2class>
+<a Href="errorformx.asp">Error form</a> 
+<li class=faqsub2class>
+<a Href="wantsx.asp">Wants</a> 
+
+</ul></ul></ul>
+</div>
+
+</td>
+</tr>
+<tr>
+
+</tr>
+<tr>
+<td colspan=2 class="noborder">
+You are here: <b>Calculated &gt; Energy &gt; Optimized &gt; Energy</b>
+</td>
+</tr>
+</table>
+
+<h1>Energies for  
+(silane-d2)</h1>
+19 05 16 11 16<br>
+
+Energies in hartrees. (<a HREF="hartreex.asp"> What's a hartree?</a>)
+<br>Click on an entry for additional computational results 
+such as vibrational frequencies, optimized geometries, etc.
+<hr>
+Energies in hartrees
+<table border="1" id="table1">
+<caption ALIGN="TOP">Methods with predefined basis sets</caption>
+  
+</table><hr>
+Energies in hartrees
+<table border="1" id="table2">
+<caption align="top"><a href="mboptions.asp" title="click to limit which methods are displayed">Methods</a> with standard <a href="selectbasis1.asp" title= "Click to limit which basis sets are displayed">basis sets</a></caption>
+
+<tr>
+<td></td>
+<td></td>
+
+<th class="nowrap"><acronym title="H:1s Si:3s2p       ">STO-3G</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s Si:4s3p       ">3-21G</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s         Si:4s2p1d     ">3-21G*</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s         Si:4s3p       ">6-31G</acronym></th>
+
+<th class="nowrap bordered"><acronym title="H:2s Si:4s3p1d ">6-31G*</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s1p Si:4s3p1d ">6-31G**</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s1p Si:5s4p1d     ">6-31+G**</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s Si:6s5p1d     ">6-311G*</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s         Si:6s5p1d     ">6-311G**</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s1p Si:4s3p2d1f ">6-31G(2df,p)</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s2p Si:7s6p3d1f   ">6-311+G(3df,2p)</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s1p Si:5s4p1d ">TZVP</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s1p Si:4s3p1d     ">cc-pVDZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s2p1d Si:5s4p2d1f   ">cc-pVTZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:4s3p2d1f Si:6s5p3d2f1g ">cc-pVQZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s2p Si:5s4p2d     ">aug-cc-pVDZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:4s3p2d Si:6s5p3d2f   ">aug-cc-pVTZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:5s4p3d2f Si:7s6p4d3f2g ">aug-cc-pVQZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:4s3p ">daug-cc-pVDZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:5s4p3d ">daug-cc-pVTZ</acronym></th>
+</TR>
+
+<tr bgcolor="#EEFFFF">
+<th rowspan="1">hartree fock</th>
+
+<th class="nowrap"><acronym title="Hartree-Fock">HF</acronym></th>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=20&charge=0">-287.917281</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=2&charge=0">-289.686983</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=8&charge=0">-289.784260</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=9&charge=0">-291.173926</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=1&basis=1&charge=0">-291.225134</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=3&charge=0">-291.230839</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=4&charge=0">-291.231994</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=7&charge=0">-291.244361</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=21&charge=0">-291.253175</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=19&charge=0">-291.237975</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=10&charge=0">-291.258873</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=32&charge=0">-291.249237</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=5&charge=0">-291.242909</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=6&charge=0">-291.260573</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=25&charge=0">-291.266070</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=17&charge=0">-291.243246</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=18&charge=0">-291.260860</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=26&charge=0">-291.266150</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=36&charge=0">-291.243669</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=35&charge=0">-291.261005</td>
+</TR>
+
+<tr bgcolor="#FFEEEE">
+<th rowspan="14">density functional</th>
+
+<th class="nowrap"><acronym title="Becke exchange functional and the Lee-Yang-Parr correlation functional">BLYP</acronym></th>
+
+<td class="num"><a href="energy3x.asp?method=13&basis=20&charge=0">-288.472905</td>
+
+<td class="num"><a href="energy3x.asp?method=13&basis=2&charge=0">-290.301423</td>
+
+<td class="num"><a href="energy3x.asp?method=13&basis=8&charge=0">-290.384213</td>
+
+<td class="num"><a href="energy3x.asp?method=13&basis=9&charge=0">-291.811270</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=13&basis=1&charge=0">-291.839949</td>
+
+<td class="num"><a href="energy3x.asp?method=13&basis=3&charge=0">-291.844072</td>
+
+<td class="num"><a href="energy3x.asp?method=13&basis=4&charge=0">-291.846351</td>
+
+<td class="num"><a href="energy3x.asp?method=13&basis=7&charge=0">-291.866605</td>
+
+<td class="num"><a href="energy3x.asp?method=13&basis=21&charge=0">-291.872785</td>
+
+<td class="num"><a href="energy3x.asp?method=13&basis=19&charge=0">-291.847770</td>
+
+<td class="num"><a href="energy3x.asp?method=13&basis=10&charge=0">-291.876833</td>
+
+<td class="num"><a href="energy3x.asp?method=13&basis=32&charge=0">-291.866129</td>
+
+<td class="num"><a href="energy3x.asp?method=13&basis=5&charge=0">-291.853292</td>
+
+<td class="num"><a href="energy3x.asp?method=13&basis=6&charge=0">-291.875623</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=13&basis=17&charge=0">-291.855787</td>
+
+<td class="num"><a href="energy3x.asp?method=13&basis=18&charge=0">-291.876065</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=13&basis=36&charge=0">-291.856135</td>
+
+<td class="num"><a href="energy3x.asp?method=13&basis=35&charge=0">-291.876220</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="Becke's one parameter hybrid functional">B1B95</acronym></th>
+
+<td class="num"><a href="energy3x.asp?method=55&basis=20&charge=0">-288.535161</td>
+
+<td class="num"><a href="energy3x.asp?method=55&basis=2&charge=0">-290.419132</td>
+
+<td class="num"><a href="energy3x.asp?method=55&basis=8&charge=0">-290.419132</td>
+
+<td class="num"><a href="energy3x.asp?method=55&basis=9&charge=0">-291.840980</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=55&basis=1&charge=0">-291.871702</td>
+
+<td class="num"><a href="energy3x.asp?method=55&basis=3&charge=0">-291.871702</td>
+
+<td class="num"><a href="energy3x.asp?method=55&basis=4&charge=0">-291.876808</td>
+
+<td class="num"><a href="energy3x.asp?method=55&basis=7&charge=0">-291.893399</td>
+
+<td class="num"><a href="energy3x.asp?method=55&basis=21&charge=0">-291.899008</td>
+
+<td class="num"><a href="energy3x.asp?method=55&basis=19&charge=0">-291.878891</td>
+
+<td class="num"><a href="energy3x.asp?method=55&basis=10&charge=0">-291.902860</td>
+
+<td class="num"><a href="energy3x.asp?method=55&basis=32&charge=0">-291.894368</td>
+
+<td class="num"><a href="energy3x.asp?method=55&basis=5&charge=0">-291.885916</td>
+
+<td class="num"><a href="energy3x.asp?method=55&basis=6&charge=0">-291.903134</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=55&basis=17&charge=0">-291.886845</td>
+
+<td class="num"><a href="energy3x.asp?method=55&basis=18&charge=0">-291.903394</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=55&basis=36&charge=0">-291.887233</td>
+
+<td class="num"><a href="energy3x.asp?method=55&basis=35&charge=0">-291.903537</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap bordered"><acronym title="Becke 3 parameter hybrid exchange functional and Lee-Yang-Parr correlation functional">B3LYP</acronym></th>
+
+<td class="num bordered"><a href="energy3x.asp?method=8&basis=20&charge=0">-288.530919</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=8&basis=2&charge=0">-290.345847</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=8&basis=8&charge=0">-290.431598</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=8&basis=9&charge=0">-291.850753</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=8&basis=1&charge=0">-291.883684</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=8&basis=3&charge=0">-291.888020</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=8&basis=4&charge=0">-291.889872</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=8&basis=7&charge=0">-291.907652</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=8&basis=21&charge=0">-291.914141</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=8&basis=19&charge=0">-291.892274</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=8&basis=10&charge=0">-291.918488</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=8&basis=32&charge=0">-291.908643</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=8&basis=5&charge=0">-291.897886</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=8&basis=6&charge=0">-291.918337</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=8&basis=25&charge=0">-291.924345</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=8&basis=17&charge=0">-291.899468</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=8&basis=18&charge=0">-291.918661</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=8&basis=26&charge=0">-291.924581</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=8&basis=36&charge=0">-291.899851</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=8&basis=35&charge=0">-291.918806</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="B3LYP with denser grid">B3LYPultrafine</acronym></th>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=68&basis=2&charge=0">-290.345863</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=68&basis=1&charge=0">-291.883690</td>
+
+<td class="num"><a href="energy3x.asp?method=68&basis=3&charge=0">-291.888027</td>
+
+<td class="num"><a href="energy3x.asp?method=68&basis=4&charge=0">-291.889879</td>
+
+<td class="num"><a href="energy3x.asp?method=68&basis=7&charge=0">-291.907657</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=68&basis=19&charge=0">-291.892280</td>
+
+<td class="num"><a href="energy3x.asp?method=68&basis=10&charge=0">-291.918488</td>
+
+<td class="num"><a href="energy3x.asp?method=68&basis=32&charge=0">-291.908646</td>
+
+<td class="num"><a href="energy3x.asp?method=68&basis=5&charge=0">-291.897892</td>
+
+<td class="num"><a href="energy3x.asp?method=68&basis=6&charge=0">-291.918340</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=68&basis=17&charge=0">-291.899474</td>
+
+<td class="num"><a href="energy3x.asp?method=68&basis=18&charge=0">-291.918665</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=68&basis=36&charge=0">-291.899851</td>
+
+<td class="num"><a href="energy3x.asp?method=68&basis=35&charge=0">-291.918806</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="Becke's 3 parameter hybrid exchange functional with Perdew-Wang correlation">B3PW91</acronym></th>
+
+<td class="num"><a href="energy3x.asp?method=16&basis=20&charge=0">-288.490954</td>
+
+<td class="num"><a href="energy3x.asp?method=16&basis=2&charge=0">-290.295289</td>
+
+<td class="num"><a href="energy3x.asp?method=16&basis=8&charge=0">-290.379502</td>
+
+<td class="num"><a href="energy3x.asp?method=16&basis=9&charge=0">-291.800271</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=16&basis=1&charge=0">-291.831886</td>
+
+<td class="num"><a href="energy3x.asp?method=16&basis=3&charge=0">-291.835578</td>
+
+<td class="num"><a href="energy3x.asp?method=16&basis=4&charge=0">-291.836971</td>
+
+<td class="num"><a href="energy3x.asp?method=16&basis=7&charge=0">-291.854078</td>
+
+<td class="num"><a href="energy3x.asp?method=16&basis=21&charge=0">-291.859824</td>
+
+<td class="num"><a href="energy3x.asp?method=16&basis=19&charge=0">-291.839579</td>
+
+<td class="num"><a href="energy3x.asp?method=16&basis=10&charge=0">-291.863966</td>
+
+<td class="num"><a href="energy3x.asp?method=16&basis=32&charge=0">-291.855117</td>
+
+<td class="num"><a href="energy3x.asp?method=16&basis=5&charge=0">-291.846680</td>
+
+<td class="num"><a href="energy3x.asp?method=16&basis=6&charge=0">-291.864292</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=16&basis=17&charge=0">-291.847488</td>
+
+<td class="num"><a href="energy3x.asp?method=16&basis=18&charge=0">-291.864636</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=16&basis=36&charge=0">-291.847903</td>
+
+<td class="num"><a href="energy3x.asp?method=16&basis=35&charge=0">-291.864790</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="modified Perdew-Wang exchange and Perdew-Wang 91 correlation">mPW1PW91</acronym></th>
+
+<td class="num"><a href="energy3x.asp?method=25&basis=20&charge=0">-288.530421</td>
+
+<td class="num"><a href="energy3x.asp?method=25&basis=2&charge=0">-290.330895</td>
+
+<td class="num"><a href="energy3x.asp?method=25&basis=8&charge=0">-290.415372</td>
+
+<td class="num"><a href="energy3x.asp?method=25&basis=9&charge=0">-291.835432</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=25&basis=1&charge=0">-291.868050</td>
+
+<td class="num"><a href="energy3x.asp?method=25&basis=3&charge=0">-291.871753</td>
+
+<td class="num"><a href="energy3x.asp?method=25&basis=4&charge=0">-291.873211</td>
+
+<td class="num"><a href="energy3x.asp?method=25&basis=7&charge=0">-291.889756</td>
+
+<td class="num"><a href="energy3x.asp?method=25&basis=21&charge=0">-291.895612</td>
+
+<td class="num"><a href="energy3x.asp?method=25&basis=19&charge=0">-291.876080</td>
+
+<td class="num"><a href="energy3x.asp?method=25&basis=10&charge=0">-291.899910</td>
+
+<td class="num"><a href="energy3x.asp?method=25&basis=32&charge=0">-291.891267</td>
+
+<td class="num"><a href="energy3x.asp?method=25&basis=5&charge=0">-291.883401</td>
+
+<td class="num"><a href="energy3x.asp?method=25&basis=6&charge=0">-291.900552</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=25&basis=17&charge=0">-291.884150</td>
+
+<td class="num"><a href="energy3x.asp?method=25&basis=18&charge=0">-291.900846</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=25&basis=36&charge=0">-291.884537</td>
+
+<td class="num"><a href="energy3x.asp?method=25&basis=35&charge=0">-291.900975</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="hybrid meta exchange correlation functional with double the amount of nonlocal exchange of Zhao and Truhlar">M06-2X</acronym></th>
+
+<td class="num"><a href="energy3x.asp?method=58&basis=20&charge=0">-288.521281</td>
+
+<td class="num"><a href="energy3x.asp?method=58&basis=2&charge=0">-290.272626</td>
+
+<td class="num"><a href="energy3x.asp?method=58&basis=8&charge=0">-290.362101</td>
+
+<td class="num"><a href="energy3x.asp?method=58&basis=9&charge=0">-291.785542</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=58&basis=1&charge=0">-291.819603</td>
+
+<td class="num"><a href="energy3x.asp?method=58&basis=3&charge=0">-291.823728</td>
+
+<td class="num"><a href="energy3x.asp?method=58&basis=4&charge=0">-291.825275</td>
+
+<td class="num"><a href="energy3x.asp?method=58&basis=7&charge=0">-291.844654</td>
+
+<td class="num"><a href="energy3x.asp?method=58&basis=21&charge=0">-291.850478</td>
+
+<td class="num"><a href="energy3x.asp?method=58&basis=19&charge=0">-291.827303</td>
+
+<td class="num"><a href="energy3x.asp?method=58&basis=10&charge=0">-291.855132</td>
+
+<td class="num"><a href="energy3x.asp?method=58&basis=32&charge=0">-291.846478</td>
+
+<td class="num"><a href="energy3x.asp?method=58&basis=5&charge=0">-291.834660</td>
+
+<td class="num"><a href="energy3x.asp?method=58&basis=6&charge=0">-291.856478</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=58&basis=17&charge=0">-291.835543</td>
+
+<td class="num"><a href="energy3x.asp?method=58&basis=18&charge=0">-291.856873</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=58&basis=36&charge=0">-291.835986</td>
+
+<td class="num"><a href="energy3x.asp?method=58&basis=35&charge=0">-291.857005</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="Perdew, Burke and Ernzerhof exchange and  correlation functionals">PBEPBE</acronym></th>
+
+<td class="num"><a href="energy3x.asp?method=61&basis=20&charge=0">-288.342340</td>
+
+<td class="num"><a href="energy3x.asp?method=61&basis=2&charge=0">-290.154252</td>
+
+<td class="num"><a href="energy3x.asp?method=61&basis=8&charge=0">-290.235307</td>
+
+<td class="num"><a href="energy3x.asp?method=61&basis=9&charge=0">-291.663075</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=61&basis=1&charge=0">-291.690191</td>
+
+<td class="num"><a href="energy3x.asp?method=61&basis=3&charge=0">-291.693575</td>
+
+<td class="num"><a href="energy3x.asp?method=61&basis=4&charge=0">-291.695392</td>
+
+<td class="num"><a href="energy3x.asp?method=61&basis=7&charge=0">-291.713841</td>
+
+<td class="num"><a href="energy3x.asp?method=61&basis=21&charge=0">-291.719326</td>
+
+<td class="num"><a href="energy3x.asp?method=61&basis=19&charge=0">-291.697097</td>
+
+<td class="num"><a href="energy3x.asp?method=61&basis=10&charge=0">-291.723078</td>
+
+<td class="num"><a href="energy3x.asp?method=61&basis=32&charge=0">-291.714273</td>
+
+<td class="num"><a href="energy3x.asp?method=61&basis=5&charge=0">-291.705054</td>
+
+<td class="num"><a href="energy3x.asp?method=61&basis=6&charge=0">-291.722980</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=61&basis=17&charge=0">-291.706561</td>
+
+<td class="num"><a href="energy3x.asp?method=61&basis=18&charge=0">-291.723358</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=61&basis=36&charge=0">-291.706909</td>
+
+<td class="num"><a href="energy3x.asp?method=61&basis=35&charge=0">-291.723487</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="PBE with denser grid">PBEPBEultrafine</acronym></th>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=69&basis=2&charge=0">-290.154278</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=69&basis=1&charge=0">-291.690206</td>
+
+<td class="num"><a href="energy3x.asp?method=69&basis=3&charge=0">-291.693589</td>
+
+<td class="num"><a href="energy3x.asp?method=69&basis=4&charge=0">-291.695406</td>
+
+<td class="num"><a href="energy3x.asp?method=69&basis=7&charge=0">-291.713852</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=69&basis=19&charge=0">-291.697101</td>
+
+<td class="num"><a href="energy3x.asp?method=69&basis=10&charge=0">-291.723078</td>
+
+<td class="num"><a href="energy3x.asp?method=69&basis=32&charge=0">-291.714281</td>
+
+<td class="num"><a href="energy3x.asp?method=69&basis=5&charge=0">-291.705065</td>
+
+<td class="num"><a href="energy3x.asp?method=69&basis=6&charge=0">-291.722983</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=69&basis=17&charge=0">-291.706573</td>
+
+<td class="num"><a href="energy3x.asp?method=69&basis=18&charge=0">-291.723363</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=69&basis=36&charge=0">-291.706909</td>
+
+<td class="num"><a href="energy3x.asp?method=69&basis=35&charge=0">-291.723487</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="PBE0 The 1996 pure functional of Perdew, Burke and Ernzerhof, as made into a hybrid by Adamo">PBE1PBE</acronym></th>
+
+<td class="num"><a href="energy3x.asp?method=54&basis=20&charge=0">-288.393892</td>
+
+<td class="num"><a href="energy3x.asp?method=54&basis=2&charge=0">-290.274378</td>
+
+<td class="num"><a href="energy3x.asp?method=54&basis=8&charge=0">-290.274378</td>
+
+<td class="num"><a href="energy3x.asp?method=54&basis=9&charge=0">-291.693765</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=54&basis=1&charge=0">-291.726130</td>
+
+<td class="num"><a href="energy3x.asp?method=54&basis=3&charge=0">-291.726130</td>
+
+<td class="num"><a href="energy3x.asp?method=54&basis=4&charge=0">-291.731219</td>
+
+<td class="num"><a href="energy3x.asp?method=54&basis=7&charge=0">-291.747397</td>
+
+<td class="num"><a href="energy3x.asp?method=54&basis=21&charge=0">-291.753283</td>
+
+<td class="num"><a href="energy3x.asp?method=54&basis=19&charge=0">-291.734057</td>
+
+<td class="num"><a href="energy3x.asp?method=54&basis=10&charge=0">-291.757456</td>
+
+<td class="num"><a href="energy3x.asp?method=54&basis=32&charge=0">-291.749225</td>
+
+<td class="num"><a href="energy3x.asp?method=54&basis=5&charge=0">-291.741701</td>
+
+<td class="num"><a href="energy3x.asp?method=54&basis=6&charge=0">-291.758345</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=54&basis=17&charge=0">-291.742512</td>
+
+<td class="num"><a href="energy3x.asp?method=54&basis=18&charge=0">-291.758605</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=54&basis=36&charge=0">-291.742898</td>
+
+<td class="num"><a href="energy3x.asp?method=54&basis=35&charge=0">-291.758727</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="screened Coulomb potential-based final of Heyd, Scuseria and Ernzerhof">HSEh1PBE</acronym></th>
+
+<td class="num"><a href="energy3x.asp?method=57&basis=20&charge=0">-288.408129</td>
+
+<td class="num"><a href="energy3x.asp?method=57&basis=2&charge=0">-290.204938</td>
+
+<td class="num"><a href="energy3x.asp?method=57&basis=8&charge=0">-290.289383</td>
+
+<td class="num"><a href="energy3x.asp?method=57&basis=9&charge=0">-291.708730</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=57&basis=1&charge=0">-291.741129</td>
+
+<td class="num"><a href="energy3x.asp?method=57&basis=3&charge=0">-291.744877</td>
+
+<td class="num"><a href="energy3x.asp?method=57&basis=4&charge=0">-291.746312</td>
+
+<td class="num"><a href="energy3x.asp?method=57&basis=7&charge=0">-291.762580</td>
+
+<td class="num"><a href="energy3x.asp?method=57&basis=21&charge=0">-291.768465</td>
+
+<td class="num"><a href="energy3x.asp?method=57&basis=19&charge=0">-291.749091</td>
+
+<td class="num"><a href="energy3x.asp?method=57&basis=10&charge=0">-291.772689</td>
+
+<td class="num"><a href="energy3x.asp?method=57&basis=32&charge=0">-291.764270</td>
+
+<td class="num"><a href="energy3x.asp?method=57&basis=5&charge=0">-291.756329</td>
+
+<td class="num"><a href="energy3x.asp?method=57&basis=6&charge=0">-291.773453</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=57&basis=17&charge=0">-291.757204</td>
+
+<td class="num"><a href="energy3x.asp?method=57&basis=18&charge=0">-291.773728</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=57&basis=36&charge=0">-291.757591</td>
+
+<td class="num"><a href="energy3x.asp?method=57&basis=35&charge=0">-291.773856</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="Hybrid DFT of Tao, Perdew, Staroverov and Scuseria">TPSSh</acronym></th>
+
+<td class="num"><a href="energy3x.asp?method=75&basis=20&charge=0">-288.546178</td>
+
+<td class="num"><a href="energy3x.asp?method=75&basis=2&charge=0">-290.348622</td>
+
+<td class="num"><a href="energy3x.asp?method=75&basis=8&charge=0">-290.433181</td>
+
+<td class="num"><a href="energy3x.asp?method=75&basis=9&charge=0">-291.851509</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=75&basis=1&charge=0">-291.884663</td>
+
+<td class="num"><a href="energy3x.asp?method=75&basis=3&charge=0">-291.888636</td>
+
+<td class="num"><a href="energy3x.asp?method=75&basis=4&charge=0">-291.889978</td>
+
+<td class="num"><a href="energy3x.asp?method=75&basis=7&charge=0">-291.906193</td>
+
+<td class="num"><a href="energy3x.asp?method=75&basis=21&charge=0">-291.912472</td>
+
+<td class="num"><a href="energy3x.asp?method=75&basis=19&charge=0">-291.893092</td>
+
+<td class="num"><a href="energy3x.asp?method=75&basis=10&charge=0">-291.916846</td>
+
+<td class="num"><a href="energy3x.asp?method=75&basis=32&charge=0">-291.908707</td>
+
+<td class="num"><a href="energy3x.asp?method=75&basis=5&charge=0">-291.901600</td>
+
+<td class="num"><a href="energy3x.asp?method=75&basis=6&charge=0">-291.918070</td>
+
+<td class="num"><a href="energy3x.asp?method=75&basis=25&charge=0">-291.923054</td>
+
+<td class="num"><a href="energy3x.asp?method=75&basis=17&charge=0">-291.902209</td>
+
+<td class="num"><a href="energy3x.asp?method=75&basis=18&charge=0">-291.918298</td>
+
+<td class="num"><a href="energy3x.asp?method=75&basis=26&charge=0">-291.923286</td>
+
+<td class="num"><a href="energy3x.asp?method=75&basis=36&charge=0">-291.902599</td>
+
+<td class="num"><a href="energy3x.asp?method=75&basis=35&charge=0">-291.918400</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="Long-range corrected hybrid density functional with damped atom-atom dispersion corrections">wB97X-D</acronym></th>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=20&charge=0">-288.519418</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=2&charge=0">-290.318400</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=8&charge=0">-290.404478</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=9&charge=0">-291.822077</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=60&basis=1&charge=0">-291.856243</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=3&charge=0">-291.860309</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=4&charge=0">-291.861721</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=7&charge=0">-291.878549</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=21&charge=0">-291.884718</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=19&charge=0">-291.864537</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=10&charge=0">-291.889128</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=32&charge=0">-291.880070</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=5&charge=0">-291.871450</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=6&charge=0">-291.889070</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=25&charge=0">-291.894696</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=17&charge=0">-291.872249</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=18&charge=0">-291.889448</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=26&charge=0">-291.894887</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=36&charge=0">-291.872668</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=35&charge=0">-291.889608</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="Grimme’s functional including D3BJ dispersion">B97D3</acronym></th>
+
+<td class="num"><a href="energy3x.asp?method=90&basis=20&charge=0">-288.539584</td>
+
+<td class="num"><a href="energy3x.asp?method=90&basis=2&charge=0">-290.327831</td>
+
+<td class="num"><a href="energy3x.asp?method=90&basis=8&charge=0">-290.409104</td>
+
+<td class="num"><a href="energy3x.asp?method=90&basis=9&charge=0">-291.830724</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=90&basis=1&charge=0">-291.859692</td>
+
+<td class="num"><a href="energy3x.asp?method=90&basis=3&charge=0">-291.863503</td>
+
+<td class="num"><a href="energy3x.asp?method=90&basis=4&charge=0">-291.865182</td>
+
+<td class="num"><a href="energy3x.asp?method=90&basis=7&charge=0">-291.883656</td>
+
+<td class="num"><a href="energy3x.asp?method=90&basis=21&charge=0">-291.889581</td>
+
+<td class="num"><a href="energy3x.asp?method=90&basis=19&charge=0">-291.867203</td>
+
+<td class="num"><a href="energy3x.asp?method=90&basis=10&charge=0">-291.893554</td>
+
+<td class="num"><a href="energy3x.asp?method=90&basis=32&charge=0">-291.883683</td>
+
+<td class="num"><a href="energy3x.asp?method=90&basis=5&charge=0">-291.873859</td>
+
+<td class="num"><a href="energy3x.asp?method=90&basis=6&charge=0">-291.893384</td>
+
+<td class="num"><a href="energy3x.asp?method=90&basis=25&charge=0">-291.898251</td>
+
+<td class="num"><a href="energy3x.asp?method=90&basis=17&charge=0">-291.875137</td>
+
+<td class="num"><a href="energy3x.asp?method=90&basis=18&charge=0">-291.893786</td>
+
+<td class="num"><a href="energy3x.asp?method=90&basis=26&charge=0">-291.898536</td>
+
+<td class="num"><a href="energy3x.asp?method=90&basis=36&charge=0">-291.875474</td>
+
+<td>&nbsp;</td>
+</TR><tr><td></td><td></td>
+<th class="nowrap"><acronym title="H:1s Si:3s2p       ">STO-3G</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s Si:4s3p       ">3-21G</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s         Si:4s2p1d     ">3-21G*</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s         Si:4s3p       ">6-31G</acronym></th>
+
+<th class="nowrap bordered"><acronym title="H:2s Si:4s3p1d ">6-31G*</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s1p Si:4s3p1d ">6-31G**</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s1p Si:5s4p1d     ">6-31+G**</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s Si:6s5p1d     ">6-311G*</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s         Si:6s5p1d     ">6-311G**</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s1p Si:4s3p2d1f ">6-31G(2df,p)</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s2p Si:7s6p3d1f   ">6-311+G(3df,2p)</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s1p Si:5s4p1d ">TZVP</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s1p Si:4s3p1d     ">cc-pVDZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s2p1d Si:5s4p2d1f   ">cc-pVTZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:4s3p2d1f Si:6s5p3d2f1g ">cc-pVQZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s2p Si:5s4p2d     ">aug-cc-pVDZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:4s3p2d Si:6s5p3d2f   ">aug-cc-pVTZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:5s4p3d2f Si:7s6p4d3f2g ">aug-cc-pVQZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:4s3p ">daug-cc-pVDZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:5s4p3d ">daug-cc-pVTZ</acronym></th>
+</TR>
+
+<tr bgcolor="#EEFFEE">
+<th rowspan="9">Moller Plesset perturbation</th>
+
+<th class="nowrap"><acronym title="second-order, FC=frozen core">MP2</acronym></th>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=20&charge=0">-287.960333</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=2&charge=0">-289.750398</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=8&charge=0">-289.867960</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=9&charge=0">-291.235908</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=3&basis=1&charge=0">-291.307124</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=3&charge=0">-291.338997</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=4&charge=0">-291.340880</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=7&charge=0">-291.329827</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=21&charge=0">-291.371926</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=19&charge=0">-291.364282</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=10&charge=0">-291.394060</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=32&charge=0">-291.368368</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=5&charge=0">-291.359314</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=6&charge=0">-291.403771</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=25&charge=0">-291.418857</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=17&charge=0">-291.364995</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=18&charge=0">-291.406632</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=26&charge=0">-291.420141</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=36&charge=0">-291.365912</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=35&charge=0">-291.407326</td>
+</TR>   
+<tr bgcolor="#EEFFEE">
+
+<th class="nowrap"><acronym title="second-order, FU=full (all electrons correlated)">MP2=FULL</acronym></th>
+
+<td class="num"><a href="energy3x.asp?method=2&basis=20&charge=0">-287.963804</td>
+
+<td class="num"><a href="energy3x.asp?method=2&basis=2&charge=0">-289.755917</td>
+
+<td class="num"><a href="energy3x.asp?method=2&basis=8&charge=0">-289.879915</td>
+
+<td class="num"><a href="energy3x.asp?method=2&basis=9&charge=0">-291.239483</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=2&basis=1&charge=0">-291.316850</td>
+
+<td class="num"><a href="energy3x.asp?method=2&basis=3&charge=0">-291.349860</td>
+
+<td class="num"><a href="energy3x.asp?method=2&basis=4&charge=0">-291.352818</td>
+
+<td class="num"><a href="energy3x.asp?method=2&basis=7&charge=0">-291.453167</td>
+
+<td class="num"><a href="energy3x.asp?method=2&basis=21&charge=0">-291.496214</td>
+
+<td class="num"><a href="energy3x.asp?method=2&basis=19&charge=0">-291.383134</td>
+
+<td class="num"><a href="energy3x.asp?method=2&basis=10&charge=0">-291.557480</td>
+
+<td class="num"><a href="energy3x.asp?method=2&basis=32&charge=0">-291.401209</td>
+
+<td class="num"><a href="energy3x.asp?method=2&basis=5&charge=0">-291.366562</td>
+
+<td class="num"><a href="energy3x.asp?method=2&basis=6&charge=0">-291.463224</td>
+
+<td class="num"><a href="energy3x.asp?method=2&basis=25&charge=0">-291.467502</td>
+
+<td class="num"><a href="energy3x.asp?method=2&basis=17&charge=0">-291.374613</td>
+
+<td class="num"><a href="energy3x.asp?method=2&basis=18&charge=0">-291.471018</td>
+
+<td class="num"><a href="energy3x.asp?method=2&basis=26&charge=0">-291.472253</td>
+
+<td class="num"><a href="energy3x.asp?method=2&basis=36&charge=0">-291.375781</td>
+
+<td class="num"><a href="energy3x.asp?method=2&basis=35&charge=0">-291.472885</td>
+</TR>   
+<tr bgcolor="#EEFFEE">
+
+<th class="nowrap"><acronym title="third order">MP3</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=62&basis=1&charge=0">-291.325609</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=62&basis=4&charge=0">-291.361904</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=62&basis=10&charge=0">-291.419221</td>
+
+<td class="num"><a href="energy3x.asp?method=62&basis=32&charge=0">-291.391634</td>
+
+<td class="num"><a href="energy3x.asp?method=62&basis=5&charge=0">-291.384211</td>
+
+<td class="num"><a href="energy3x.asp?method=62&basis=6&charge=0">-291.428295</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=62&basis=36&charge=0">-291.391656</td>
+
+<td class="num"><a href="energy3x.asp?method=62&basis=35&charge=0">-291.431556</td>
+</TR>   
+<tr bgcolor="#EEFFEE">
+
+<th class="nowrap"><acronym title="third order with core electrons correlated">MP3=FULL</acronym></th>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=71&basis=2&charge=0">-289.771972</td>
+
+<td class="num"><a href="energy3x.asp?method=71&basis=8&charge=0">-289.898043</td>
+
+<td class="num"><a href="energy3x.asp?method=71&basis=9&charge=0">-291.255898</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=71&basis=1&charge=0">-291.335154</td>
+
+<td class="num"><a href="energy3x.asp?method=71&basis=3&charge=0">-291.370672</td>
+
+<td class="num"><a href="energy3x.asp?method=71&basis=4&charge=0">-291.373672</td>
+
+<td class="num"><a href="energy3x.asp?method=71&basis=7&charge=0">-291.470471</td>
+
+<td class="num"><a href="energy3x.asp?method=71&basis=21&charge=0">-291.518769</td>
+
+<td class="num"><a href="energy3x.asp?method=71&basis=19&charge=0">-291.407894</td>
+
+<td class="num"><a href="energy3x.asp?method=71&basis=10&charge=0">-291.582271</td>
+
+<td class="num"><a href="energy3x.asp?method=71&basis=32&charge=0">-291.424469</td>
+
+<td class="num"><a href="energy3x.asp?method=71&basis=5&charge=0">-291.391176</td>
+
+<td class="num"><a href="energy3x.asp?method=71&basis=6&charge=0">-291.487743</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=71&basis=17&charge=0">-291.400035</td>
+
+<td class="num"><a href="energy3x.asp?method=71&basis=18&charge=0">-291.495363</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=71&basis=36&charge=0">-291.401213</td>
+
+<td class="num"><a href="energy3x.asp?method=71&basis=35&charge=0">-291.497207</td>
+</TR>   
+<tr bgcolor="#EEFFEE">
+
+<th class="nowrap"><acronym title="fourth order">MP4</acronym></th>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=4&basis=2&charge=0">-289.772186</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=4&basis=1&charge=0">-291.331577</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=4&basis=21&charge=0">-291.401382</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=4&basis=10&charge=0">-291.426447</td>
+
+<td class="num"><a href="energy3x.asp?method=4&basis=32&charge=0">-291.397945</td>
+
+<td class="num"><a href="energy3x.asp?method=4&basis=5&charge=0">-291.390817</td>
+
+<td class="num"><a href="energy3x.asp?method=4&basis=6&charge=0">-291.435308</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=4&basis=17&charge=0">-291.397710</td>
+
+<td class="num"><a href="energy3x.asp?method=4&basis=18&charge=0">-291.437966</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=4&basis=36&charge=0">-291.398660</td>
+
+<td class="num"><a href="energy3x.asp?method=4&basis=35&charge=0">-291.438643</td>
+</TR>   
+<tr bgcolor="#EEFFEE">
+
+<th class="nowrap"><acronym title="MP4 with all electrons correlated">MP4=FULL</acronym></th>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=44&basis=2&charge=0">-289.777486</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=44&basis=1&charge=0">-291.341298</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=44&basis=21&charge=0">-291.526243</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=44&basis=10&charge=0">-291.591323</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=44&basis=5&charge=0">-291.397936</td>
+
+<td class="num"><a href="energy3x.asp?method=44&basis=6&charge=0">-291.496099</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=44&basis=17&charge=0">-291.407236</td>
+
+<td class="num"><a href="energy3x.asp?method=44&basis=18&charge=0">-291.503806</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=44&basis=36&charge=0">-291.408442</td>
+
+<td class="num"><a href="energy3x.asp?method=44&basis=35&charge=0">-291.505669</td>
+</TR>   
+<tr bgcolor="#EEFFEE">
+
+<th class="nowrap"><acronym title="Hybrid MP2 DFT">B2PLYP</acronym></th>
+
+<td class="num"><a href="energy3x.asp?method=56&basis=20&charge=0">-288.360801</td>
+
+<td class="num"><a href="energy3x.asp?method=56&basis=2&charge=0">-290.163188</td>
+
+<td class="num"><a href="energy3x.asp?method=56&basis=8&charge=0">-290.260264</td>
+
+<td class="num"><a href="energy3x.asp?method=56&basis=9&charge=0">-291.660805</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=56&basis=1&charge=0">-291.707878</td>
+
+<td class="num"><a href="energy3x.asp?method=56&basis=3&charge=0">-291.720620</td>
+
+<td class="num"><a href="energy3x.asp?method=56&basis=4&charge=0">-291.722401</td>
+
+<td class="num"><a href="energy3x.asp?method=56&basis=7&charge=0">-291.730175</td>
+
+<td class="num"><a href="energy3x.asp?method=56&basis=21&charge=0">-291.747709</td>
+
+<td class="num"><a href="energy3x.asp?method=56&basis=19&charge=0">-291.732216</td>
+
+<td class="num"><a href="energy3x.asp?method=56&basis=10&charge=0">-291.758149</td>
+
+<td class="num"><a href="energy3x.asp?method=56&basis=32&charge=0">-291.743682</td>
+
+<td class="num"><a href="energy3x.asp?method=56&basis=5&charge=0">-291.734453</td>
+
+<td class="num"><a href="energy3x.asp?method=56&basis=6&charge=0">-291.761607</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=56&basis=17&charge=0">-291.737163</td>
+
+<td class="num"><a href="energy3x.asp?method=56&basis=18&charge=0">-291.762654</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=56&basis=36&charge=0">-291.737715</td>
+
+<td class="num"><a href="energy3x.asp?method=56&basis=35&charge=0">-291.762950</td>
+</TR>   
+<tr bgcolor="#EEFFEE">
+
+<th class="nowrap"><acronym title="Hybrid MP2 DFT with all electrons correlated">B2PLYP=FULL</acronym></th>
+
+<td class="num"><a href="energy3x.asp?method=59&basis=20&charge=0">-288.361942</td>
+
+<td class="num"><a href="energy3x.asp?method=59&basis=2&charge=0">-290.164948</td>
+
+<td class="num"><a href="energy3x.asp?method=59&basis=8&charge=0">-290.264026</td>
+
+<td class="num"><a href="energy3x.asp?method=59&basis=9&charge=0">-291.661940</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=59&basis=1&charge=0">-291.710925</td>
+
+<td class="num"><a href="energy3x.asp?method=59&basis=3&charge=0">-291.724003</td>
+
+<td class="num"><a href="energy3x.asp?method=59&basis=4&charge=0">-291.726114</td>
+
+<td class="num"><a href="energy3x.asp?method=59&basis=7&charge=0">-291.766315</td>
+
+<td class="num"><a href="energy3x.asp?method=59&basis=21&charge=0">-291.784137</td>
+
+<td class="num"><a href="energy3x.asp?method=59&basis=19&charge=0">-291.738044</td>
+
+<td class="num"><a href="energy3x.asp?method=59&basis=10&charge=0">-291.806179</td>
+
+<td class="num"><a href="energy3x.asp?method=59&basis=32&charge=0">-291.753609</td>
+
+<td class="num"><a href="energy3x.asp?method=59&basis=5&charge=0">-291.736735</td>
+
+<td class="num"><a href="energy3x.asp?method=59&basis=6&charge=0">-291.779549</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=59&basis=17&charge=0">-291.740166</td>
+
+<td class="num"><a href="energy3x.asp?method=59&basis=18&charge=0">-291.782022</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=59&basis=36&charge=0">-291.740797</td>
+
+<td class="num"><a href="energy3x.asp?method=59&basis=35&charge=0">-291.782654</td>
+</TR>   
+<tr bgcolor="#EEFFEE">
+
+<th class="nowrap"><acronym title="B2PLYP with denser grid">B2PLYP=FULLultrafine</acronym></th>
+
+<td class="num"><a href="energy3x.asp?method=79&basis=20&charge=0">-288.361937</td>
+
+<td class="num"><a href="energy3x.asp?method=79&basis=2&charge=0">-290.164957</td>
+
+<td class="num"><a href="energy3x.asp?method=79&basis=8&charge=0">-290.264035</td>
+
+<td class="num"><a href="energy3x.asp?method=79&basis=9&charge=0">-291.661943</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=79&basis=1&charge=0">-291.710927</td>
+
+<td class="num"><a href="energy3x.asp?method=79&basis=3&charge=0">-291.724006</td>
+
+<td class="num"><a href="energy3x.asp?method=79&basis=4&charge=0">-291.726117</td>
+
+<td class="num"><a href="energy3x.asp?method=79&basis=7&charge=0">-291.766317</td>
+
+<td class="num"><a href="energy3x.asp?method=79&basis=21&charge=0">-291.784139</td>
+
+<td class="num"><a href="energy3x.asp?method=79&basis=19&charge=0">-291.738046</td>
+
+<td class="num"><a href="energy3x.asp?method=79&basis=10&charge=0">-291.806181</td>
+
+<td class="num"><a href="energy3x.asp?method=79&basis=32&charge=0">-291.753609</td>
+
+<td class="num"><a href="energy3x.asp?method=79&basis=5&charge=0">-291.736737</td>
+
+<td class="num"><a href="energy3x.asp?method=79&basis=6&charge=0">-291.779550</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=79&basis=17&charge=0">-291.740169</td>
+
+<td class="num"><a href="energy3x.asp?method=79&basis=18&charge=0">-291.782023</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=79&basis=36&charge=0">-291.740800</td>
+
+<td class="num"><a href="energy3x.asp?method=79&basis=35&charge=0">-291.782655</td>
+</TR>
+
+<tr bgcolor="#EEEEFF">
+<th rowspan="2">Configuration interaction</th>
+
+<th class="nowrap"><acronym title="Configuration interaction, doubles">CID</acronym></th>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=14&basis=2&charge=0">-289.770100</td>
+
+<td class="num"><a href="energy3x.asp?method=14&basis=8&charge=0">-289.887496</td>
+
+<td class="num"><a href="energy3x.asp?method=14&basis=9&charge=0">-291.256050</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=14&basis=1&charge=0">-291.326908</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=14&basis=7&charge=0">-291.348800</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=14&basis=10&charge=0">-291.415579</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=14&basis=5&charge=0">-291.382529</td>
+
+<td class="num"><a href="energy3x.asp?method=14&basis=6&charge=0">-291.423885</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=14&basis=36&charge=0">-291.389257</td>
+
+<td class="num"><a href="energy3x.asp?method=14&basis=35&charge=0">-291.426837</td>
+</TR>   
+<tr bgcolor="#EEEEFF">
+
+<th class="nowrap"><acronym title="Configuration interaction, singles and doubles">CISD</acronym></th>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=15&basis=2&charge=0">-289.770702</td>
+
+<td class="num"><a href="energy3x.asp?method=15&basis=8&charge=0">-289.888778</td>
+
+<td class="num"><a href="energy3x.asp?method=15&basis=9&charge=0">-291.256598</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=15&basis=1&charge=0">-291.328056</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=15&basis=7&charge=0">-291.350281</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=15&basis=10&charge=0">-291.416388</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=15&basis=5&charge=0">-291.383261</td>
+
+<td class="num"><a href="energy3x.asp?method=15&basis=6&charge=0">-291.424598</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=15&basis=36&charge=0">-291.389984</td>
+
+<td class="num"><a href="energy3x.asp?method=15&basis=35&charge=0">-291.427557</td>
+</TR><tr><td></td><td></td>
+<th class="nowrap"><acronym title="H:1s Si:3s2p       ">STO-3G</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s Si:4s3p       ">3-21G</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s         Si:4s2p1d     ">3-21G*</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s         Si:4s3p       ">6-31G</acronym></th>
+
+<th class="nowrap bordered"><acronym title="H:2s Si:4s3p1d ">6-31G*</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s1p Si:4s3p1d ">6-31G**</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s1p Si:5s4p1d     ">6-31+G**</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s Si:6s5p1d     ">6-311G*</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s         Si:6s5p1d     ">6-311G**</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s1p Si:4s3p2d1f ">6-31G(2df,p)</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s2p Si:7s6p3d1f   ">6-311+G(3df,2p)</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s1p Si:5s4p1d ">TZVP</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s1p Si:4s3p1d     ">cc-pVDZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s2p1d Si:5s4p2d1f   ">cc-pVTZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:4s3p2d1f Si:6s5p3d2f1g ">cc-pVQZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s2p Si:5s4p2d     ">aug-cc-pVDZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:4s3p2d Si:6s5p3d2f   ">aug-cc-pVTZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:5s4p3d2f Si:7s6p4d3f2g ">aug-cc-pVQZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:4s3p ">daug-cc-pVDZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:5s4p3d ">daug-cc-pVTZ</acronym></th>
+</TR>
+
+<tr bgcolor="#EEEEEE">
+<th rowspan="5">Quadratic configuration interaction</th>
+
+<th class="nowrap"><acronym title="Quadratic configuration interaction, singles and doubles">QCISD</acronym></th>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=5&basis=2&charge=0">-289.774070</td>
+
+<td class="num"><a href="energy3x.asp?method=5&basis=8&charge=0">-289.893200</td>
+
+<td class="num"><a href="energy3x.asp?method=5&basis=9&charge=0">-291.259978</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=5&basis=1&charge=0">-291.332417</td>
+
+<td class="num"><a href="energy3x.asp?method=5&basis=3&charge=0">-291.365532</td>
+
+<td class="num"><a href="energy3x.asp?method=5&basis=4&charge=0">-291.367433</td>
+
+<td class="num"><a href="energy3x.asp?method=5&basis=7&charge=0">-291.354827</td>
+
+<td class="num"><a href="energy3x.asp?method=5&basis=21&charge=0">-291.400861</td>
+
+<td class="num"><a href="energy3x.asp?method=5&basis=19&charge=0">-291.395192</td>
+
+<td class="num"><a href="energy3x.asp?method=5&basis=10&charge=0">-291.425040</td>
+
+<td class="num"><a href="energy3x.asp?method=5&basis=32&charge=0">-291.397420</td>
+
+<td class="num"><a href="energy3x.asp?method=5&basis=5&charge=0">-291.390419</td>
+
+<td class="num"><a href="energy3x.asp?method=5&basis=6&charge=0">-291.433648</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=5&basis=17&charge=0">-291.396933</td>
+
+<td class="num"><a href="energy3x.asp?method=5&basis=18&charge=0">-291.436150</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=5&basis=36&charge=0">-291.397851</td>
+
+<td class="num"><a href="energy3x.asp?method=5&basis=35&charge=0">-291.436802</td>
+</TR>   
+<tr bgcolor="#EEEEEE">
+
+<th class="nowrap"><acronym title="Quadratic configuration interaction, singles and doubles with a correction for triples">QCISD(T)</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=10&basis=1&charge=0">-291.334300</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=10&basis=7&charge=0">-291.356984</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=10&basis=10&charge=0">-291.428594</td>
+
+<td class="num"><a href="energy3x.asp?method=10&basis=32&charge=0">-291.399960</td>
+
+<td class="num"><a href="energy3x.asp?method=10&basis=5&charge=0">-291.392829</td>
+
+<td class="num"><a href="energy3x.asp?method=10&basis=6&charge=0">-291.437396</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=10&basis=17&charge=0">-291.399795</td>
+
+<td class="num"><a href="energy3x.asp?method=10&basis=18&charge=0">-291.440117</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=10&basis=36&charge=0">-291.400752</td>
+
+<td class="num"><a href="energy3x.asp?method=10&basis=35&charge=0">-291.440802</td>
+</TR>   
+<tr bgcolor="#EEEEEE">
+
+<th class="nowrap"><acronym title="Quadratic configuration interaction, singles and doubles with a correction for triples all electrons correlated">QCISD(T)=FULL</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=70&basis=1&charge=0">-291.344010</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=70&basis=4&charge=0">-291.381478</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=70&basis=10&charge=0">-291.593408</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=70&basis=5&charge=0">-291.399925</td>
+
+<td class="num"><a href="energy3x.asp?method=70&basis=6&charge=0">-291.498104</td>
+
+<td class="num"><a href="energy3x.asp?method=70&basis=25&charge=0">-291.500774</td>
+
+<td class="num"><a href="energy3x.asp?method=70&basis=17&charge=0">-291.409286</td>
+
+<td class="num"><a href="energy3x.asp?method=70&basis=18&charge=0">-291.505876</td>
+
+<td class="num"><a href="energy3x.asp?method=70&basis=26&charge=0">-291.505075</td>
+
+<td class="num"><a href="energy3x.asp?method=70&basis=36&charge=0">-291.410499</td>
+
+<td class="num"><a href="energy3x.asp?method=70&basis=35&charge=0">-291.507742</td>
+</TR>   
+<tr bgcolor="#EEEEEE">
+
+<th class="nowrap"><acronym title="Quadratic configuration interaction, singles and doubles with a correction for triples and quadruples">QCISD(TQ)</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=66&basis=1&charge=0">-291.334673</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=66&basis=4&charge=0">-291.369862</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=66&basis=10&charge=0">-291.429095</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=66&basis=5&charge=0">-291.393280</td>
+
+<td class="num"><a href="energy3x.asp?method=66&basis=6&charge=0">-291.437893</td>
+
+<td class="num"><a href="energy3x.asp?method=66&basis=25&charge=0">-291.451235</td>
+
+<td class="num"><a href="energy3x.asp?method=66&basis=17&charge=0">-291.400309</td>
+
+<td class="num"><a href="energy3x.asp?method=66&basis=18&charge=0">-291.440624</td>
+
+<td class="num"><a href="energy3x.asp?method=66&basis=26&charge=0">-291.451603</td>
+
+<td class="num"><a href="energy3x.asp?method=66&basis=36&charge=0">-291.401267</td>
+
+<td class="num"><a href="energy3x.asp?method=66&basis=35&charge=0">-291.441307</td>
+</TR>   
+<tr bgcolor="#EEEEEE">
+
+<th class="nowrap"><acronym title="Quadratic configuration interaction, singles and doubles with a correction for triples and quadruples with all electrons correlated">QCISD(TQ)=FULL</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=76&basis=1&charge=0">-291.344371</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=76&basis=10&charge=0">-291.593792</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=76&basis=25&charge=0">-291.501124</td>
+
+<td class="num"><a href="energy3x.asp?method=76&basis=17&charge=0">-291.409771</td>
+
+<td class="num"><a href="energy3x.asp?method=76&basis=18&charge=0">-291.506262</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+</TR>
+
+<tr bgcolor="#FFFFDD">
+<th rowspan="5">Coupled Cluster</th>
+
+<th class="nowrap"><acronym title="Coupled-cluster, doubles">CCD</acronym></th>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=6&basis=2&charge=0">-289.773320</td>
+
+<td class="num"><a href="energy3x.asp?method=6&basis=8&charge=0">-289.891553</td>
+
+<td class="num"><a href="energy3x.asp?method=6&basis=9&charge=0">-291.259298</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=6&basis=1&charge=0">-291.330937</td>
+
+<td class="num"><a href="energy3x.asp?method=6&basis=3&charge=0">-291.364528</td>
+
+<td class="num"><a href="energy3x.asp?method=6&basis=4&charge=0">-291.366409</td>
+
+<td class="num"><a href="energy3x.asp?method=6&basis=7&charge=0">-291.352955</td>
+
+<td class="num"><a href="energy3x.asp?method=6&basis=21&charge=0">-291.399873</td>
+
+<td class="num"><a href="energy3x.asp?method=6&basis=19&charge=0">-291.393982</td>
+
+<td class="num"><a href="energy3x.asp?method=6&basis=10&charge=0">-291.423905</td>
+
+<td class="num"><a href="energy3x.asp?method=6&basis=32&charge=0">-291.396310</td>
+
+<td class="num"><a href="energy3x.asp?method=6&basis=5&charge=0">-291.389418</td>
+
+<td class="num"><a href="energy3x.asp?method=6&basis=6&charge=0">-291.432627</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=6&basis=17&charge=0">-291.395919</td>
+
+<td class="num"><a href="energy3x.asp?method=6&basis=18&charge=0">-291.435116</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=6&basis=36&charge=0">-291.396837</td>
+
+<td class="num"><a href="energy3x.asp?method=6&basis=35&charge=0">-291.435760</td>
+</TR>   
+<tr bgcolor="#FFFFDD">
+
+<th class="nowrap"><acronym title="Coupled-cluster, singles and doubles">CCSD</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=11&basis=1&charge=0">-291.332311</td>
+
+<td class="num"><a href="energy3x.asp?method=11&basis=3&charge=0">-291.365470</td>
+
+<td class="num"><a href="energy3x.asp?method=11&basis=4&charge=0">-291.367365</td>
+
+<td class="num"><a href="energy3x.asp?method=11&basis=7&charge=0">-291.354662</td>
+
+<td class="num"><a href="energy3x.asp?method=11&basis=21&charge=0">-291.400775</td>
+
+<td class="num"><a href="energy3x.asp?method=11&basis=19&charge=0">-291.395073</td>
+
+<td class="num"><a href="energy3x.asp?method=11&basis=10&charge=0">-291.424922</td>
+
+<td class="num"><a href="energy3x.asp?method=11&basis=32&charge=0">-291.397328</td>
+
+<td class="num"><a href="energy3x.asp?method=11&basis=5&charge=0">-291.390342</td>
+
+<td class="num"><a href="energy3x.asp?method=11&basis=6&charge=0">-291.433525</td>
+
+<td class="num"><a href="energy3x.asp?method=11&basis=25&charge=0">-291.446451</td>
+
+<td class="num"><a href="energy3x.asp?method=11&basis=17&charge=0">-291.396849</td>
+
+<td class="num"><a href="energy3x.asp?method=11&basis=18&charge=0">-291.436025</td>
+
+<td class="num"><a href="energy3x.asp?method=11&basis=26&charge=0">-291.447230</td>
+
+<td class="num"><a href="energy3x.asp?method=11&basis=36&charge=0">-291.397766</td>
+
+<td class="num"><a href="energy3x.asp?method=11&basis=35&charge=0">-291.436674</td>
+</TR>   
+<tr bgcolor="#FFFFDD">
+
+<th class="nowrap"><acronym title="CCSD with all electrons correlated">CCSD=FULL</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=65&basis=1&charge=0">-291.341777</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=65&basis=19&charge=0">-291.413483</td>
+
+<td class="num"><a href="energy3x.asp?method=65&basis=10&charge=0">-291.588071</td>
+
+<td class="num"><a href="energy3x.asp?method=65&basis=32&charge=0">-291.430234</td>
+
+<td class="num"><a href="energy3x.asp?method=65&basis=5&charge=0">-291.397224</td>
+
+<td class="num"><a href="energy3x.asp?method=65&basis=6&charge=0">-291.493118</td>
+
+<td class="num"><a href="energy3x.asp?method=65&basis=25&charge=0">-291.495350</td>
+
+<td class="num"><a href="energy3x.asp?method=65&basis=17&charge=0">-291.406065</td>
+
+<td class="num"><a href="energy3x.asp?method=65&basis=18&charge=0">-291.500660</td>
+
+<td class="num"><a href="energy3x.asp?method=65&basis=26&charge=0">-291.499508</td>
+
+<td class="num"><a href="energy3x.asp?method=65&basis=36&charge=0">-291.407232</td>
+
+<td class="num"><a href="energy3x.asp?method=65&basis=35&charge=0">-291.502493</td>
+</TR>   
+<tr bgcolor="#FFFFDD">
+
+<th class="nowrap"><acronym title="Coupled-cluster, singles and doubles with approximate triples.">CCSD(T)</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=12&basis=1&charge=0">-291.334269</td>
+
+<td class="num"><a href="energy3x.asp?method=12&basis=3&charge=0">-291.367550</td>
+
+<td class="num"><a href="energy3x.asp?method=12&basis=4&charge=0">-291.369493</td>
+
+<td class="num"><a href="energy3x.asp?method=12&basis=7&charge=0">-291.356928</td>
+
+<td class="num"><a href="energy3x.asp?method=12&basis=21&charge=0">-291.403274</td>
+
+<td class="num"><a href="energy3x.asp?method=12&basis=19&charge=0">-291.398094</td>
+
+<td class="num"><a href="energy3x.asp?method=12&basis=10&charge=0">-291.428548</td>
+
+<td class="num"><a href="energy3x.asp?method=12&basis=32&charge=0">-291.399930</td>
+
+<td class="num"><a href="energy3x.asp?method=12&basis=5&charge=0">-291.392803</td>
+
+<td class="num"><a href="energy3x.asp?method=12&basis=6&charge=0">-291.437350</td>
+
+<td class="num"><a href="energy3x.asp?method=12&basis=25&charge=0">-291.450718</td>
+
+<td class="num"><a href="energy3x.asp?method=12&basis=17&charge=0">-291.399764</td>
+
+<td class="num"><a href="energy3x.asp?method=12&basis=18&charge=0">-291.440068</td>
+
+<td class="num"><a href="energy3x.asp?method=12&basis=26&charge=0">-291.451581</td>
+
+<td class="num"><a href="energy3x.asp?method=12&basis=36&charge=0">-291.400720</td>
+
+<td class="num"><a href="energy3x.asp?method=12&basis=35&charge=0">-291.440753</td>
+</TR>   
+<tr bgcolor="#FFFFDD">
+
+<th class="nowrap"><acronym title="Coupled-cluster, singles and doubles with approximate triples. Core electrons correlated.">CCSD(T)=FULL</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num bordered"><a href="energy3x.asp?method=63&basis=1&charge=0">-291.343981</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=63&basis=10&charge=0">-291.593334</td>
+
+<td class="num"><a href="energy3x.asp?method=63&basis=32&charge=0">-291.433480</td>
+
+<td class="num"><a href="energy3x.asp?method=63&basis=5&charge=0">-291.399899</td>
+
+<td class="num"><a href="energy3x.asp?method=63&basis=6&charge=0">-291.498029</td>
+
+<td class="num"><a href="energy3x.asp?method=63&basis=25&charge=0">-291.500693</td>
+
+<td class="num"><a href="energy3x.asp?method=63&basis=17&charge=0">-291.409253</td>
+
+<td class="num"><a href="energy3x.asp?method=63&basis=18&charge=0">-291.505798</td>
+
+<td class="num"><a href="energy3x.asp?method=63&basis=26&charge=0">-291.504990</td>
+
+<td class="num"><a href="energy3x.asp?method=63&basis=36&charge=0">-291.410466</td>
+
+<td class="num"><a href="energy3x.asp?method=63&basis=35&charge=0">-291.507663</td>
+</TR><tr><td></td><td></td>
+<th class="nowrap"><acronym title="H:1s Si:3s2p       ">STO-3G</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s Si:4s3p       ">3-21G</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s         Si:4s2p1d     ">3-21G*</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s         Si:4s3p       ">6-31G</acronym></th>
+
+<th class="nowrap bordered"><acronym title="H:2s Si:4s3p1d ">6-31G*</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s1p Si:4s3p1d ">6-31G**</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s1p Si:5s4p1d     ">6-31+G**</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s Si:6s5p1d     ">6-311G*</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s         Si:6s5p1d     ">6-311G**</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s1p Si:4s3p2d1f ">6-31G(2df,p)</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s2p Si:7s6p3d1f   ">6-311+G(3df,2p)</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s1p Si:5s4p1d ">TZVP</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s1p Si:4s3p1d     ">cc-pVDZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s2p1d Si:5s4p2d1f   ">cc-pVTZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:4s3p2d1f Si:6s5p3d2f1g ">cc-pVQZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s2p Si:5s4p2d     ">aug-cc-pVDZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:4s3p2d Si:6s5p3d2f   ">aug-cc-pVTZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:5s4p3d2f Si:7s6p4d3f2g ">aug-cc-pVQZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:4s3p ">daug-cc-pVDZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:5s4p3d ">daug-cc-pVTZ</acronym></th>
+</TR>  
+</table>
+
+<hr>
+Energies in hartrees
+<table border="1" id="table3">
+<caption align="top">Methods with effective core potentials (<a href="selectbasis1.asp" title= "Select basis sets to display">select basis sets</a>)</caption>
+<tr>
+<td></td>
+<td></td>
+
+<th class="nowrap"><acronym title="H:2s Si:2s2p       ">CEP-31G</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s         Si:2s2p1d     ">CEP-31G*</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s Si:3s3p       ">CEP-121G</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s Si:3s3p1d     ">CEP-121G*</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s Si:2s2p       ">LANL2DZ</acronym></th>
+
+<th class="nowrap"><acronym title="H:2s Si:6s4p ">SDD</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s2p1d Si:5s4p2d1f   ">cc-pVTZ-PP</acronym></th>
+
+<th class="nowrap"><acronym title="">aug-cc-pVTZ-PP</acronym></th>
+
+<th class="nowrap"><acronym title="H:3s2p1d Si:5s5p3d1f ">Def2TZVPP</acronym></th>
+</TR>
+
+<tr bgcolor="#EEFFFF">
+<th rowspan="1">hartree fock</th>
+<th class="nowrap"><acronym title="Hartree-Fock">HF</acronym></th>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=11&charge=0">-6.005991</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=12&charge=0">-6.053970</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=13&charge=0">-6.013222</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=14&charge=0">-6.059030</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=15&charge=0">-6.044187</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=16&charge=0">-291.180715</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=1&basis=38&charge=0">-291.258511</td>
+</TR>
+
+<tr bgcolor="#FFEEEE">
+<th rowspan="14">density functional</th>
+<th class="nowrap"><acronym title="Becke exchange functional and the Lee-Yang-Parr correlation functional">BLYP</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=13&basis=38&charge=0">-291.875027</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="Becke's one parameter hybrid functional">B1B95</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=55&basis=38&charge=0">-291.901722</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap bordered"><acronym title="Becke 3 parameter hybrid exchange functional and Lee-Yang-Parr correlation functional">B3LYP</acronym></th>
+
+<td class="num"><a href="energy3x.asp?method=8&basis=11&charge=0">-6.228662</td>
+
+<td class="num"><a href="energy3x.asp?method=8&basis=12&charge=0">-6.258556</td>
+
+<td class="num"><a href="energy3x.asp?method=8&basis=13&charge=0">-6.233013</td>
+
+<td class="num"><a href="energy3x.asp?method=8&basis=14&charge=0">-6.262362</td>
+
+<td class="num"><a href="energy3x.asp?method=8&basis=15&charge=0">-6.265016</td>
+
+<td class="num"><a href="energy3x.asp?method=8&basis=16&charge=0">-291.858947</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=8&basis=38&charge=0">-291.917184</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="B3LYP with denser grid">B3LYPultrafine</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=68&basis=38&charge=0">-291.917184</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="Becke's 3 parameter hybrid exchange functional with Perdew-Wang correlation">B3PW91</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=16&basis=38&charge=0">-291.862893</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="modified Perdew-Wang exchange and Perdew-Wang 91 correlation">mPW1PW91</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=25&basis=38&charge=0">-291.898977</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="hybrid meta exchange correlation functional with double the amount of nonlocal exchange of Zhao and Truhlar">M06-2X</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=58&basis=38&charge=0">-291.854801</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="Perdew, Burke and Ernzerhof exchange and  correlation functionals">PBEPBE</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=61&basis=38&charge=0">-291.721784</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="PBE with denser grid">PBEPBEultrafine</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=69&basis=38&charge=0">-291.721782</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="PBE0 The 1996 pure functional of Perdew, Burke and Ernzerhof, as made into a hybrid by Adamo">PBE1PBE</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=54&basis=38&charge=0">-291.756579</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="screened Coulomb potential-based final of Heyd, Scuseria and Ernzerhof">HSEh1PBE</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=57&basis=38&charge=0">-291.771828</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="Hybrid DFT of Tao, Perdew, Staroverov and Scuseria">TPSSh</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=75&basis=38&charge=0">-291.916296</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="Long-range corrected hybrid density functional with damped atom-atom dispersion corrections">wB97X-D</acronym></th>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=11&charge=0">-6.229260</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=12&charge=0">-6.260386</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=13&charge=0">-6.234220</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=14&charge=0">-6.264272</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=15&charge=0">-6.266578</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=16&charge=0">-291.828699</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=60&basis=38&charge=0">-291.888098</td>
+</TR>   
+<tr bgcolor="#FFEEEE">
+
+<th class="nowrap"><acronym title="Grimme’s functional including D3BJ dispersion">B97D3</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=90&basis=38&charge=0">-291.892632</td>
+</TR>
+
+<tr bgcolor="#EEFFEE">
+<th rowspan="9">Moller Plesset perturbation</th>
+<th class="nowrap"><acronym title="second-order, FC=frozen core">MP2</acronym></th>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=11&charge=0">-6.063100</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=12&charge=0">-6.136724</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=13&charge=0">-6.074277</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=14&charge=0">-6.145737</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=15&charge=0">-6.102977</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=16&charge=0">-291.245412</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=3&basis=38&charge=0">-291.402117</td>
+</TR>   
+<tr bgcolor="#EEFFEE">
+
+<th class="nowrap"><acronym title="second-order, FU=full (all electrons correlated)">MP2=FULL</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=2&basis=38&charge=0">-291.551820</td>
+</TR>   
+<tr bgcolor="#EEFFEE">
+
+<th class="nowrap"><acronym title="third order">MP3</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=62&basis=38&charge=0">-291.426610</td>
+</TR>   
+<tr bgcolor="#EEFFEE">
+
+<th class="nowrap"><acronym title="third order with core electrons correlated">MP3=FULL</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=71&basis=38&charge=0">-291.576946</td>
+</TR>   
+<tr bgcolor="#EEFFEE">
+
+<th class="nowrap"><acronym title="fourth order">MP4</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=4&basis=38&charge=0">-291.433624</td>
+</TR>   
+<tr bgcolor="#EEFFEE">
+
+<th class="nowrap"><acronym title="MP4 with all electrons correlated">MP4=FULL</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=44&basis=38&charge=0">-291.585820</td>
+</TR>   
+<tr bgcolor="#EEFFEE">
+
+<th class="nowrap"><acronym title="Hybrid MP2 DFT">B2PLYP</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=56&basis=38&charge=0">-291.759902</td>
+</TR>   
+<tr bgcolor="#EEFFEE">
+
+<th class="nowrap"><acronym title="Hybrid MP2 DFT with all electrons correlated">B2PLYP=FULL</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=59&basis=38&charge=0">-291.804213</td>
+</TR>   
+<tr bgcolor="#EEFFEE">
+
+<th class="nowrap"><acronym title="B2PLYP with denser grid">B2PLYP=FULLultrafine</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=79&basis=38&charge=0">-291.804213</td>
+</TR>
+
+<tr bgcolor="#EEEEFF">
+<th rowspan="2">Configuration interaction</th>
+<th class="nowrap"><acronym title="Configuration interaction, doubles">CID</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=14&basis=38&charge=0">-291.422222</td>
+</TR>   
+<tr bgcolor="#EEEEFF">
+
+<th class="nowrap"><acronym title="Configuration interaction, singles and doubles">CISD</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=15&basis=38&charge=0">-291.422931</td>
+</TR>
+
+<tr bgcolor="#EEEEEE">
+<th rowspan="4">Quadratic configuration interaction</th>
+<th class="nowrap"><acronym title="Quadratic configuration interaction, singles and doubles">QCISD</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=5&basis=38&charge=0">-291.431982</td>
+</TR>   
+<tr bgcolor="#EEEEEE">
+
+<th class="nowrap"><acronym title="Quadratic configuration interaction, singles and doubles with a correction for triples">QCISD(T)</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=10&basis=38&charge=0">-291.435729</td>
+</TR>   
+<tr bgcolor="#EEEEEE">
+
+<th class="nowrap"><acronym title="Quadratic configuration interaction, singles and doubles with a correction for triples all electrons correlated">QCISD(T)=FULL</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=70&basis=38&charge=0">-291.587816</td>
+</TR>   
+<tr bgcolor="#EEEEEE">
+
+<th class="nowrap"><acronym title="Quadratic configuration interaction, singles and doubles with a correction for triples and quadruples">QCISD(TQ)</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=66&basis=38&charge=0">-291.436222</td>
+</TR>
+
+<tr bgcolor="#FFFFDD">
+<th rowspan="5">Coupled Cluster</th>
+<th class="nowrap"><acronym title="Coupled-cluster, doubles">CCD</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=6&basis=38&charge=0">-291.430966</td>
+</TR>   
+<tr bgcolor="#FFFFDD">
+
+<th class="nowrap"><acronym title="Coupled-cluster, singles and doubles">CCSD</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=11&basis=38&charge=0">-291.431859</td>
+</TR>   
+<tr bgcolor="#FFFFDD">
+
+<th class="nowrap"><acronym title="CCSD with all electrons correlated">CCSD=FULL</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=65&basis=38&charge=0">-291.582197</td>
+</TR>   
+<tr bgcolor="#FFFFDD">
+
+<th class="nowrap"><acronym title="Coupled-cluster, singles and doubles with approximate triples.">CCSD(T)</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=12&basis=38&charge=0">-291.435681</td>
+</TR>   
+<tr bgcolor="#FFFFDD">
+
+<th class="nowrap"><acronym title="Coupled-cluster, singles and doubles with approximate triples. Core electrons correlated.">CCSD(T)=FULL</acronym></th>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td class="num"><a href="energy3x.asp?method=63&basis=38&charge=0">-291.587725</td>
+</TR>  
+</table>
+
+For descriptions of the methods (AM1, HF, MP2, ...) and basis sets (3-21G, 3-21G*, 6-31G, ...) see the 
+<a HREF="glossaryx.asp">glossary</a> in section I.C. 
+Predefined means the basis set used is determined by the method. 
+
+<HR>
+<table border="1">
+<TR><TH COLSPAN=2>Browse</th></TR>
+<TR><TH>Previous</th><TH>Next</th></TR>
+<TR><TD><FORM action="getform.asp" method=POST id=form1>
+<INPUT type=hidden id=text1 name=formula value = 676802>
+<INPUT type="submit" value="CHD3 (methane-d3)" id=submit1 name=submit1>
+</FORM></td>
+<TD><FORM action="getform.asp" method=POST id=form2>
+<INPUT type=hidden id=text2 name=formula value = 7803625>
+<INPUT type="submit" value="SiH4 (Silane)" id=submit2 name=submit2>
+</FORM></td>
+</TR>
+</TABLE>
+
+</div>
+</div>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9cd65a1dbd304401',t:'MTc3MTAwNjk1NQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"9ef5b487afff42a68917b2d63593a474","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>

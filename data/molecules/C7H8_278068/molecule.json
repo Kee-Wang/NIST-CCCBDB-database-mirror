@@ -1,0 +1,45 @@
+{
+  "casno": "278068",
+  "charge": 0,
+  "formula": "C7H8",
+  "name": "Quadricyclane",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C2v",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "M06-2X": {
+        "6-311+G(3df,2p)": -271.421723
+      },
+      "B97D3": {
+        "daug-cc-pVTZ": -271.352416
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -271.133584,
+        "cc-pVDZ": -271.159791,
+        "cc-pVTZ": -271.318904,
+        "aug-cc-pVTZ": -271.331882
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

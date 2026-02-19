@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.egg-info/
+.idea/
+.pytest_cache/
+
+# Python
+*.egg
+build/
+dist/
+venv/
+.venv/
+env/
+*.log
+
+# Secrets
+.env
+
+# IDE
+.vscode/
+
+# Generated outputs
+data/cas_lookup.csv
+data/suspected_errors/VERIFY_REPORT.md
+
+# Generated reports (canonical copy lives in data/fetch_stats/)
+SERVER_STATUS.md

@@ -1,0 +1,45 @@
+{
+  "casno": "92240",
+  "charge": 0,
+  "formula": "C18H12",
+  "name": "Tetracene",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "D2h",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "M06-2X": {
+        "6-311+G(3df,2p)": -693.079636
+      },
+      "B97D3": {
+        "daug-cc-pVTZ": -863.246739
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -692.425243,
+        "cc-pVDZ": -692.476667,
+        "cc-pVTZ": -692.867253,
+        "aug-cc-pVTZ": -692.901792
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

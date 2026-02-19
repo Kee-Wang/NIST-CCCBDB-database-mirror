@@ -1,0 +1,60 @@
+{
+  "casno": "75785",
+  "charge": 0,
+  "formula": "C2H6Cl2Si",
+  "name": "dichlorodimethylsilane",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C2v",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "HF": {
+        "daug-cc-pVTZ": {
+          "xyz": "Si 0.000000 0.000000 0.338400\nC 0.000000 1.565000 1.345400\nC 0.000000 -1.565000 1.345400\nCl -1.669600 0.000000 -0.888000\nCl 1.669600 0.000000 -0.888000\nH 0.000000 2.435100 0.700800\nH 0.000000 -2.435100 0.700800\nH -0.880400 1.606000 1.977100\nH 0.880400 1.606000 1.977100\nH 0.880400 -1.606000 1.977100\nH -0.880400 -1.606000 1.977100",
+          "point_group": "C2v",
+          "n_atoms": 11,
+          "method_id": 1,
+          "basis_id": 35,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=1&basis=35"
+        }
+      }
+    },
+    "best_available": "calculated/HF/daug-cc-pVTZ"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "daug-cc-pVTZ": -1287.391089
+      },
+      "M06-2X": {
+        "6-311+G(3df,2p)": -1289.837684
+      },
+      "B97D3": {
+        "6-311+G(3df,2p)": -1289.92945,
+        "daug-cc-pVTZ": -1289.942909
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -1289.271744,
+        "cc-pVDZ": -1289.343456,
+        "cc-pVTZ": -1289.529475,
+        "aug-cc-pVTZ": -1289.542066
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

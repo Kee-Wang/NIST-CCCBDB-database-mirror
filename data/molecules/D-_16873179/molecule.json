@@ -1,0 +1,67 @@
+{
+  "casno": "16873179",
+  "charge": -1,
+  "formula": "D",
+  "name": "Deuterium atom anion",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Kh",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "daug-cc-pVTZ": -0.487671
+      },
+      "BLYP": {
+        "6-31G*": -0.449326
+      },
+      "M06-2X": {
+        "3-21G*": -0.426261
+      },
+      "wB97X-D": {
+        "3-21G*": -0.437886,
+        "6-31G*": -0.460019,
+        "6-31+G**": -0.460019,
+        "6-311G**": -0.507788,
+        "TZVP": -0.507595,
+        "cc-pVDZ": -0.460019,
+        "cc-pVTZ": -0.507809,
+        "aug-cc-pVTZ": -0.532614
+      },
+      "B97D3": {
+        "3-21G": -0.440108,
+        "6-31G*": -0.462644,
+        "6-31+G**": -0.462644,
+        "6-311G**": -0.510475,
+        "6-311+G(3df,2p)": -0.510475,
+        "TZVP": -0.510284,
+        "cc-pVTZ": -0.510496,
+        "aug-cc-pVTZ": -0.537372
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G**",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

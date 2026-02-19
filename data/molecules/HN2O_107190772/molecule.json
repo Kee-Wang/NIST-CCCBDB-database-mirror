@@ -1,0 +1,40 @@
+{
+  "casno": "107190772",
+  "charge": 0,
+  "formula": "HN2O",
+  "name": "nitrosoazane",
+  "fetched_date": "2026-02-18",
+  "spin": {},
+  "point_group_cccbdb": "Cs",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "M06-2X": {
+        "6-311+G(3df,2p)": -185.20424
+      },
+      "B97D3": {
+        "daug-cc-pVTZ": -185.196478
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -185.048625,
+        "cc-pVDZ": -185.069638,
+        "cc-pVTZ": -185.172592,
+        "aug-cc-pVTZ": -185.182881
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

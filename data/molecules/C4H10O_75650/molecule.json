@@ -1,0 +1,215 @@
+{
+  "casno": "75650",
+  "charge": 0,
+  "formula": "C4H10O",
+  "name": "Ethanol, 1,1-dimethyl-",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C1",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "CCD": {
+        "6-31G*": {
+          "xyz": "C -0.001600 0.018100 0.000000\nO -0.483400 1.364700 0.000000\nC 1.517300 0.146100 0.000000\nC -0.483400 -0.706700 1.259700\nC -0.483400 -0.706700 -1.259700\nH -1.452700 1.333800 0.000000\nH 1.990900 -0.843000 0.000000\nH 1.845100 0.697200 -0.888900\nH 1.845100 0.697200 0.888900\nH -0.090800 -1.730100 1.307900\nH -0.090800 -1.730100 -1.307900\nH -0.155800 -0.159500 2.151100\nH -1.580800 -0.764500 1.273200\nH -0.155800 -0.159500 -2.151100\nH -1.580800 -0.764500 -1.273200",
+          "point_group": "C1",
+          "n_atoms": 15,
+          "method_id": 6,
+          "basis_id": 1,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=6&basis=1"
+        }
+      }
+    },
+    "best_available": "calculated/CCD/6-31G*",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rCO",
+          "value": 1.446,
+          "atoms": [
+            1,
+            15
+          ],
+          "reference": "1992Kuchitsu(II/21)",
+          "comment": ""
+        },
+        {
+          "description": "rCC",
+          "value": 1.529,
+          "atoms": [
+            1,
+            5
+          ],
+          "reference": "1992Kuchitsu(II/21)",
+          "comment": ""
+        },
+        {
+          "description": "rCH",
+          "value": 1.117,
+          "atoms": [
+            2,
+            5
+          ],
+          "reference": "1992Kuchitsu(II/21)",
+          "comment": ""
+        }
+      ],
+      "angles": [
+        {
+          "description": "aHOC",
+          "value": 108.0,
+          "atoms": [
+            1,
+            15,
+            14
+          ],
+          "reference": "1992Kuchitsu(II/21)",
+          "comment": ""
+        },
+        {
+          "description": "aCCC",
+          "value": 110.9,
+          "atoms": [
+            5,
+            1,
+            9
+          ],
+          "reference": "1992Kuchitsu(II/21)",
+          "comment": ""
+        },
+        {
+          "description": "aHCH",
+          "value": 108.5,
+          "atoms": [
+            2,
+            5,
+            3
+          ],
+          "reference": "1992Kuchitsu(II/21)",
+          "comment": ""
+        }
+      ],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -232.153471,
+        "6-31+G**": -232.180092,
+        "TZVP": -232.241171,
+        "daug-cc-pVTZ": -232.249875
+      },
+      "BLYP": {
+        "6-31G*": -233.540539,
+        "cc-pVTZ": -233.645618,
+        "cc-pV(T+d)Z": -233.645618
+      },
+      "B1B95": {
+        "aug-cc-pVTZ": -233.635585
+      },
+      "B3LYP": {
+        "TZVP": -233.767045,
+        "aug-cc-pVTZ": -233.77444
+      },
+      "M06-2X": {
+        "3-21G*": -232.277258,
+        "6-31G*": -233.550602,
+        "6-311+G(3df,2p)": -233.645823
+      },
+      "PBEPBE": {
+        "6-311+G(3df,2p)": -233.446926
+      },
+      "PBE1PBE": {
+        "6-31G*": -233.390219
+      },
+      "HSEh1PBE": {
+        "3-21G": -232.139908,
+        "6-31G*": -233.409249,
+        "6-31+G**": -233.437393,
+        "cc-pVTZ": -233.501786
+      },
+      "TPSSh": {
+        "6-31G*": -233.679648,
+        "6-31+G**": -233.706281,
+        "6-31G(2df,p)": -233.705228,
+        "cc-pVTZ": -233.77298
+      },
+      "wB97X-D": {
+        "3-21G*": -232.333039,
+        "6-31G*": -233.601694,
+        "6-31+G**": -233.628783,
+        "6-311G**": -233.671165,
+        "TZVP": -233.69138,
+        "cc-pVDZ": -233.628783,
+        "cc-pVTZ": -233.693611,
+        "aug-cc-pVTZ": -233.697498
+      },
+      "B97D3": {
+        "3-21G": -232.25891,
+        "6-31G*": -233.526213,
+        "6-31+G**": -233.556432,
+        "6-311G**": -233.602365,
+        "6-311+G(3df,2p)": -233.621135,
+        "TZVP": -233.621927,
+        "cc-pVTZ": -233.624605,
+        "aug-cc-pVTZ": -233.628816,
+        "daug-cc-pVTZ": -233.629058
+      },
+      "MP2": {
+        "6-31G*": -232.862791,
+        "6-311G*": -232.960139,
+        "TZVP": -233.059896,
+        "aug-cc-pVTZ": -233.221086
+      },
+      "MP2=FULL": {
+        "6-31G*": -232.884749,
+        "cc-pVTZ": -233.279474
+      },
+      "MP3": {
+        "6-31+G**": -232.99467
+      },
+      "MP3=FULL": {
+        "6-31G*": -232.926976,
+        "6-31+G**": -233.03198
+      },
+      "B2PLYP": {
+        "6-31G*": -233.385148,
+        "cc-pVTZ": -233.556418
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -233.39161,
+        "cc-pVDZ": -233.424798,
+        "cc-pVTZ": -233.579035,
+        "aug-cc-pVTZ": -233.591945
+      },
+      "CCD": {
+        "6-31G*": -232.913066
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVDZ",
+      "aug-cc-pVTZ",
+      "cc-pV(T+d)Z",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

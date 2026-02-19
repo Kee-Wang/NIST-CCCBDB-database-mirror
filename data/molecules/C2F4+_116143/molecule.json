@@ -1,0 +1,161 @@
+{
+  "casno": "116143",
+  "charge": 1,
+  "formula": "C2F4",
+  "name": "Tetrafluoroethylene cation",
+  "fetched_date": "2026-02-16",
+  "spin": {},
+  "point_group_cccbdb": "D2h",
+  "geometries": {
+    "experimental": {
+      "xyz": "C 0.000000 0.000000 0.655500\nC 0.000000 0.000000 -0.655500\nF 0.000000 1.096100 1.389300\nF 0.000000 -1.096100 1.389300\nF 0.000000 -1.096100 -1.389300\nF 0.000000 1.096100 -1.389300",
+      "point_group": "D2h",
+      "n_atoms": 6,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=116143&charge=1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "MP2": {
+        "TZVP": {
+          "xyz": "C 0.000000 0.000000 0.700000\nC 0.000000 0.000000 -0.700000\nF 0.000000 1.297700 1.452300\nF 0.000000 -1.297700 1.452300\nF 0.000000 -1.297700 -1.452300\nF 0.000000 1.297700 -1.452300",
+          "point_group": "D2h",
+          "n_atoms": 6,
+          "method_id": 3,
+          "basis_id": 32,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=3&basis=32"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rCC",
+          "value": 1.311,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1976Hellwege(II/7)",
+          "comment": ""
+        },
+        {
+          "description": "rCF",
+          "value": 1.319,
+          "atoms": [
+            1,
+            3
+          ],
+          "reference": "1976Hellwege(II/7)",
+          "comment": ""
+        }
+      ],
+      "angles": [
+        {
+          "description": "aCCF",
+          "value": 123.8,
+          "atoms": [
+            1,
+            2,
+            5
+          ],
+          "reference": "1976Hellwege(II/7)",
+          "comment": ""
+        },
+        {
+          "description": "aFCF",
+          "value": 112.4,
+          "atoms": [
+            3,
+            1,
+            4
+          ],
+          "reference": "1976Hellwege(II/7)",
+          "comment": "by symmetry"
+        }
+      ],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "TZVP": -473.042094,
+        "daug-cc-pVTZ": -473.288869
+      },
+      "BLYP": {
+        "6-31G*": -475.116846
+      },
+      "B3LYP": {
+        "TZVP": -475.181999
+      },
+      "M06-2X": {
+        "3-21G*": -472.359609,
+        "6-311+G(3df,2p)": -475.174979
+      },
+      "PBE1PBE": {
+        "6-31G*": -474.529696
+      },
+      "HSEh1PBE": {
+        "3-21G": -472.024585,
+        "6-31+G**": -474.589985,
+        "cc-pVTZ": -474.750826
+      },
+      "TPSSh": {
+        "6-31G(2df,p)": -475.189512
+      },
+      "wB97X-D": {
+        "3-21G*": -472.441053,
+        "6-31G*": -475.023108,
+        "6-31+G**": -475.036234,
+        "6-311G**": -475.154027,
+        "TZVP": -475.209892,
+        "cc-pVDZ": -475.036234,
+        "cc-pVTZ": -475.211779,
+        "aug-cc-pVTZ": -475.217007
+      },
+      "B97D3": {
+        "3-21G": -472.334714,
+        "6-31G*": -474.923408,
+        "6-31+G**": -474.939126,
+        "6-311G**": -475.060622,
+        "6-311+G(3df,2p)": -475.105143,
+        "TZVP": -475.114529,
+        "cc-pVTZ": -475.116123,
+        "aug-cc-pVTZ": -475.12129,
+        "daug-cc-pVTZ": -475.122692
+      },
+      "MP2": {
+        "6-31G*": -473.991939,
+        "6-311G*": -474.261461,
+        "TZVP": -474.136955
+      },
+      "B2PLYP": {
+        "6-31G*": -474.623674
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -474.785238,
+        "cc-pVDZ": -474.83124,
+        "cc-pVTZ": -475.09922,
+        "aug-cc-pVTZ": -475.115488
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "casno": "74873",
+  "charge": 1,
+  "formula": "CH3Cl",
+  "name": "Methyl chloride cation",
+  "fetched_date": "2026-02-16",
+  "spin": {},
+  "point_group_cccbdb": "C3v",
+  "geometries": {
+    "experimental": {
+      "xyz": "C 0.000000 0.000000 -1.128200\nCl 0.000000 0.000000 0.657200\nH 0.000000 1.035700 -1.467900\nH 0.896900 -0.517900 -1.467900\nH -0.896900 -0.517900 -1.467900",
+      "point_group": "C3v",
+      "n_atoms": 5,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=74873&charge=1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "aug-cc-pVTZ": {
+          "xyz": "C 0.007200 1.117600 0.000000\nCl 0.007200 -0.644900 0.000000\nH -1.077400 1.339500 0.000000\nH 0.456400 1.459200 0.927600\nH 0.456400 1.459200 -0.927600",
+          "point_group": "C3v",
+          "n_atoms": 5,
+          "method_id": 63,
+          "basis_id": 18,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=18"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rCCl",
+          "value": 1.785,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1973Dun/McK:232",
+          "comment": ""
+        },
+        {
+          "description": "rCH",
+          "value": 1.09,
+          "atoms": [
+            1,
+            3
+          ],
+          "reference": "1973Dun/McK:232",
+          "comment": ""
+        }
+      ],
+      "angles": [
+        {
+          "description": "aHCCl",
+          "value": 108.16,
+          "atoms": [
+            2,
+            1,
+            3
+          ],
+          "reference": "1973Dun/McK:232",
+          "comment": "by symmetry"
+        },
+        {
+          "description": "aHCH",
+          "value": 110.75,
+          "atoms": [
+            3,
+            1,
+            4
+          ],
+          "reference": "1973Dun/McK:232",
+          "comment": ""
+        }
+      ],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "M06-2X": {
+        "6-311+G(3df,2p)": -499.680721
+      },
+      "B97D3": {
+        "daug-cc-pVTZ": -499.746327
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -499.480225,
+        "cc-pVDZ": -499.507205,
+        "cc-pVTZ": -499.575842,
+        "aug-cc-pVTZ": -499.579852
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

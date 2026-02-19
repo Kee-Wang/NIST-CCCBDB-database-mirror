@@ -1,0 +1,123 @@
+{
+  "casno": "7723140",
+  "charge": 1,
+  "formula": "P",
+  "name": "Phosphorus atom cation",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 2.0,
+    "closed_shell": false,
+    "multiplicity": 3,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Kh",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -340.324802,
+        "TZVP": -340.344775,
+        "daug-cc-pVTZ": -340.352221
+      },
+      "ROHF": {
+        "3-21G": -338.62766,
+        "6-31+G**": -340.317902,
+        "aug-cc-pVDZ": -340.338006,
+        "aug-cc-pVTZ": -340.344382,
+        "aug-cc-pVQZ": -340.347379
+      },
+      "BLYP": {
+        "6-31G*": -340.866266
+      },
+      "B3LYP": {
+        "TZVP": -340.897677
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -340.904343
+      },
+      "M06-2X": {
+        "3-21G*": -339.192186
+      },
+      "PBE1PBE": {
+        "6-31G*": -340.726528
+      },
+      "TPSSh": {
+        "6-31G*": -340.871308,
+        "6-31+G**": -340.871712,
+        "6-31G(2df,p)": -340.871005,
+        "cc-pVTZ": -340.898733
+      },
+      "wB97X-D": {
+        "3-21G*": -339.205682,
+        "6-31G*": -340.84948,
+        "6-31+G**": -340.849892,
+        "6-311G**": -340.869581,
+        "TZVP": -340.870034,
+        "cc-pVDZ": -340.849892,
+        "cc-pVTZ": -340.87627,
+        "aug-cc-pVTZ": -340.876506
+      },
+      "B97D3": {
+        "3-21G": -339.150849,
+        "6-31G*": -340.86181,
+        "6-31+G**": -340.862187,
+        "6-311G**": -340.884001,
+        "6-311+G(3df,2p)": -340.885558,
+        "TZVP": -340.88198,
+        "cc-pVTZ": -340.8886,
+        "aug-cc-pVTZ": -340.888848
+      },
+      "MP2": {
+        "6-31G*": -340.372455,
+        "6-311G*": -340.392005,
+        "TZVP": -340.395943
+      },
+      "MP2=FULL": {
+        "aug-cc-pVTZ": -340.455589
+      },
+      "ROMP2": {
+        "6-31G*": -340.318299,
+        "6-31G**": -340.318299,
+        "6-31+G**": -340.317902,
+        "6-31G(2df,p)": -340.318203,
+        "cc-pVDZ": -340.337664,
+        "cc-pVTZ": -340.344462,
+        "aug-cc-pVDZ": -340.338006
+      },
+      "MP3": {
+        "6-31+G**": -340.386505
+      },
+      "MP3=FULL": {
+        "6-31G*": -340.396845
+      },
+      "B2PLYP": {
+        "cc-pVTZ": -340.769862
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31G**",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVDZ",
+      "aug-cc-pVTZ",
+      "aug-cc-pVQZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "casno": "1679090",
+  "charge": 0,
+  "formula": "C5H12S",
+  "name": "2-Butanethiol, 2-methyl-",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Cs",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -595.530124,
+        "cc-pVDZ": -595.581531,
+        "cc-pVTZ": -595.752657,
+        "aug-cc-pVTZ": -595.766382
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

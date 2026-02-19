@@ -1,0 +1,14 @@
+{
+  "casno": "7440484",
+  "charge": 0,
+  "formula": "Co",
+  "name": "Cobalt atom",
+  "fetched_date": "2026-02-18",
+  "spin": {},
+  "point_group_cccbdb": "Kh",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  }
+}

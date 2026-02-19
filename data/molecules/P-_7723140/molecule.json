@@ -1,0 +1,108 @@
+{
+  "casno": "7723140",
+  "charge": -1,
+  "formula": "P",
+  "name": "Phosphorus atom anion",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 2.0,
+    "closed_shell": false,
+    "multiplicity": 3,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Kh",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -340.657653,
+        "TZVP": -340.683351,
+        "daug-cc-pVTZ": -340.704852
+      },
+      "BLYP": {
+        "6-31G*": -341.244521
+      },
+      "B3LYP": {
+        "TZVP": -341.299106
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -341.321618
+      },
+      "M06-2X": {
+        "3-21G*": -339.570532
+      },
+      "PBE1PBE": {
+        "6-31G*": -341.121404
+      },
+      "TPSSh": {
+        "6-31G*": -341.267107,
+        "6-31+G**": -341.286279,
+        "6-31G(2df,p)": -341.268517,
+        "cc-pVTZ": -341.300738
+      },
+      "wB97X-D": {
+        "3-21G*": -339.593416,
+        "6-31G*": -341.243443,
+        "6-31+G**": -341.263652,
+        "6-311G**": -341.283016,
+        "TZVP": -341.271527,
+        "cc-pVDZ": -341.263652,
+        "cc-pVTZ": -341.276436,
+        "aug-cc-pVTZ": -341.291797
+      },
+      "B97D3": {
+        "3-21G": -339.532967,
+        "6-31G*": -341.249124,
+        "6-31+G**": -341.272831,
+        "6-311G**": -341.292139,
+        "6-311+G(3df,2p)": -341.297236,
+        "TZVP": -341.278707,
+        "cc-pVTZ": -341.283859,
+        "aug-cc-pVTZ": -341.301978
+      },
+      "MP2": {
+        "6-31G*": -340.723746,
+        "6-311G*": -340.764122,
+        "TZVP": -340.759194
+      },
+      "MP2=FULL": {
+        "aug-cc-pVTZ": -340.858431
+      },
+      "MP3": {
+        "6-31+G**": -340.736844
+      },
+      "MP3=FULL": {
+        "6-31G*": -340.746869
+      },
+      "MP4": {
+        "aug-cc-pVTZ": -340.843459
+      },
+      "B2PLYP": {
+        "cc-pVTZ": -341.158852
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVDZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

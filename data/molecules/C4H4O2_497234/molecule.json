@@ -1,0 +1,45 @@
+{
+  "casno": "497234",
+  "charge": 0,
+  "formula": "C4H4O2",
+  "name": "2(5H)-Furanone",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Cs",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "M06-2X": {
+        "6-311+G(3df,2p)": -305.250155
+      },
+      "B97D3": {
+        "daug-cc-pVTZ": -305.19432
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -304.969878,
+        "cc-pVDZ": -304.994126,
+        "cc-pVTZ": -305.17116,
+        "aug-cc-pVTZ": -305.186223
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

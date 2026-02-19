@@ -1,0 +1,57 @@
+{
+  "casno": "354212",
+  "charge": 0,
+  "formula": "C2HCl3F2",
+  "name": "Ethane, 1,2,2-trichloro-1,1-difluoro-",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C1",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "MP2": {
+        "cc-pVTZ": {
+          "xyz": "C 0.786000 -0.414100 0.000000\nC 0.041700 0.928200 0.000000\nCl -1.705000 0.762800 0.000000\nF 0.426400 1.623800 1.080600\nF 0.426400 1.623800 -1.080600\nH 1.846900 -0.181600 0.000000\nCl 0.426400 -1.326400 1.459900\nCl 0.426400 -1.326400 -1.459900",
+          "point_group": "C1",
+          "n_atoms": 8,
+          "method_id": 3,
+          "basis_id": 6,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=3&basis=6"
+        }
+      }
+    },
+    "best_available": "calculated/MP2/cc-pVTZ"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -1653.617985
+      },
+      "MP2": {
+        "cc-pVTZ": -1655.230913
+      },
+      "B2PLYP": {
+        "aug-cc-pVTZ": -1656.716334
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -1656.365299,
+        "cc-pVDZ": -1656.459802,
+        "cc-pVTZ": -1656.745243,
+        "aug-cc-pVTZ": -1656.768422
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

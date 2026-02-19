@@ -1,0 +1,212 @@
+{
+  "casno": "12033497",
+  "charge": 0,
+  "formula": "NO3",
+  "name": "Nitrogen trioxide",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.75,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "MP3=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C2v",
+  "geometries": {
+    "experimental": {
+      "xyz": "N 0.000000 0.000000 0.000000\nO 0.000000 1.237700 0.000000\nO 1.071900 -0.618900 0.000000\nO -1.071900 -0.618900 0.000000",
+      "point_group": "C2v",
+      "n_atoms": 4,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=12033497&charge=0",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "QCISD": {
+        "6-31G*": {
+          "xyz": "N 0.000000 0.000000 0.000000\nO 0.000000 1.240800 0.000000\nO 1.074500 -0.620400 0.000000\nO -1.074500 -0.620400 0.000000",
+          "point_group": "C2v",
+          "n_atoms": 4,
+          "method_id": 5,
+          "basis_id": 1,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=5&basis=1"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rNO",
+          "value": 1.238,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1998Kaw/Ish:193",
+          "comment": "from B0"
+        }
+      ],
+      "angles": [
+        {
+          "description": "aONO",
+          "value": 120.0,
+          "atoms": [
+            2,
+            1,
+            3
+          ],
+          "reference": "",
+          "comment": ""
+        }
+      ],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -278.765776,
+        "6-31+G**": -278.776887,
+        "TZVP": -278.916997,
+        "cc-pV(T+d)Z": -278.93092,
+        "daug-cc-pVTZ": -278.936243
+      },
+      "LSDA": {
+        "STO-3G": -274.981231,
+        "6-31G": -278.743396,
+        "6-31G*": -278.862632,
+        "6-311G*": -278.945042,
+        "cc-pV(T+d)Z": -278.982131
+      },
+      "BLYP": {
+        "6-31G*": -280.221165,
+        "cc-pV(T+d)Z": -280.33699
+      },
+      "B1B95": {
+        "cc-pV(T+d)Z": -280.255683
+      },
+      "B3LYP": {
+        "6-31G(2df,p)": -280.240208,
+        "TZVP": -280.325965,
+        "cc-pV(T+d)Z": -280.330496
+      },
+      "B3LYPultrafine": {
+        "cc-pVTZ": -280.330494,
+        "aug-cc-pVTZ": -280.336334
+      },
+      "B3PW91": {
+        "cc-pV(T+d)Z": -280.222883
+      },
+      "mPW1PW91": {
+        "cc-pV(T+d)Z": -280.253433
+      },
+      "M06-2X": {
+        "3-21G*": -278.478043,
+        "6-31G*": -280.088712,
+        "6-311+G(3df,2p)": -280.203429
+      },
+      "PBEPBE": {
+        "6-311+G(3df,2p)": -280.089067,
+        "cc-pV(T+d)Z": -280.089904
+      },
+      "PBEPBEultrafine": {
+        "6-31G*": -279.98058
+      },
+      "PBE1PBE": {
+        "6-31G*": -279.932639
+      },
+      "HSEh1PBE": {
+        "3-21G": -278.359079,
+        "6-31G*": -279.957548,
+        "6-31+G**": -279.970724,
+        "cc-pVTZ": -280.067123
+      },
+      "TPSSh": {
+        "6-31G*": -280.229223,
+        "6-31+G**": -280.242423,
+        "6-31G(2df,p)": -280.253041,
+        "cc-pVTZ": -280.340408
+      },
+      "wB97X-D": {
+        "3-21G*": -278.532794,
+        "6-31G*": -280.121242,
+        "6-31+G**": -280.133567,
+        "6-311G**": -280.198833,
+        "TZVP": -280.226074,
+        "cc-pVDZ": -280.133567,
+        "cc-pVTZ": -280.231277,
+        "aug-cc-pVTZ": -280.236538
+      },
+      "B97D3": {
+        "3-21G": -278.501648,
+        "6-31G*": -280.089128,
+        "6-31+G**": -280.103531,
+        "6-311G**": -280.170273,
+        "6-311+G(3df,2p)": -280.19871,
+        "TZVP": -280.197693,
+        "cc-pVTZ": -280.201196,
+        "aug-cc-pVTZ": -280.206973,
+        "daug-cc-pVTZ": -280.207614
+      },
+      "MP2": {
+        "6-31G*": -279.493446,
+        "6-311G*": -279.627341,
+        "TZVP": -279.657461,
+        "cc-pVTZ": -279.828331,
+        "cc-pV(T+d)Z": -279.828331
+      },
+      "MP2=FULL": {
+        "cc-pV(T+d)Z": -279.850606
+      },
+      "PMP2": {
+        "6-31G*": -279.495598,
+        "6-31+G**": -279.515389
+      },
+      "MP3": {
+        "6-31+G**": -279.478553
+      },
+      "MP3=FULL": {
+        "6-31G*": -279.488837,
+        "6-31+G**": -279.507455
+      },
+      "B2PLYP": {
+        "6-31G*": -279.977247,
+        "cc-pVTZ": -280.148099
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -279.980497,
+        "cc-pVDZ": -280.009873,
+        "cc-pVTZ": -280.163456,
+        "aug-cc-pVTZ": -280.177475
+      },
+      "QCISD": {
+        "6-31G*": -279.497562,
+        "cc-pV(T+d)Z": -279.806134
+      },
+      "CCSD(T)": {
+        "cc-pV(T+d)Z": -279.843825
+      }
+    },
+    "basis_sets": [
+      "STO-3G",
+      "3-21G",
+      "3-21G*",
+      "6-31G",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVDZ",
+      "aug-cc-pVTZ",
+      "cc-pV(T+d)Z",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

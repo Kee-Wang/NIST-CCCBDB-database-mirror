@@ -1,0 +1,52 @@
+{
+  "casno": "75616",
+  "charge": 0,
+  "formula": "CBr2F2",
+  "name": "Methane, dibromodifluoro-",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C2v",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "M06-2X": {
+        "6-311+G(3df,2p)": -5386.131998
+      },
+      "B97D3": {
+        "daug-cc-pVTZ": -5388.796023
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -5380.045176,
+        "cc-pVDZ": -5385.006627,
+        "cc-pVTZ": -5385.379968,
+        "aug-cc-pVTZ": -5385.401508
+      },
+      "CCSD(T)=FULL": {
+        "cc-pVTZ": -5382.841278
+      }
+    },
+    "basis_sets": [
+      "STO-3G",
+      "3-21G*",
+      "6-31G",
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

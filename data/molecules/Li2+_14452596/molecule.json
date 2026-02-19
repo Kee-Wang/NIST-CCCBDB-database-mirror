@@ -1,0 +1,157 @@
+{
+  "casno": "14452596",
+  "charge": 1,
+  "formula": "Li2",
+  "name": "lithium diatomic cation",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.75,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "D∞h",
+  "geometries": {
+    "experimental": {
+      "xyz": "Li 0.000000 0.000000 0.000000\nLi 0.000000 0.000000 2.673000",
+      "point_group": "D∞h",
+      "n_atoms": 2,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=14452596&charge=1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "aug-cc-pVQZ": {
+          "xyz": "Li 0.000000 0.000000 1.518700\nLi 0.000000 0.000000 -1.518700",
+          "point_group": "D∞h",
+          "n_atoms": 2,
+          "method_id": 63,
+          "basis_id": 26,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=26"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rLiLi",
+          "value": 2.673,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1979HUB/HER",
+          "comment": "re"
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -14.712742,
+        "TZVP": -14.712603,
+        "cc-pV(T+d)Z": -14.715983,
+        "daug-cc-pVTZ": -14.716093,
+        "6-311G*": -14.714077
+      },
+      "BLYP": {
+        "6-31G*": -14.803078
+      },
+      "B3LYP": {
+        "TZVP": -14.824009,
+        "cc-pV(T+d)Z": -14.824892
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -14.825081
+      },
+      "mPW1PW91": {
+        "cc-pV(T+d)Z": -14.809224
+      },
+      "M06-2X": {
+        "3-21G*": -14.698422,
+        "6-311+G(3df,2p)": -14.802048
+      },
+      "PBEPBE": {
+        "cc-pV(T+d)Z": -14.764206
+      },
+      "HSEh1PBE": {
+        "3-21G": -14.675455,
+        "cc-pVTZ": -14.779898
+      },
+      "TPSSh": {
+        "6-31G*": -14.81827,
+        "6-31+G**": -14.818337,
+        "6-31G(2df,p)": -14.819241,
+        "cc-pVTZ": -14.821594
+      },
+      "wB97X-D": {
+        "3-21G*": -14.723813,
+        "6-31G*": -14.826207,
+        "6-31+G**": -14.82627,
+        "6-311G**": -14.827479,
+        "TZVP": -14.826215,
+        "cc-pVDZ": -14.82627,
+        "cc-pVTZ": -14.829217,
+        "aug-cc-pVTZ": -14.8294
+      },
+      "B97D3": {
+        "3-21G": -14.725846,
+        "6-31G*": -14.828499,
+        "6-31+G**": -14.828584,
+        "6-311G**": -14.829397,
+        "6-311+G(3df,2p)": -14.829852,
+        "TZVP": -14.827584,
+        "cc-pVTZ": -14.831223,
+        "aug-cc-pVTZ": -14.831625,
+        "daug-cc-pVTZ": -14.831661
+      },
+      "MP2=FULL": {
+        "cc-pV(T+d)Z": -14.738712
+      },
+      "MP3=FULL": {
+        "6-31G*": -14.71387,
+        "6-31+G**": -14.714012
+      },
+      "B2PLYP": {
+        "6-31G*": -14.781467,
+        "cc-pVTZ": -14.784723
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -14.78184,
+        "cc-pVDZ": -14.783604,
+        "cc-pVTZ": -14.791637,
+        "aug-cc-pVTZ": -14.791949
+      },
+      "QCISD(T)=FULL": {
+        "6-31G*": -14.713891,
+        "cc-pVQZ": -14.751435,
+        "aug-cc-pVQZ": -14.752733
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "cc-pVQZ",
+      "aug-cc-pVTZ",
+      "aug-cc-pVQZ",
+      "cc-pV(T+d)Z",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

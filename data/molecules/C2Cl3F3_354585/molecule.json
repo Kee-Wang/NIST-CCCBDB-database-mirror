@@ -1,0 +1,120 @@
+{
+  "casno": "354585",
+  "charge": 0,
+  "formula": "C2Cl3F3",
+  "name": "1,1,1-trifluoro-2,2,2-trichloroethane",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C3v",
+  "geometries": {
+    "experimental": {
+      "xyz": "C 0.000000 0.000000 1.163200\nC 0.000000 0.000000 -0.386100\nF 0.000000 -1.243700 1.620500\nF 1.077100 0.621800 1.620500\nF -1.077100 0.621800 1.620500\nCl 0.000000 1.666000 -0.949400\nCl 1.442800 -0.833000 -0.949400\nCl -1.442800 -0.833000 -0.949400",
+      "point_group": "C3v",
+      "n_atoms": 8,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=354585&charge=0",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {},
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rCC",
+          "value": 1.549,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "2018Kis/Psz:1-9",
+          "comment": ""
+        },
+        {
+          "description": "rCCl",
+          "value": 1.759,
+          "atoms": [
+            2,
+            6
+          ],
+          "reference": "2018Kis/Psz:1-9",
+          "comment": "estimate"
+        },
+        {
+          "description": "rCF",
+          "value": 1.325,
+          "atoms": [
+            1,
+            3
+          ],
+          "reference": "2018Kis/Psz:1-9",
+          "comment": ""
+        },
+        {
+          "description": "rClCl",
+          "value": 2.886,
+          "atoms": [
+            6,
+            7
+          ],
+          "reference": "2018Kis/Psz:1-9",
+          "comment": ""
+        }
+      ],
+      "angles": [
+        {
+          "description": "aCCCl",
+          "value": 108.68,
+          "atoms": [
+            1,
+            2,
+            6
+          ],
+          "reference": "2018Kis/Psz:1-9",
+          "comment": ""
+        },
+        {
+          "description": "aCCF",
+          "value": 110.19,
+          "atoms": [
+            2,
+            1,
+            3
+          ],
+          "reference": "2018Kis/Psz:1-9",
+          "comment": ""
+        }
+      ],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "M06-2X": {
+        "6-311+G(3df,2p)": -1756.358795
+      },
+      "B97D3": {
+        "daug-cc-pVTZ": -1756.429565
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -1755.537074,
+        "cc-pVDZ": -1755.640872,
+        "cc-pVTZ": -1755.979458,
+        "aug-cc-pVTZ": -1756.006172
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

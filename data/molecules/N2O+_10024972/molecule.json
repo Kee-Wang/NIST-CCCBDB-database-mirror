@@ -1,0 +1,179 @@
+{
+  "casno": "10024972",
+  "charge": 1,
+  "formula": "N2O",
+  "name": "Nitrous oxide cation",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.81,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C∞v",
+  "geometries": {
+    "experimental": {
+      "xyz": "N 0.000000 0.000000 -1.199800\nN 0.000000 0.000000 -0.071600\nO 0.000000 0.000000 1.112600",
+      "point_group": "C∞v",
+      "n_atoms": 3,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=10024972&charge=1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "6-31G*": {
+          "xyz": "N 0.000000 0.000000 -1.356400\nN 0.000000 0.000000 -0.127500\nO 0.000000 0.000000 1.298400",
+          "point_group": "C∞v",
+          "n_atoms": 3,
+          "method_id": 63,
+          "basis_id": 1,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=1"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rNN",
+          "value": 1.128,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1966Herzberg",
+          "comment": ""
+        },
+        {
+          "description": "rNO",
+          "value": 1.184,
+          "atoms": [
+            2,
+            3
+          ],
+          "reference": "1966Herzberg",
+          "comment": ""
+        }
+      ],
+      "angles": [
+        {
+          "description": "aNNO",
+          "value": 180.0,
+          "atoms": [
+            1,
+            2,
+            3
+          ],
+          "reference": "1966Herzberg",
+          "comment": ""
+        }
+      ],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -183.270821,
+        "TZVP": -183.336337,
+        "daug-cc-pVTZ": -183.349649
+      },
+      "BLYP": {
+        "6-31G*": -184.189903
+      },
+      "B3LYP": {
+        "TZVP": -184.25484
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -184.26299
+      },
+      "M06-2X": {
+        "3-21G*": -183.050975,
+        "6-31G*": -184.110394,
+        "6-311+G(3df,2p)": -184.18064
+      },
+      "PBE1PBE": {
+        "6-31G*": -183.996047
+      },
+      "HSEh1PBE": {
+        "3-21G": -182.96002,
+        "6-31G*": -184.012805,
+        "6-31+G**": -184.015784,
+        "cc-pVTZ": -184.083784
+      },
+      "TPSSh": {
+        "6-31G*": -184.202191,
+        "6-31+G**": -184.205212,
+        "6-31G(2df,p)": -184.220755,
+        "cc-pVTZ": -184.274258
+      },
+      "wB97X-D": {
+        "3-21G*": -183.077607,
+        "6-31G*": -184.122713,
+        "6-31+G**": -184.125899,
+        "6-311G**": -184.172026,
+        "TZVP": -184.190301,
+        "cc-pVDZ": -184.125899,
+        "cc-pVTZ": -184.197615,
+        "aug-cc-pVTZ": -184.199163
+      },
+      "B97D3": {
+        "3-21G": -183.049622,
+        "6-31G*": -184.098198,
+        "6-31+G**": -184.101064,
+        "6-311G**": -184.148025,
+        "6-311+G(3df,2p)": -184.165326,
+        "TZVP": -184.163373,
+        "cc-pVTZ": -184.170098,
+        "aug-cc-pVTZ": -184.171137,
+        "daug-cc-pVTZ": -184.17163
+      },
+      "MP2": {
+        "6-31G*": -183.701524,
+        "6-311G*": -183.782237,
+        "TZVP": -183.798597
+      },
+      "MP2=FULL": {
+        "aug-cc-pVTZ": -183.940799
+      },
+      "MP3": {
+        "6-31+G**": -183.70887
+      },
+      "MP3=FULL": {
+        "6-31G*": -183.717782,
+        "6-31+G**": -183.724353
+      },
+      "MP4": {
+        "cc-pVTZ": -183.931817
+      },
+      "B2PLYP": {
+        "6-31G*": -184.03795,
+        "cc-pVTZ": -184.142929
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -184.040701,
+        "cc-pVDZ": -184.062308,
+        "cc-pVTZ": -184.154639,
+        "aug-cc-pVTZ": -184.159852
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

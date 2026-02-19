@@ -1,0 +1,83 @@
+{
+  "casno": "592574",
+  "charge": 0,
+  "formula": "C6H8",
+  "name": "1,3-Cyclohexadiene",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C2",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "HF": {
+        "daug-cc-pVTZ": {
+          "xyz": "C -0.048700 1.414800 0.118900\nC 0.048700 0.734600 1.247200\nC -0.048700 -0.734600 1.247200\nC 0.048700 -1.414800 0.118900\nC 0.293500 -0.706100 -1.189200\nC -0.293500 0.706100 -1.189200\nH -0.004800 2.488400 0.122500\nH 0.184700 1.240800 2.184500\nH -0.184700 -1.240800 2.184500\nH 0.004800 -2.488400 0.122500\nH -0.117400 -1.277100 -2.012900\nH 1.368700 -0.656400 -1.355400\nH 0.117400 1.277100 -2.012900\nH -1.368700 0.656400 -1.355400",
+          "point_group": "C2",
+          "n_atoms": 14,
+          "method_id": 1,
+          "basis_id": 35,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=1&basis=35"
+        }
+      }
+    },
+    "best_available": "calculated/HF/daug-cc-pVTZ",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rCH",
+          "value": 1.09,
+          "atoms": [
+            1,
+            7
+          ],
+          "reference": "1976Hellwege(II/7)",
+          "comment": "C with double bond"
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "daug-cc-pVTZ": -231.913466
+      },
+      "M06-2X": {
+        "3-21G*": -232.029994,
+        "6-311+G(3df,2p)": -233.380842
+      },
+      "PBEPBE": {
+        "6-311+G(3df,2p)": -233.171166
+      },
+      "B97D3": {
+        "6-311+G(3df,2p)": -233.339502,
+        "TZVP": -233.341197,
+        "daug-cc-pVTZ": -233.347477
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -233.139449,
+        "cc-pVDZ": -233.164535,
+        "cc-pVTZ": -233.306659,
+        "aug-cc-pVTZ": -233.318296
+      }
+    },
+    "basis_sets": [
+      "3-21G*",
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

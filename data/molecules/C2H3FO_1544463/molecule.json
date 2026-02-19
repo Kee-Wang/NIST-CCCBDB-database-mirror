@@ -1,0 +1,57 @@
+{
+  "casno": "1544463",
+  "charge": 0,
+  "formula": "C2H3FO",
+  "name": "Fluoroacetaldehyde",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Cs",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "MP2": {
+        "cc-pVTZ": {
+          "xyz": "C 0.000000 0.737800 0.000000\nC 0.221600 -0.755900 0.000000\nO 1.327300 -1.248500 0.000000\nF -1.351300 1.012600 0.000000\nH 0.457300 1.172700 0.887600\nH 0.457300 1.172700 -0.887600\nH -0.700500 -1.361900 0.000000",
+          "point_group": "Cs",
+          "n_atoms": 7,
+          "method_id": 3,
+          "basis_id": 6,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=3&basis=6"
+        }
+      }
+    },
+    "best_available": "calculated/MP2/cc-pVTZ"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -251.758309
+      },
+      "MP2": {
+        "cc-pVTZ": -252.660897
+      },
+      "B2PLYP": {
+        "aug-cc-pVTZ": -252.994515
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -252.821175,
+        "cc-pVDZ": -252.848104,
+        "cc-pVTZ": -252.999918,
+        "aug-cc-pVTZ": -253.013401
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "casno": "14696981",
+  "charge": 0,
+  "formula": "IO",
+  "name": "Iodine monoxide",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.751,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C∞v",
+  "geometries": {
+    "experimental": {
+      "xyz": "I 0.000000 0.000000 0.000000\nO 0.000000 0.000000 1.867700",
+      "point_group": "C∞v",
+      "n_atoms": 2,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=14696981&charge=0",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCD": {
+        "3-21G": {
+          "xyz": "I 0.000000 0.000000 0.260200\nO 0.000000 0.000000 -1.723900",
+          "point_group": "C∞v",
+          "n_atoms": 2,
+          "method_id": 6,
+          "basis_id": 2,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=6&basis=2"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rIO",
+          "value": 1.868,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "NISTDIatomics",
+          "comment": "re"
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": -6924.483591,
+    "methods": {
+      "HF": {
+        "STO-3G": -6924.483591,
+        "3-21G": -6962.234593
+      },
+      "ROHF": {
+        "3-21G": -6962.212115
+      },
+      "BLYP": {
+        "STO-3G": -6926.774792,
+        "3-21G": -6965.26142
+      },
+      "B1B95": {
+        "STO-3G": -6927.809921,
+        "3-21G": -6966.113158
+      },
+      "B3LYP": {
+        "STO-3G": -6926.924626,
+        "3-21G": -6965.269121
+      },
+      "B3LYPultrafine": {
+        "3-21G": -6965.269121
+      },
+      "B3PW91": {
+        "STO-3G": -6927.062675,
+        "3-21G": -6965.340138
+      },
+      "mPW1PW91": {
+        "STO-3G": -6927.453346,
+        "3-21G": -6965.677368
+      },
+      "M06-2X": {
+        "STO-3G": -6927.162175,
+        "3-21G": -6965.601764
+      },
+      "PBEPBE": {
+        "STO-3G": -6926.216742,
+        "3-21G": -6964.585696
+      },
+      "PBEPBEultrafine": {
+        "3-21G": -6964.585696
+      },
+      "PBE1PBE": {
+        "STO-3G": -6926.578784,
+        "3-21G": -6964.852495
+      },
+      "HSEh1PBE": {
+        "STO-3G": -6926.491918,
+        "3-21G": -6964.653829
+      },
+      "TPSSh": {
+        "STO-3G": -6926.737762,
+        "3-21G": -6964.911003
+      },
+      "wB97X-D": {
+        "STO-3G": -6927.130794,
+        "3-21G": -6965.37164
+      },
+      "B97D3": {
+        "STO-3G": -6930.784143,
+        "3-21G": -6969.185956
+      },
+      "MP2": {
+        "STO-3G": -6924.502792,
+        "3-21G": -6962.328352
+      },
+      "MP2=FULL": {
+        "STO-3G": -6924.502847,
+        "3-21G": -6962.340333
+      },
+      "ROMP2": {
+        "STO-3G": -6924.506065,
+        "3-21G": -6962.488856
+      },
+      "MP3=FULL": {
+        "3-21G": -6962.347478
+      },
+      "MP4": {
+        "3-21G": -6962.343291
+      },
+      "MP4=FULL": {
+        "3-21G": -6962.355183
+      },
+      "B2PLYP": {
+        "STO-3G": -6926.335731,
+        "3-21G": -6964.454019
+      },
+      "B2PLYP=FULL": {
+        "STO-3G": -6926.33575,
+        "3-21G": -6964.457429
+      },
+      "B2PLYP=FULLultrafine": {
+        "STO-3G": -6926.323816,
+        "3-21G": -6964.411275
+      },
+      "CID": {
+        "3-21G": -6962.334527
+      },
+      "CISD": {
+        "3-21G": -6962.342044
+      },
+      "QCISD": {
+        "3-21G": -6962.353054
+      },
+      "CCD": {
+        "3-21G": -6962.339392
+      }
+    },
+    "basis_sets": [
+      "STO-3G",
+      "3-21G"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

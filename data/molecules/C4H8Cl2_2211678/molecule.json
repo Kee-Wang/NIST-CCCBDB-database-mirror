@@ -1,0 +1,53 @@
+{
+  "casno": "2211678",
+  "charge": 0,
+  "formula": "C4H8Cl2",
+  "name": "Butane, 2,3-dichloro-, (r*,r*)-(.+/-.)-",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C2",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "M06-2X": {
+        "3-21G*": -1072.492365,
+        "6-311+G(3df,2p)": -1077.633745
+      },
+      "PBEPBE": {
+        "6-311+G(3df,2p)": -1077.139662
+      },
+      "B97D3": {
+        "6-311+G(3df,2p)": -1077.70032,
+        "TZVP": -1077.687185,
+        "daug-cc-pVTZ": -1077.716117
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -1077.129716,
+        "cc-pVDZ": -1077.193987,
+        "cc-pVTZ": -1077.37973,
+        "aug-cc-pVTZ": -1077.39474
+      }
+    },
+    "basis_sets": [
+      "3-21G*",
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

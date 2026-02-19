@@ -1,0 +1,72 @@
+{
+  "casno": "66251",
+  "charge": 0,
+  "formula": "C6H12O",
+  "name": "hexanal",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Cs",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null,
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rCO",
+          "value": 1.208,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "2015Sei/Fin:13-21",
+          "comment": ""
+        },
+        {
+          "description": "rCC",
+          "value": 1.511,
+          "atoms": [
+            2,
+            3
+          ],
+          "reference": "2015Sei/Fin:13-21",
+          "comment": ""
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "M06-2X": {
+        "6-311+G(3df,2p)": -311.038245
+      },
+      "B97D3": {
+        "6-311+G(3df,2p)": -311.00081,
+        "daug-cc-pVTZ": -311.011121
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -310.718384,
+        "cc-pVDZ": -310.755259,
+        "cc-pVTZ": -310.95023,
+        "aug-cc-pVTZ": -310.965382
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

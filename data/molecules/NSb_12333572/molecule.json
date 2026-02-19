@@ -1,0 +1,41 @@
+{
+  "casno": "12333572",
+  "charge": 0,
+  "formula": "NSb",
+  "name": "Antimony nitride",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C∞v",
+  "geometries": {
+    "experimental": {
+      "xyz": "Sb 0.000000 0.000000 0.000000\nN 0.000000 0.000000 1.835200",
+      "point_group": "C∞v",
+      "n_atoms": 2,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=12333572&charge=0",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {},
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rNSb",
+          "value": 1.835,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1978Jen/Dau:30",
+          "comment": "re"
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  }
+}

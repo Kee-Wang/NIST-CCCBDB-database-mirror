@@ -1,0 +1,70 @@
+{
+  "casno": "106423",
+  "charge": 0,
+  "formula": "C8H10",
+  "name": "paraxylene",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C2v",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -308.773977
+      },
+      "BLYP": {
+        "6-31G*": -310.712934
+      },
+      "M06-2X": {
+        "3-21G*": -309.031184,
+        "6-311+G(3df,2p)": -310.830128
+      },
+      "wB97X-D": {
+        "6-31+G**": -310.799333,
+        "TZVP": -310.874645,
+        "cc-pVDZ": -310.799333
+      },
+      "B97D3": {
+        "3-21G": -308.976423,
+        "6-31G*": -310.674699,
+        "6-31+G**": -310.698996,
+        "6-311G**": -310.753707,
+        "6-311+G(3df,2p)": -310.77559,
+        "TZVP": -310.777345,
+        "cc-pVTZ": -310.783222,
+        "aug-cc-pVTZ": -310.785853,
+        "daug-cc-pVTZ": -310.785178
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -310.517729,
+        "cc-pVDZ": -310.547007,
+        "cc-pVTZ": -310.73403,
+        "aug-cc-pVTZ": -310.749229
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G**",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

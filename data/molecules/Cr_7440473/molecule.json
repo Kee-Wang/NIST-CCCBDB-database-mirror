@@ -1,0 +1,14 @@
+{
+  "casno": "7440473",
+  "charge": 0,
+  "formula": "Cr",
+  "name": "Chromium atom",
+  "fetched_date": "2026-02-18",
+  "spin": {},
+  "point_group_cccbdb": "Kh",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  }
+}

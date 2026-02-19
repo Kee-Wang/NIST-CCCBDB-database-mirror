@@ -1,0 +1,154 @@
+{
+  "casno": "7782776",
+  "charge": 1,
+  "formula": "HNO2",
+  "name": "nitrous acid cation",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.753,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Cs",
+  "geometries": {
+    "experimental": {
+      "xyz": "H 1.754500 -0.182300 0.000000\nO 0.894200 -0.606100 0.000000\nN 0.000000 0.525200 0.000000\nO -1.113500 0.169300 0.000000",
+      "point_group": "Cs",
+      "n_atoms": 4,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=7782776&charge=1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "6-31G*": {
+          "xyz": "H -1.872900 0.050300 0.000000\nO -0.999200 -0.530600 0.000000\nN 0.000000 0.490300 0.000000\nO 1.233300 0.095300 0.000000",
+          "point_group": "Cs",
+          "n_atoms": 4,
+          "method_id": 63,
+          "basis_id": 1,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=1"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rNO",
+          "value": 1.442,
+          "atoms": [
+            2,
+            3
+          ],
+          "reference": "1972Fin/Cox:548",
+          "comment": ""
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -204.269297,
+        "TZVP": -204.349806,
+        "daug-cc-pVTZ": -204.365218
+      },
+      "BLYP": {
+        "6-31G*": -205.300091
+      },
+      "B3LYP": {
+        "TZVP": -205.383741
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -205.392887
+      },
+      "M06-2X": {
+        "3-21G*": -204.028686,
+        "6-31G*": -205.212778,
+        "6-311+G(3df,2p)": -205.29908
+      },
+      "PBE1PBE": {
+        "6-31G*": -205.092565
+      },
+      "HSEh1PBE": {
+        "3-21G": -203.94011,
+        "6-31G*": -205.110551,
+        "6-31+G**": -205.120258,
+        "cc-pVTZ": -205.197141
+      },
+      "TPSSh": {
+        "6-31G*": -205.312204,
+        "6-31+G**": -205.321497,
+        "6-31G(2df,p)": -205.338067,
+        "cc-pVTZ": -205.399687
+      },
+      "wB97X-D": {
+        "3-21G*": -204.072621,
+        "6-31G*": -205.235363,
+        "6-31+G**": -205.244774,
+        "6-311G**": -205.297191,
+        "TZVP": -205.317352,
+        "cc-pVDZ": -205.244774,
+        "cc-pVTZ": -205.324034,
+        "aug-cc-pVTZ": -205.326458
+      },
+      "B97D3": {
+        "3-21G": -204.046766,
+        "6-31G*": -205.206196,
+        "6-31+G**": -205.215572,
+        "6-311G**": -205.269795,
+        "6-311+G(3df,2p)": -205.288802,
+        "TZVP": -205.287718,
+        "cc-pVTZ": -205.293919,
+        "aug-cc-pVTZ": -205.295863,
+        "daug-cc-pVTZ": -205.29643
+      },
+      "MP2": {
+        "6-31G*": -204.773683,
+        "6-311G*": -204.872449,
+        "TZVP": -204.902129
+      },
+      "MP2=FULL": {
+        "aug-cc-pVTZ": -205.06406
+      },
+      "MP3": {
+        "6-31+G**": -204.775716
+      },
+      "MP3=FULL": {
+        "6-31G*": -204.772845,
+        "6-31+G**": -204.79171
+      },
+      "B2PLYP": {
+        "6-31G*": -205.13259,
+        "cc-pVTZ": -205.263043
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -205.135036,
+        "cc-pVDZ": -205.165671,
+        "cc-pVTZ": -205.274566,
+        "aug-cc-pVTZ": -205.281415
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

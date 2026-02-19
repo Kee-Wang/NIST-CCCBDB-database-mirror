@@ -1,0 +1,131 @@
+{
+  "casno": "14644452",
+  "charge": 0,
+  "formula": "AsH2",
+  "name": "Arsenic dihydride",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.75,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C2v",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "aug-cc-pVQZ": {
+          "xyz": "As 0.000000 0.000000 0.059500\nH 0.000000 1.062700 -0.982600\nH 0.000000 -1.062700 -0.982600",
+          "point_group": "C2v",
+          "n_atoms": 3,
+          "method_id": 63,
+          "basis_id": 26,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=26"
+        }
+      }
+    },
+    "best_available": "calculated/CCSD(T)=FULL/aug-cc-pVQZ"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "TZVP": -2235.339265,
+        "daug-cc-pVTZ": -2235.385523
+      },
+      "BLYP": {
+        "6-31G*": -2234.917903
+      },
+      "B3LYP": {
+        "TZVP": -2237.082057
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -2237.126214
+      },
+      "M06-2X": {
+        "3-21G*": -2226.579483,
+        "6-31G*": -2234.916598,
+        "6-311+G(3df,2p)": -2237.018637
+      },
+      "PBE1PBE": {
+        "6-31G*": -2234.580084
+      },
+      "HSEh1PBE": {
+        "3-21G": -2225.977247,
+        "6-31G*": -2234.564276,
+        "6-31+G**": -2234.585646,
+        "cc-pVTZ": -2236.792591
+      },
+      "TPSSh": {
+        "6-31G*": -2234.800812,
+        "6-31+G**": -2234.821973,
+        "6-31G(2df,p)": -2234.949905,
+        "cc-pVTZ": -2237.031987
+      },
+      "wB97X-D": {
+        "3-21G*": -2226.539158,
+        "6-31G*": -2234.916945,
+        "6-31+G**": -2234.938483,
+        "6-311G**": -2237.061603,
+        "TZVP": -2237.09842,
+        "cc-pVDZ": -2234.938483,
+        "cc-pVTZ": -2237.14194,
+        "aug-cc-pVTZ": -2237.14231
+      },
+      "B97D3": {
+        "3-21G": -2227.423077,
+        "6-31G*": -2236.014957,
+        "6-31+G**": -2236.03597,
+        "6-311G**": -2238.140394,
+        "6-311+G(3df,2p)": -2238.143205,
+        "TZVP": -2238.171814,
+        "cc-pVTZ": -2238.214637,
+        "aug-cc-pVTZ": -2238.215268,
+        "daug-cc-pVTZ": -2238.215424
+      },
+      "MP2": {
+        "6-31G*": -2233.198737,
+        "6-311G*": -2235.382373,
+        "TZVP": -2235.553041
+      },
+      "MP2=FULL": {
+        "aug-cc-pVTZ": -2235.649003
+      },
+      "MP3": {
+        "6-31+G**": -2233.237927
+      },
+      "MP3=FULL": {
+        "6-31G*": -2233.248798,
+        "6-31+G**": -2233.285983
+      },
+      "B2PLYP": {
+        "6-31G*": -2234.409962,
+        "cc-pVTZ": -2236.685961
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -2234.420996,
+        "cc-pVDZ": -2236.589604,
+        "cc-pVTZ": -2236.702631,
+        "aug-cc-pVTZ": -2236.706518
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "casno": "13283313",
+  "charge": -1,
+  "formula": "BH3",
+  "name": "boron trihydride anion",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.75,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C2v",
+  "geometries": {
+    "experimental": {
+      "xyz": "B 0.000000 0.000000 0.000000\nH 0.000000 1.190000 0.000000\nH 1.030600 -0.595000 0.000000\nH -1.030600 -0.595000 0.000000",
+      "point_group": "C2v",
+      "n_atoms": 4,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=13283313&charge=-1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "aug-cc-pVTZ": {
+          "xyz": "B 0.000000 0.000000 0.000000\nH 0.000000 1.203900 0.000000\nH 1.042600 -0.602000 0.000000\nH -1.042600 -0.602000 0.000000",
+          "point_group": "C2v",
+          "n_atoms": 4,
+          "method_id": 63,
+          "basis_id": 18,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=18"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rBH",
+          "value": 1.19,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1998Kuc",
+          "comment": "r0 value"
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -26.329398,
+        "TZVP": -26.36368,
+        "daug-cc-pVTZ": -26.392224
+      },
+      "BLYP": {
+        "6-31G*": -26.536044
+      },
+      "B3LYP": {
+        "TZVP": -26.617924
+      },
+      "M06-2X": {
+        "3-21G*": -26.399151,
+        "6-311+G(3df,2p)": -26.591086
+      },
+      "PBE1PBE": {
+        "6-31G*": -26.525658
+      },
+      "TPSSh": {
+        "6-31G*": -26.581802,
+        "6-31+G**": -26.617236,
+        "6-31G(2df,p)": -26.584933,
+        "cc-pVTZ": -26.615199
+      },
+      "wB97X-D": {
+        "3-21G*": -26.417026,
+        "6-31G*": -26.561081,
+        "6-31+G**": -26.596471,
+        "6-311G**": -26.588161,
+        "TZVP": -26.597332,
+        "cc-pVDZ": -26.596471,
+        "cc-pVTZ": -26.595532,
+        "aug-cc-pVTZ": -26.605996
+      },
+      "B97D3": {
+        "3-21G": -26.411887,
+        "6-31G*": -26.555358,
+        "6-31+G**": -26.592013,
+        "6-311G**": -26.584385,
+        "6-311+G(3df,2p)": -26.599874,
+        "TZVP": -26.593875,
+        "cc-pVTZ": -26.591987,
+        "aug-cc-pVTZ": -26.60392,
+        "daug-cc-pVTZ": -26.616913
+      },
+      "MP2": {
+        "6-31G*": -26.413303,
+        "6-311G*": -26.444358,
+        "TZVP": -26.477838
+      },
+      "MP3": {
+        "6-31+G**": -26.453942
+      },
+      "MP3=FULL": {
+        "6-31G*": -26.433319,
+        "6-31+G**": -26.493918
+      },
+      "B2PLYP": {
+        "cc-pVTZ": -26.566412
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -26.514866,
+        "cc-pVDZ": -26.538226,
+        "cc-pVTZ": -26.570185,
+        "aug-cc-pVTZ": -26.583804
+      },
+      "CCSD": {
+        "6-31G*": -26.433652
+      },
+      "CCSD(T)=FULL": {
+        "6-31G*": -26.440255
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

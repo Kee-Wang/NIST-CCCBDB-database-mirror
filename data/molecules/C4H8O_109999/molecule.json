@@ -1,0 +1,64 @@
+{
+  "casno": "109999",
+  "charge": 0,
+  "formula": "C4H8O",
+  "name": "Furan, tetrahydro-",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C2",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "HF": {
+        "daug-cc-pVTZ": {
+          "xyz": "O 0.000000 0.000000 1.227100\nC 0.000000 1.162100 0.433500\nC 0.000000 -1.162100 0.433500\nC 0.301600 0.701700 -0.989100\nC -0.301600 -0.701700 -0.989100\nH -0.734400 -1.855100 0.822300\nH 0.734400 1.855100 0.822300\nH -0.975700 1.636000 0.491500\nH 0.975700 -1.636000 0.491500\nH 1.372800 0.650300 -1.149600\nH -1.372800 -0.650300 -1.149600\nH -0.119800 1.357100 -1.739100\nH 0.119800 -1.357100 -1.739100",
+          "point_group": "C2",
+          "n_atoms": 13,
+          "method_id": 1,
+          "basis_id": 35,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=1&basis=35"
+        }
+      }
+    },
+    "best_available": "calculated/HF/daug-cc-pVTZ"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "daug-cc-pVTZ": -231.063408
+      },
+      "M06-2X": {
+        "6-311+G(3df,2p)": -232.421966
+      },
+      "PBEPBE": {
+        "6-311+G(3df,2p)": -232.228825
+      },
+      "B97D3": {
+        "TZVP": -232.385326,
+        "daug-cc-pVTZ": -232.392709
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -232.183343,
+        "cc-pVDZ": -232.208117,
+        "cc-pVTZ": -232.354061,
+        "aug-cc-pVTZ": -232.366662
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

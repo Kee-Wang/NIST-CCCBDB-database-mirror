@@ -1,0 +1,158 @@
+{
+  "casno": "7637072",
+  "charge": 1,
+  "formula": "BF3",
+  "name": "boron trifluoride cation",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.806,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "D3h",
+  "geometries": {
+    "experimental": {
+      "xyz": "B 0.000000 0.000000 0.000000\nF 0.000000 1.307000 0.000000\nF 1.131900 -0.653500 0.000000\nF -1.131900 -0.653500 0.000000",
+      "point_group": "D3h",
+      "n_atoms": 4,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=7637072&charge=1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)": {
+        "aug-cc-pVDZ": {
+          "xyz": "B 0.000000 0.000000 -0.289500\nF 0.000000 0.000000 1.425300\nF 0.000000 1.226300 -0.632200\nF 0.000000 -1.226300 -0.632200",
+          "point_group": "D3h",
+          "n_atoms": 4,
+          "method_id": 12,
+          "basis_id": 17,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=12&basis=17"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rBF",
+          "value": 1.307,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1998Kuc",
+          "comment": "re value"
+        }
+      ],
+      "angles": [
+        {
+          "description": "aFBF",
+          "value": 120.0,
+          "atoms": [
+            2,
+            1,
+            3
+          ],
+          "reference": "1998Kuc",
+          "comment": ""
+        }
+      ],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -322.596126,
+        "TZVP": -322.725813,
+        "daug-cc-pVTZ": -322.728054
+      },
+      "BLYP": {
+        "6-31G*": -324.004279
+      },
+      "B3LYP": {
+        "TZVP": -324.143054
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -324.141675
+      },
+      "M06-2X": {
+        "3-21G*": -322.106612,
+        "6-311+G(3df,2p)": -323.997486
+      },
+      "PBE1PBE": {
+        "6-31G*": -323.687487
+      },
+      "TPSSh": {
+        "6-31G*": -324.009162,
+        "6-31+G**": -324.016244,
+        "6-31G(2df,p)": -324.031119,
+        "cc-pVTZ": -324.134652
+      },
+      "wB97X-D": {
+        "3-21G*": -322.174819,
+        "6-31G*": -323.908292,
+        "6-31+G**": -323.914583,
+        "6-311G**": -323.993832,
+        "TZVP": -324.040768,
+        "cc-pVDZ": -323.914583,
+        "cc-pVTZ": -324.034135,
+        "aug-cc-pVTZ": -324.038101
+      },
+      "B97D3": {
+        "3-21G": -322.126866,
+        "6-31G*": -323.868029,
+        "6-31+G**": -323.875996,
+        "6-311G**": -323.957512,
+        "6-311+G(3df,2p)": -323.987525,
+        "TZVP": -324.002763,
+        "cc-pVTZ": -323.997929,
+        "aug-cc-pVTZ": -324.001448,
+        "daug-cc-pVTZ": -324.002419
+      },
+      "MP2": {
+        "6-31G*": -323.209265,
+        "6-311G*": -323.396879,
+        "TZVP": -323.441
+      },
+      "MP3": {
+        "6-31+G**": -323.190755
+      },
+      "MP3=FULL": {
+        "6-31G*": -323.203146,
+        "6-31+G**": -323.215295
+      },
+      "B2PLYP": {
+        "cc-pVTZ": -323.951869
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -323.755139,
+        "cc-pVDZ": -323.77726,
+        "cc-pVTZ": -323.966855,
+        "aug-cc-pVTZ": -323.97708
+      },
+      "CCSD(T)=FULL": {
+        "6-31G*": -323.23697
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

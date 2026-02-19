@@ -1,0 +1,45 @@
+{
+  "casno": "62901706",
+  "charge": 1,
+  "formula": "CH7N2",
+  "name": "diaminoethane, protonated",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": null,
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "M06-2X": {
+        "6-311+G(3df,2p)": -151.555341
+      },
+      "B97D3": {
+        "daug-cc-pVTZ": -151.55569
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -151.396006,
+        "cc-pVDZ": -151.420443,
+        "cc-pVTZ": -151.519839,
+        "aug-cc-pVTZ": -151.526732
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "casno": "26456633",
+  "charge": 0,
+  "formula": "C7H10",
+  "name": "trivinyl methane",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C3v",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -272.35453,
+        "cc-pVDZ": -272.386684,
+        "cc-pVTZ": -272.557868,
+        "aug-cc-pVTZ": -272.571245
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

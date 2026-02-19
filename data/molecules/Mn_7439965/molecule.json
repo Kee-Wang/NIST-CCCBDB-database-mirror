@@ -1,0 +1,14 @@
+{
+  "casno": "7439965",
+  "charge": 0,
+  "formula": "Mn",
+  "name": "Manganese atom",
+  "fetched_date": "2026-02-18",
+  "spin": {},
+  "point_group_cccbdb": "Kh",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  }
+}

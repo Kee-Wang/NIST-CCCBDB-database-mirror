@@ -1,0 +1,71 @@
+{
+  "casno": "7440326",
+  "charge": 1,
+  "formula": "Ti",
+  "name": "Titanium atom cation",
+  "fetched_date": "2026-02-18",
+  "spin": {},
+  "point_group_cccbdb": "Kh",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "daug-cc-pVTZ": -848.060813
+      },
+      "BLYP": {
+        "6-31G*": -849.038368
+      },
+      "M06-2X": {
+        "3-21G*": -844.948391
+      },
+      "TPSSh": {
+        "6-31G(2df,p)": -849.033479
+      },
+      "wB97X-D": {
+        "3-21G*": -844.820434,
+        "6-31G*": -848.911793,
+        "6-31+G**": -848.945863,
+        "6-311G**": -849.020248,
+        "TZVP": -849.055664,
+        "cc-pVDZ": -848.945863,
+        "cc-pVTZ": -849.024891,
+        "aug-cc-pVTZ": -849.024958
+      },
+      "B97D3": {
+        "3-21G": -845.150799,
+        "6-31G*": -849.195165,
+        "6-31+G**": -849.206562,
+        "6-311G**": -849.242274,
+        "6-311+G(3df,2p)": -849.244214,
+        "TZVP": -849.265313,
+        "cc-pVTZ": -849.284197,
+        "aug-cc-pVTZ": -849.28442
+      },
+      "MP2": {
+        "6-31G*": -848.102879,
+        "6-311G*": -848.032573
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

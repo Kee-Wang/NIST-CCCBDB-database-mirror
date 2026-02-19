@@ -1,0 +1,32 @@
+{
+  "casno": "13932100",
+  "charge": 0,
+  "formula": "ClO3",
+  "name": "Chlorine trioxide",
+  "fetched_date": "2026-02-18",
+  "spin": {},
+  "point_group_cccbdb": "C3v",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -685.176889,
+        "cc-pVDZ": -685.199593,
+        "cc-pVTZ": -685.426139,
+        "aug-cc-pVTZ": -685.443443
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

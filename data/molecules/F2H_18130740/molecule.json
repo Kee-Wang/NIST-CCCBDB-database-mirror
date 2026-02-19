@@ -1,0 +1,81 @@
+{
+  "casno": "18130740",
+  "charge": 0,
+  "formula": "F2H",
+  "name": "Hydrogen difluoride",
+  "fetched_date": "2026-02-18",
+  "spin": {},
+  "point_group_cccbdb": "D∞h",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "HF": {
+        "daug-cc-pVTZ": {
+          "xyz": "H 0.000000 0.000000 0.000000\nF 0.000000 0.000000 1.077900\nF 0.000000 0.000000 -1.077900",
+          "point_group": "D∞h",
+          "n_atoms": 3,
+          "method_id": 1,
+          "basis_id": 35,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=1&basis=35"
+        }
+      }
+    },
+    "best_available": "calculated/HF/daug-cc-pVTZ"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "daug-cc-pVTZ": -199.358343
+      },
+      "BLYP": {
+        "6-31G*": -200.122924
+      },
+      "M06-2X": {
+        "3-21G*": -198.945927,
+        "6-311+G(3df,2p)": -200.133636
+      },
+      "wB97X-D": {
+        "3-21G*": -199.006129,
+        "6-31G*": -200.072086,
+        "6-31+G**": -200.104427,
+        "6-311G**": -200.151236,
+        "TZVP": -200.181497,
+        "cc-pVDZ": -200.104427,
+        "cc-pVTZ": -200.171994,
+        "aug-cc-pVTZ": -200.177127
+      },
+      "B97D3": {
+        "3-21G": -198.979998,
+        "6-31G*": -200.050494,
+        "6-31+G**": -200.089383,
+        "6-311G**": -200.132557,
+        "6-311+G(3df,2p)": -200.153238,
+        "TZVP": -200.166093,
+        "cc-pVTZ": -200.155262,
+        "aug-cc-pVTZ": -200.163311,
+        "daug-cc-pVTZ": -200.16372
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -199.960189,
+        "cc-pVDZ": -199.998353,
+        "cc-pVTZ": -200.120882,
+        "aug-cc-pVTZ": -200.134045
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G**",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

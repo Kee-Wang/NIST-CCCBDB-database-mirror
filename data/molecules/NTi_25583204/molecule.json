@@ -1,0 +1,98 @@
+{
+  "casno": "25583204",
+  "charge": 0,
+  "formula": "NTi",
+  "name": "Titanium mononitride",
+  "fetched_date": "2026-02-18",
+  "spin": {},
+  "point_group_cccbdb": "C∞v",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "MP2": {
+        "6-311G*": {
+          "xyz": "Ti 0.000000 0.000000 0.450300\nN 0.000000 0.000000 -1.415200",
+          "point_group": "C∞v",
+          "n_atoms": 2,
+          "method_id": 3,
+          "basis_id": 7,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=3&basis=7"
+        }
+      }
+    },
+    "best_available": "calculated/MP2/6-311G*"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "daug-cc-pVTZ": -902.819368
+      },
+      "BLYP": {
+        "6-31G*": -904.086244
+      },
+      "M06-2X": {
+        "3-21G*": -899.562915,
+        "6-311+G(3df,2p)": -903.925089
+      },
+      "HSEh1PBE": {
+        "3-21G": -899.377372,
+        "6-31+G**": -903.745372,
+        "cc-pVTZ": -903.83511
+      },
+      "TPSSh": {
+        "6-31G(2df,p)": -904.072831
+      },
+      "wB97X-D": {
+        "3-21G*": -899.677972,
+        "6-31G*": -904.015141,
+        "6-31+G**": -904.024379,
+        "6-311G**": -904.053116,
+        "TZVP": -904.087115,
+        "cc-pVDZ": -904.024379,
+        "cc-pVTZ": -904.114239,
+        "aug-cc-pVTZ": -904.114964
+      },
+      "B97D3": {
+        "3-21G": -899.888288,
+        "6-31G*": -904.215104,
+        "6-31+G**": -904.232495,
+        "6-311G**": -904.26025,
+        "6-311+G(3df,2p)": -904.292797,
+        "TZVP": -904.298273,
+        "cc-pVTZ": -904.323219,
+        "aug-cc-pVTZ": -904.324467,
+        "daug-cc-pVTZ": -904.324814
+      },
+      "MP2": {
+        "6-31G*": -902.98243,
+        "6-311G*": -902.842712
+      },
+      "B2PLYP": {
+        "6-31G*": -903.723313
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -903.834354,
+        "cc-pVDZ": -903.919172,
+        "cc-pVTZ": -903.985825,
+        "aug-cc-pVTZ": -903.989242
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

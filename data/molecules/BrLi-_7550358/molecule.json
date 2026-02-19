@@ -1,0 +1,150 @@
+{
+  "casno": "7550358",
+  "charge": -1,
+  "formula": "BrLi",
+  "name": "lithium bromide anion",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.75,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C∞v",
+  "geometries": {
+    "experimental": {
+      "xyz": "Li 0.000000 0.000000 0.000000\nBr 0.000000 0.000000 2.170400",
+      "point_group": "C∞v",
+      "n_atoms": 2,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=7550358&charge=-1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "6-31G*": {
+          "xyz": "Li 0.000000 0.000000 -1.969300\nBr 0.000000 0.000000 0.168800",
+          "point_group": "C∞v",
+          "n_atoms": 2,
+          "method_id": 63,
+          "basis_id": 1,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=1"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rLiBr",
+          "value": 2.17,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "NISTdiatomic",
+          "comment": "re 7Li 79Br"
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -2577.44057,
+        "TZVP": -2579.951676,
+        "daug-cc-pVTZ": -2580.021363
+      },
+      "BLYP": {
+        "6-31G*": -2579.318972
+      },
+      "B3LYP": {
+        "TZVP": -2581.802313
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -2581.866284
+      },
+      "M06-2X": {
+        "3-21G*": -2569.626923,
+        "6-31G*": -2579.389021,
+        "6-311+G(3df,2p)": -2581.793974
+      },
+      "PBE1PBE": {
+        "6-31G*": -2578.971712
+      },
+      "HSEh1PBE": {
+        "3-21G": -2569.010173,
+        "6-31G*": -2578.948661,
+        "6-31+G**": -2578.969629,
+        "cc-pVTZ": -2581.488235
+      },
+      "TPSSh": {
+        "6-31G*": -2579.19838,
+        "6-31+G**": -2579.218256,
+        "6-31G(2df,p)": -2579.362001,
+        "cc-pVTZ": -2581.739751
+      },
+      "wB97X-D": {
+        "3-21G*": -2569.631834,
+        "6-31G*": -2579.349348,
+        "6-31+G**": -2579.370986,
+        "6-311G**": -2581.800513,
+        "TZVP": -2581.824353,
+        "cc-pVDZ": -2579.370986,
+        "cc-pVTZ": -2581.886574,
+        "aug-cc-pVTZ": -2581.8906
+      },
+      "B97D3": {
+        "3-21G": -2570.663001,
+        "6-31G*": -2580.622472,
+        "6-31+G**": -2580.645838,
+        "6-311G**": -2583.064964,
+        "6-311+G(3df,2p)": -2583.072363,
+        "TZVP": -2583.079146,
+        "cc-pVTZ": -2583.139965,
+        "aug-cc-pVTZ": -2583.145573
+      },
+      "MP2": {
+        "6-31G*": -2577.56109,
+        "6-311G*": -2580.05714,
+        "TZVP": -2580.180995
+      },
+      "MP3": {
+        "6-31+G**": -2577.571705
+      },
+      "MP3=FULL": {
+        "6-31G*": -2577.598122,
+        "6-31+G**": -2577.620746
+      },
+      "B2PLYP": {
+        "6-31G*": -2578.821858,
+        "cc-pVTZ": -2581.409229
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -2578.830603,
+        "cc-pVDZ": -2581.301453,
+        "cc-pVTZ": -2581.426872,
+        "aug-cc-pVTZ": -2581.43542
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

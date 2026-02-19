@@ -1,0 +1,163 @@
+{
+  "casno": "12333492",
+  "charge": 1,
+  "formula": "LiNa",
+  "name": "lithium sodium cation",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.75,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C∞v",
+  "geometries": {
+    "experimental": {
+      "xyz": "Li 0.000000 0.000000 0.000000\nNa 0.000000 0.000000 2.889000",
+      "point_group": "C∞v",
+      "n_atoms": 2,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=12333492&charge=1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "6-31G*": {
+          "xyz": "Li 0.000000 0.000000 -2.308300\nNa 0.000000 0.000000 0.629500",
+          "point_group": "C∞v",
+          "n_atoms": 2,
+          "method_id": 63,
+          "basis_id": 1,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=1"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rLiNa",
+          "value": 2.889,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1988Fel/Ver:1115",
+          "comment": "re"
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -169.124384,
+        "TZVP": -169.133592,
+        "cc-pV(T+d)Z": -169.142741,
+        "daug-cc-pVTZ": -169.1428,
+        "6-311G*": -169.129459
+      },
+      "LSDA": {
+        "cc-pV(T+d)Z": -168.883251
+      },
+      "BLYP": {
+        "6-31G*": -169.587888,
+        "cc-pV(T+d)Z": -169.606978
+      },
+      "B3LYP": {
+        "TZVP": -169.620459,
+        "cc-pV(T+d)Z": -169.628271
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -169.628398
+      },
+      "B3PW91": {
+        "cc-pV(T+d)Z": -169.579127
+      },
+      "mPW1PW91": {
+        "cc-pV(T+d)Z": -169.602278
+      },
+      "M06-2X": {
+        "3-21G*": -168.491191,
+        "6-31G*": -169.554246,
+        "6-311+G(3df,2p)": -169.560134
+      },
+      "PBEPBE": {
+        "cc-pV(T+d)Z": -169.469075
+      },
+      "PBE1PBE": {
+        "6-31G*": -169.472381
+      },
+      "HSEh1PBE": {
+        "3-21G": -168.43158,
+        "6-31G*": -169.48671,
+        "6-31+G**": -169.486771,
+        "cc-pVTZ": -169.505085
+      },
+      "TPSSh": {
+        "6-31G*": -169.603407,
+        "6-31+G**": -169.603452,
+        "6-31G(2df,p)": -169.604856,
+        "cc-pVTZ": -169.62233
+      },
+      "wB97X-D": {
+        "3-21G*": -168.549348,
+        "6-31G*": -169.59161,
+        "6-31+G**": -169.591651,
+        "6-311G**": -169.597213,
+        "TZVP": -169.601771,
+        "cc-pVDZ": -169.591651,
+        "cc-pVTZ": -169.610258,
+        "aug-cc-pVTZ": -169.610353
+      },
+      "B97D3": {
+        "3-21G": -168.514976,
+        "6-31G*": -169.569665,
+        "6-31+G**": -169.569708,
+        "6-311G**": -169.576906,
+        "6-311+G(3df,2p)": -169.5778,
+        "TZVP": -169.580368,
+        "cc-pVTZ": -169.588391,
+        "aug-cc-pVTZ": -169.588649,
+        "daug-cc-pVTZ": -169.588682
+      },
+      "MP2=FULL": {
+        "cc-pV(T+d)Z": -169.16474
+      },
+      "MP3=FULL": {
+        "6-31G*": -169.126926,
+        "6-31+G**": -169.127077
+      },
+      "B2PLYP": {
+        "6-31G*": -169.459885,
+        "cc-pVTZ": -169.478136
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -169.460808,
+        "cc-pVDZ": -169.472697,
+        "cc-pVTZ": -169.485179,
+        "aug-cc-pVTZ": -169.485497
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "cc-pV(T+d)Z",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "casno": "2314978",
+  "charge": 0,
+  "formula": "CF3I",
+  "name": "trifluoroiodomethane",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C3v",
+  "geometries": {
+    "experimental": {
+      "xyz": "C 0.000000 0.000000 -1.175200\nI 0.000000 0.000000 0.968600\nF 0.000000 1.243900 -1.640200\nF 1.077300 -0.622000 -1.640200\nF -1.077300 -0.622000 -1.640200",
+      "point_group": "C3v",
+      "n_atoms": 5,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=2314978&charge=0",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCD": {
+        "6-311G*": {
+          "xyz": "C 0.000000 0.000000 -1.189200\nI 0.000000 0.000000 0.976300\nF 0.000000 1.240500 -1.652200\nF 1.074300 -0.620300 -1.652200\nF -1.074300 -0.620300 -1.652200",
+          "point_group": "C3v",
+          "n_atoms": 5,
+          "method_id": 6,
+          "basis_id": 7,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=6&basis=7"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rCF",
+          "value": 1.329,
+          "atoms": [
+            1,
+            3
+          ],
+          "reference": "1987Kuchitsu(II/15)",
+          "comment": ""
+        },
+        {
+          "description": "rCI",
+          "value": 2.144,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1987Kuchitsu(II/15)",
+          "comment": ""
+        }
+      ],
+      "angles": [
+        {
+          "description": "aFCF",
+          "value": 108.42,
+          "atoms": [
+            3,
+            1,
+            4
+          ],
+          "reference": "1987Kuchitsu(II/15)",
+          "comment": ""
+        },
+        {
+          "description": "aFCI",
+          "value": 110.5,
+          "atoms": [
+            2,
+            1,
+            3
+          ],
+          "reference": "1987Kuchitsu(II/15)",
+          "comment": "by symmetry"
+        }
+      ],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-311G*": -7253.074956
+      },
+      "LSDA": {
+        "6-311G*": -7250.960223
+      },
+      "BLYP": {
+        "6-311G*": -7257.224116
+      },
+      "B1B95": {
+        "6-311G*": -7257.949278
+      },
+      "B3LYP": {
+        "6-311G*": -7257.248052
+      },
+      "B3PW91": {
+        "6-311G*": -7257.220777
+      },
+      "mPW1PW91": {
+        "6-311G*": -7257.598414
+      },
+      "M06-2X": {
+        "3-21G*": -7226.68414,
+        "6-311G*": -7257.5301
+      },
+      "PBEPBE": {
+        "6-311G*": -7256.323087
+      },
+      "PBE1PBE": {
+        "6-311G*": -7256.500625
+      },
+      "wB97X-D": {
+        "3-21G*": -7226.471921
+      },
+      "B97D3": {
+        "3-21G": -7230.135304
+      },
+      "MP2": {
+        "6-31G*": -7253.819841,
+        "6-311G*": -7254.026304
+      },
+      "MP2=FULL": {
+        "6-311G*": -7254.599177
+      },
+      "CID": {
+        "6-311G*": -7253.887789
+      },
+      "CISD": {
+        "6-311G*": -7253.891577
+      },
+      "QCISD": {
+        "6-311G*": -7254.032936
+      },
+      "CCD": {
+        "6-311G*": -7254.022331
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-311G*"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

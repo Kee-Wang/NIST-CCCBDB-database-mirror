@@ -1,0 +1,166 @@
+{
+  "casno": "10028156",
+  "charge": 1,
+  "formula": "O3",
+  "name": "Ozone cation",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.806,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C2v",
+  "geometries": {
+    "experimental": {
+      "xyz": "O 0.000000 0.000000 0.000000\nO 0.000000 1.088500 0.669700\nO 0.000000 -1.088500 0.669700",
+      "point_group": "C2v",
+      "n_atoms": 3,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=10028156&charge=1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "6-31G*": {
+          "xyz": "O 0.000000 0.000000 0.404200\nO 0.000000 1.191000 -0.202100\nO 0.000000 -1.191000 -0.202100",
+          "point_group": "C2v",
+          "n_atoms": 3,
+          "method_id": 63,
+          "basis_id": 1,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=1"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rOO",
+          "value": 1.278,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1966Herzberg",
+          "comment": ""
+        }
+      ],
+      "angles": [
+        {
+          "description": "aOOO",
+          "value": 116.8,
+          "atoms": [
+            2,
+            1,
+            3
+          ],
+          "reference": "1966Herzberg",
+          "comment": ""
+        }
+      ],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -223.798693,
+        "TZVP": -223.88522,
+        "daug-cc-pVTZ": -223.904005
+      },
+      "BLYP": {
+        "6-31G*": -224.97964
+      },
+      "B3LYP": {
+        "TZVP": -225.032247
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -225.041371
+      },
+      "M06-2X": {
+        "3-21G*": -223.542941,
+        "6-31G*": -224.830632,
+        "6-311+G(3df,2p)": -224.92042
+      },
+      "PBE1PBE": {
+        "6-31G*": -224.719564
+      },
+      "HSEh1PBE": {
+        "3-21G": -223.473543,
+        "6-31G*": -224.739708,
+        "6-31+G**": -224.743473,
+        "cc-pVTZ": -224.830526
+      },
+      "TPSSh": {
+        "6-31G*": -224.966992,
+        "6-31+G**": -224.970689,
+        "6-31G(2df,p)": -224.991711,
+        "cc-pVTZ": -225.05827
+      },
+      "wB97X-D": {
+        "3-21G*": -223.606817,
+        "6-31G*": -224.86741,
+        "6-31+G**": -224.87124,
+        "6-311G**": -224.926584,
+        "TZVP": -224.954685,
+        "cc-pVDZ": -224.87124,
+        "cc-pVTZ": -224.96182,
+        "aug-cc-pVTZ": -224.964644
+      },
+      "B97D3": {
+        "3-21G": -223.616094,
+        "6-31G*": -224.864337,
+        "6-31+G**": -224.867921,
+        "6-311G**": -224.925163,
+        "6-311+G(3df,2p)": -224.948533,
+        "TZVP": -224.950003,
+        "cc-pVTZ": -224.955912,
+        "aug-cc-pVTZ": -224.958084,
+        "daug-cc-pVTZ": -224.958775
+      },
+      "MP2": {
+        "6-31G*": -224.445842,
+        "6-311G*": -224.556001,
+        "TZVP": -224.583197
+      },
+      "MP3": {
+        "6-31+G**": -224.36061
+      },
+      "MP3=FULL": {
+        "6-31G*": -224.367269,
+        "6-31+G**": -224.375714
+      },
+      "MP4": {
+        "cc-pVTZ": -224.727268
+      },
+      "B2PLYP": {
+        "6-31G*": -224.79473,
+        "cc-pVTZ": -224.930111
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -224.796812,
+        "cc-pVDZ": -224.823097,
+        "cc-pVTZ": -224.940835,
+        "aug-cc-pVTZ": -224.948254
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

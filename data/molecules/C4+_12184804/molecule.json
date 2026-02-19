@@ -1,0 +1,151 @@
+{
+  "casno": "12184804",
+  "charge": 1,
+  "formula": "C4",
+  "name": "Carbon tetramer cation",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.752,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "D∞h",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "6-31G*": {
+          "xyz": "C 0.000000 0.000000 0.647700\nC 0.000000 0.000000 -0.647700\nC 0.000000 0.000000 2.092500\nC 0.000000 0.000000 -2.092500",
+          "point_group": "D∞h",
+          "n_atoms": 4,
+          "method_id": 63,
+          "basis_id": 1,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=1"
+        }
+      }
+    },
+    "best_available": "calculated/CCSD(T)=FULL/6-31G*",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rCC",
+          "value": 1.304,
+          "atoms": [
+            1,
+            3
+          ],
+          "reference": "1995Kuchitsu(II/23)",
+          "comment": "assumed all CC bonds equal"
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -150.803939,
+        "TZVP": -150.840152,
+        "daug-cc-pVTZ": -150.847828
+      },
+      "BLYP": {
+        "6-31G*": -151.664036
+      },
+      "B3LYP": {
+        "TZVP": -151.727335
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -151.731655
+      },
+      "M06-2X": {
+        "3-21G*": -150.755844,
+        "6-31G*": -151.613855,
+        "6-311+G(3df,2p)": -151.653748
+      },
+      "PBE1PBE": {
+        "6-31G*": -151.485426
+      },
+      "HSEh1PBE": {
+        "3-21G": -150.642237,
+        "6-31G*": -151.500961,
+        "6-31+G**": -151.503574,
+        "cc-pVTZ": -151.54143
+      },
+      "TPSSh": {
+        "6-31G*": -151.698706,
+        "6-31+G**": -151.701156,
+        "6-31G(2df,p)": -151.7096,
+        "cc-pVTZ": -151.739768
+      },
+      "wB97X-D": {
+        "3-21G*": -150.754481,
+        "6-31G*": -151.611705,
+        "6-31+G**": -151.614054,
+        "6-311G**": -151.638123,
+        "TZVP": -151.650347,
+        "cc-pVDZ": -151.614054,
+        "cc-pVTZ": -151.654277,
+        "aug-cc-pVTZ": -151.655058
+      },
+      "B97D3": {
+        "3-21G": -150.733312,
+        "6-31G*": -151.58999,
+        "6-31+G**": -151.594023,
+        "6-311G**": -151.617526,
+        "6-311+G(3df,2p)": -151.630374,
+        "TZVP": -151.62878,
+        "cc-pVTZ": -151.636273,
+        "aug-cc-pVTZ": -151.636939,
+        "daug-cc-pVTZ": -151.633505
+      },
+      "MP2": {
+        "6-31G*": -151.203981,
+        "6-311G*": -151.240917,
+        "TZVP": -151.25023
+      },
+      "MP2=FULL": {
+        "aug-cc-pVTZ": -151.382407
+      },
+      "MP3": {
+        "6-31+G**": -151.233295
+      },
+      "MP3=FULL": {
+        "6-31G*": -151.250895,
+        "6-31+G**": -151.255451
+      },
+      "MP4": {
+        "cc-pVTZ": -151.385955
+      },
+      "B2PLYP": {
+        "6-31G*": -151.534423,
+        "cc-pVTZ": -151.598393
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -151.539701,
+        "cc-pVDZ": -151.543121,
+        "cc-pVTZ": -151.613541,
+        "aug-cc-pVTZ": -151.618685
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

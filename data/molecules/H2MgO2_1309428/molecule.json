@@ -1,0 +1,91 @@
+{
+  "casno": "1309428",
+  "charge": 0,
+  "formula": "H2MgO2",
+  "name": "Magnesium dihydroxide",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "D∞h",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "aug-cc-pVQZ": {
+          "xyz": "Mg 0.000000 0.000000 0.000000\nO 0.000000 0.000000 1.746800\nO 0.000000 0.000000 -1.746800\nH 0.000000 0.000000 2.690300\nH 0.000000 0.000000 -2.690300",
+          "point_group": "D∞h",
+          "n_atoms": 5,
+          "method_id": 63,
+          "basis_id": 26,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=26"
+        }
+      }
+    },
+    "best_available": "calculated/CCSD(T)=FULL/aug-cc-pVQZ"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "BLYP": {
+        "6-31G*": -351.753976
+      },
+      "M06-2X": {
+        "6-311+G(3df,2p)": -351.797641
+      },
+      "TPSSh": {
+        "6-31G(2df,p)": -351.814228
+      },
+      "wB97X-D": {
+        "3-21G*": -349.816942,
+        "6-31G*": -351.722428,
+        "6-31+G**": -351.756689,
+        "6-311G**": -351.797107,
+        "TZVP": -351.8064,
+        "cc-pVDZ": -351.756689,
+        "cc-pVTZ": -351.826642,
+        "aug-cc-pVTZ": -351.835743
+      },
+      "B97D3": {
+        "3-21G": -349.695464,
+        "6-31G*": -351.672484,
+        "6-31+G**": -351.706521,
+        "6-311G**": -351.75126,
+        "6-311+G(3df,2p)": -351.781601,
+        "TZVP": -351.757588,
+        "cc-pVTZ": -351.779719,
+        "aug-cc-pVTZ": -351.789251,
+        "daug-cc-pVTZ": -351.789871
+      },
+      "MP2": {
+        "6-31G*": -350.945137,
+        "6-311G*": -351.034039
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -351.53132,
+        "cc-pVDZ": -351.568894,
+        "cc-pVTZ": -351.690186,
+        "aug-cc-pVTZ": -351.707612
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "casno": "13595818",
+  "charge": 1,
+  "formula": "AlCl",
+  "name": "aluminum monochloride cation",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.75,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C∞v",
+  "geometries": {
+    "experimental": {
+      "xyz": "Al 0.000000 0.000000 0.000000\nCl 0.000000 0.000000 2.130100",
+      "point_group": "C∞v",
+      "n_atoms": 2,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=13595818&charge=1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "6-31G*": {
+          "xyz": "Al 0.000000 0.000000 -1.149900\nCl 0.000000 0.000000 0.879400",
+          "point_group": "C∞v",
+          "n_atoms": 2,
+          "method_id": 63,
+          "basis_id": 1,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=1"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rAlCl",
+          "value": 2.13,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "NISTdiatomic",
+          "comment": "re"
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -701.144854,
+        "TZVP": -701.186949,
+        "daug-cc-pVTZ": -701.209889
+      },
+      "ROHF": {
+        "6-31G*": -701.143851
+      },
+      "BLYP": {
+        "6-31G*": -702.318518
+      },
+      "B3LYP": {
+        "TZVP": -702.389285
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -702.409982
+      },
+      "M06-2X": {
+        "3-21G*": -698.904779,
+        "6-31G*": -702.274805,
+        "6-311+G(3df,2p)": -702.337798
+      },
+      "PBE1PBE": {
+        "6-31G*": -702.046358
+      },
+      "HSEh1PBE": {
+        "3-21G": -698.544812,
+        "6-31G*": -702.07853,
+        "6-31+G**": -702.079503,
+        "cc-pVTZ": -702.142305
+      },
+      "TPSSh": {
+        "6-31G*": -702.338373,
+        "6-31+G**": -702.339346,
+        "6-31G(2df,p)": -702.346429,
+        "cc-pVTZ": -702.40301
+      },
+      "wB97X-D": {
+        "3-21G*": -698.938613,
+        "6-31G*": -702.297949,
+        "6-31+G**": -702.298892,
+        "6-311G**": -702.342135,
+        "TZVP": -702.34199,
+        "cc-pVDZ": -702.298892,
+        "cc-pVTZ": -702.362393,
+        "aug-cc-pVTZ": -702.363176
+      },
+      "B97D3": {
+        "3-21G": -698.79518,
+        "6-31G*": -702.323629,
+        "6-31+G**": -702.324586,
+        "6-311G**": -702.369073,
+        "6-311+G(3df,2p)": -702.380064,
+        "TZVP": -702.368369,
+        "cc-pVTZ": -702.387224,
+        "aug-cc-pVTZ": -702.3881,
+        "daug-cc-pVTZ": -702.388405
+      },
+      "MP2": {
+        "6-31G*": -701.296299,
+        "6-311G*": -701.343889,
+        "TZVP": -701.348636,
+        "cc-pV(T+d)Z": -701.42448
+      },
+      "MP2=FULL": {
+        "cc-pV(T+d)Z": -701.629221
+      },
+      "MP3": {
+        "6-31+G**": -701.309681
+      },
+      "MP3=FULL": {
+        "6-31G*": -701.327488,
+        "6-31+G**": -701.330994
+      },
+      "MP4": {
+        "cc-pVTZ": -701.449663
+      },
+      "B2PLYP": {
+        "6-31G*": -702.05061,
+        "cc-pVTZ": -702.134101
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -702.056411,
+        "cc-pVDZ": -702.091268,
+        "cc-pVTZ": -702.163426,
+        "aug-cc-pVTZ": -702.166537
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "cc-pV(T+d)Z",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

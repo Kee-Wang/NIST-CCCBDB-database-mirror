@@ -1,0 +1,83 @@
+{
+  "casno": "503297",
+  "charge": 0,
+  "formula": "C3H7N",
+  "name": "Azetidine",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Cs",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null,
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rCN",
+          "value": 1.473,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1984Sch/Obe:152-164",
+          "comment": ""
+        },
+        {
+          "description": "rCC",
+          "value": 1.563,
+          "atoms": [
+            2,
+            4
+          ],
+          "reference": "1984Sch/Obe:152-164",
+          "comment": ""
+        }
+      ],
+      "angles": [
+        {
+          "description": "aCNC",
+          "value": 91.2,
+          "atoms": [
+            2,
+            1,
+            3
+          ],
+          "reference": "1984Sch/Obe:152-164",
+          "comment": ""
+        }
+      ],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "M06-2X": {
+        "6-311+G(3df,2p)": -173.213187
+      },
+      "B97D3": {
+        "daug-cc-pVTZ": -173.193512
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -173.027812,
+        "cc-pVDZ": -173.048385,
+        "cc-pVTZ": -173.158795,
+        "aug-cc-pVTZ": -173.168436
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

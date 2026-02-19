@@ -1,0 +1,47 @@
+{
+  "casno": "71363",
+  "charge": 1,
+  "formula": "C4H10O",
+  "name": "1-Butanol cation",
+  "fetched_date": "2026-02-18",
+  "spin": {},
+  "point_group_cccbdb": "C1",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "HF": {
+        "daug-cc-pVTZ": {
+          "xyz": "C 1.700100 0.444200 0.302800\nC -0.195400 0.743300 -0.223200\nC -1.019700 -0.395300 0.277600\nC -2.492200 -0.127100 -0.101800\nO 2.122400 -0.601300 -0.317500\nH 2.040600 1.370900 -0.120700\nH 1.519700 0.387900 1.362500\nH -0.295600 1.693400 0.275600\nH -0.019400 0.810000 -1.283200\nH -0.938400 -0.482500 1.353800\nH -0.699300 -1.324400 -0.174600\nH -3.096200 -0.949200 0.255200\nH -2.856600 0.784300 0.353000\nH -2.615400 -0.055900 -1.174200\nH 2.024900 -1.414700 0.160500",
+          "point_group": "C1",
+          "n_atoms": 15,
+          "method_id": 1,
+          "basis_id": 35,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=1&basis=35"
+        }
+      }
+    },
+    "best_available": "calculated/HF/daug-cc-pVTZ"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "daug-cc-pVTZ": -231.916775
+      },
+      "B97D3": {
+        "6-311+G(3df,2p)": -233.271278
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "6-31G*",
+      "6-31+G**",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

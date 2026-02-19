@@ -1,0 +1,94 @@
+{
+  "casno": "7440666",
+  "charge": 1,
+  "formula": "Zn",
+  "name": "Zinc atom cation",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.75,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "MP3=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Kh",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -1777.21088,
+        "daug-cc-pVTZ": -1777.566514
+      },
+      "BLYP": {
+        "6-31G*": -1778.786005
+      },
+      "B3LYP": {
+        "6-31G(2df,p)": -1778.761432
+      },
+      "M06-2X": {
+        "3-21G*": -1770.33569
+      },
+      "TPSSh": {
+        "6-31G*": -1778.702441,
+        "6-31+G**": -1778.776317,
+        "6-31G(2df,p)": -1778.702441,
+        "cc-pVTZ": -1779.08969
+      },
+      "wB97X-D": {
+        "3-21G*": -1770.397407,
+        "6-31G*": -1778.7703,
+        "6-31+G**": -1778.834588,
+        "6-311G**": -1778.980482,
+        "TZVP": -1779.104046,
+        "cc-pVDZ": -1778.834588,
+        "cc-pVTZ": -1779.150314,
+        "aug-cc-pVTZ": -1779.150403
+      },
+      "B97D3": {
+        "3-21G": -1771.189088,
+        "6-31G*": -1779.557499,
+        "6-31+G**": -1779.630863,
+        "6-311G**": -1779.779733,
+        "6-311+G(3df,2p)": -1779.810091,
+        "TZVP": -1779.90532,
+        "cc-pVTZ": -1779.953553,
+        "aug-cc-pVTZ": -1779.953662
+      },
+      "MP2": {
+        "6-31G*": -1777.431407,
+        "6-311G*": -1777.739926
+      },
+      "MP3": {
+        "6-31+G**": -1777.401122
+      },
+      "MP3=FULL": {
+        "6-31G*": -1777.442099,
+        "6-31+G**": -1777.543683
+      },
+      "B2PLYP": {
+        "cc-pVTZ": -1778.828757
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

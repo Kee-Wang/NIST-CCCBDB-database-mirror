@@ -1,0 +1,58 @@
+{
+  "casno": "9000220",
+  "charge": 0,
+  "formula": "C3H3",
+  "name": "cyclopropenyl radical",
+  "fetched_date": "2026-02-18",
+  "spin": {},
+  "point_group_cccbdb": "Cs",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "aug-cc-pVTZ": {
+          "xyz": "C -0.036000 0.886700 0.000000\nH 0.728200 1.653500 0.000000\nC -0.036000 -0.418300 0.657700\nC -0.036000 -0.418300 -0.657700\nH -0.040300 -0.977400 1.572000\nH -0.040300 -0.977400 -1.572000",
+          "point_group": "Cs",
+          "n_atoms": 6,
+          "method_id": 63,
+          "basis_id": 18,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=18"
+        }
+      }
+    },
+    "best_available": "calculated/CCSD(T)=FULL/aug-cc-pVTZ"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "daug-cc-pVTZ": -115.224799
+      },
+      "BLYP": {
+        "6-31G*": -115.883183
+      },
+      "M06-2X": {
+        "6-311+G(3df,2p)": -115.915302
+      },
+      "B97D3": {
+        "6-311+G(3df,2p)": -115.904642,
+        "daug-cc-pVTZ": -115.898545
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -115.799799,
+        "cc-pVDZ": -115.801647,
+        "cc-pVTZ": -115.874315,
+        "aug-cc-pVTZ": -115.881216
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

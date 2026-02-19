@@ -1,0 +1,14 @@
+{
+  "casno": "9000924",
+  "charge": 1,
+  "formula": "CH4NO",
+  "name": "Formamide, N-Protonated",
+  "fetched_date": "2026-02-18",
+  "spin": {},
+  "point_group_cccbdb": null,
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  }
+}

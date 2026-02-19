@@ -1,0 +1,89 @@
+{
+  "casno": "753446",
+  "charge": 0,
+  "formula": "CH5FSi",
+  "name": "fluoromethylsilane",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Cs",
+  "geometries": {
+    "experimental": {
+      "xyz": "C -1.323000 -0.785800 0.000000\nSi 0.000000 0.503000 0.000000\nF 1.428000 -0.212000 0.000000\nH -2.307300 -0.283700 0.000000\nH -1.260100 -1.418100 0.884400\nH -1.260100 -1.418100 -0.884400\nH -0.043200 1.350400 1.210200\nH -0.043200 1.350400 -1.210200",
+      "point_group": "Cs",
+      "n_atoms": 8,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=753446&charge=0",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {},
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rSiF",
+          "value": 1.597,
+          "atoms": [
+            2,
+            3
+          ],
+          "reference": "1982Shi/Oya:375-390",
+          "comment": "rs"
+        },
+        {
+          "description": "rCSi",
+          "value": 1.847,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1982Shi/Oya:375-390",
+          "comment": ""
+        },
+        {
+          "description": "rSiH",
+          "value": 1.478,
+          "atoms": [
+            2,
+            7
+          ],
+          "reference": "1982Shi/Oya:375-390",
+          "comment": ""
+        },
+        {
+          "description": "rCH",
+          "value": 1.105,
+          "atoms": [
+            1,
+            4
+          ],
+          "reference": "1982Shi/Oya:375-390",
+          "comment": ""
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -430.227529,
+        "cc-pVDZ": -430.257418,
+        "cc-pVTZ": -430.396075,
+        "aug-cc-pVTZ": -430.406421
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

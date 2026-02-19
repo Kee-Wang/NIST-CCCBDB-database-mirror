@@ -1,0 +1,143 @@
+{
+  "casno": "36058283",
+  "charge": 0,
+  "formula": "CHS",
+  "name": "Thioformyl radical",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.76,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C∞v",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "cc-pV(T+d)Z": {
+          "xyz": "C 0.034500 1.051900 0.000000\nH -0.759200 1.786000 0.000000\nS 0.034500 -0.506100 0.000000",
+          "point_group": "C∞v",
+          "n_atoms": 3,
+          "method_id": 63,
+          "basis_id": 27,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=27"
+        }
+      }
+    },
+    "best_available": "calculated/CCSD(T)=FULL/cc-pV(T+d)Z"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -435.882995,
+        "6-311+G(3df,2p)": -435.929256,
+        "TZVP": -435.91667,
+        "daug-cc-pVTZ": -435.934737
+      },
+      "LSDA": {
+        "STO-3G": -430.588966,
+        "6-31G": -435.463859,
+        "6-31G*": -435.507774,
+        "6-311G*": -435.547886
+      },
+      "BLYP": {
+        "6-31G*": -436.774572
+      },
+      "B3LYP": {
+        "TZVP": -436.842518
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -436.858008
+      },
+      "M06-2X": {
+        "3-21G*": -434.675966,
+        "6-31G*": -436.740602,
+        "6-311+G(3df,2p)": -436.794749
+      },
+      "PBE1PBE": {
+        "6-31G*": -436.596325
+      },
+      "HSEh1PBE": {
+        "3-21G": -434.433762,
+        "6-31G*": -436.616681,
+        "6-31+G**": -436.621822,
+        "cc-pVTZ": -436.667463
+      },
+      "TPSSh": {
+        "6-31G*": -436.807559,
+        "6-31+G**": -436.812423,
+        "6-31G(2df,p)": -436.816938,
+        "cc-pVTZ": -436.858554
+      },
+      "wB97X-D": {
+        "3-21G*": -434.699182,
+        "6-31G*": -436.763914,
+        "6-31+G**": -436.768726,
+        "6-311G**": -436.800596,
+        "TZVP": -436.80061,
+        "cc-pVDZ": -436.768726,
+        "cc-pVTZ": -436.814842,
+        "aug-cc-pVTZ": -436.815929
+      },
+      "B97D3": {
+        "3-21G": -434.599713,
+        "6-31G*": -436.778514,
+        "6-31+G**": -436.784167,
+        "6-311G**": -436.817733,
+        "6-311+G(3df,2p)": -436.828389,
+        "TZVP": -436.816134,
+        "cc-pVTZ": -436.829557,
+        "aug-cc-pVTZ": -436.830844,
+        "daug-cc-pVTZ": -436.830994
+      },
+      "MP2": {
+        "6-31G*": -436.100046,
+        "6-311G*": -436.144651,
+        "TZVP": -436.153934,
+        "cc-pV(T+d)Z": -436.229969
+      },
+      "MP2=FULL": {
+        "cc-pV(T+d)Z": -436.344535
+      },
+      "MP3": {
+        "6-31+G**": -436.126761
+      },
+      "MP3=FULL": {
+        "6-31G*": -436.132694,
+        "6-31+G**": -436.146849
+      },
+      "B2PLYP": {
+        "6-31G*": -436.602616,
+        "cc-pVTZ": -436.67813
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -436.607207,
+        "cc-pVDZ": -436.633801,
+        "cc-pVTZ": -436.692569,
+        "aug-cc-pVTZ": -436.696839
+      }
+    },
+    "basis_sets": [
+      "STO-3G",
+      "3-21G",
+      "3-21G*",
+      "6-31G",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "cc-pV(T+d)Z",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "casno": "13463406",
+  "charge": 0,
+  "formula": "C5FeO5",
+  "name": "Iron pentacarbonyl",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "D3h",
+  "geometries": {
+    "experimental": {
+      "xyz": "Fe 0.000000 0.000000 0.000000\nC 0.000000 0.000000 1.824000\nC 0.000000 1.824000 0.000000\nC 1.579600 -0.912000 0.000000\nC -1.579600 -0.912000 0.000000\nC 0.000000 0.000000 -1.824000\nO 0.000000 0.000000 2.969000\nO 0.000000 2.969000 0.000000\nO 2.571200 -1.484500 0.000000\nO -2.571200 -1.484500 0.000000\nO 0.000000 0.000000 -2.969000",
+      "point_group": "D3h",
+      "n_atoms": 11,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=13463406&charge=0",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "MP3": {
+        "6-31+G**": {
+          "xyz": "Fe 0.000000 0.000000 0.096800\nC 0.000000 0.000000 -2.156400\nC 0.000000 1.864000 0.503500\nC -1.864000 0.000000 0.503500\nC 0.000000 -1.864000 0.503500\nC 1.864000 0.000000 0.503500\nO 0.000000 0.000000 -3.283400\nO 0.000000 2.978000 0.768900\nO -2.978000 0.000000 0.768900\nO 0.000000 -2.978000 0.768900\nO 2.978000 0.000000 0.768900",
+          "point_group": "D3h",
+          "n_atoms": 11,
+          "method_id": 62,
+          "basis_id": 4,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=62&basis=4"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rCO",
+          "value": 1.145,
+          "atoms": [
+            2,
+            7
+          ],
+          "reference": "1976Hellwege(II/7)",
+          "comment": "average of equitorial and axial"
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -1825.77743,
+        "6-311G*": -1825.996547,
+        "TZVP": -1826.129731
+      },
+      "BLYP": {
+        "6-31G*": -1830.344432
+      },
+      "B3LYP": {
+        "6-31G*": -1830.318935,
+        "6-311G*": -1830.572812,
+        "TZVP": -1830.685898
+      },
+      "M06-2X": {
+        "6-311+G(3df,2p)": -1830.261827
+      },
+      "TPSSh": {
+        "6-31+G**": -1830.402225,
+        "cc-pVTZ": -1830.752159
+      },
+      "B97D3": {
+        "6-311+G(3df,2p)": -1830.820081
+      },
+      "MP2": {
+        "6-31G*": -1828.260886,
+        "6-311G*": -1828.211979
+      },
+      "MP2=FULL": {
+        "6-31G*": -1828.677358,
+        "6-311G*": -1828.863255
+      },
+      "MP3": {
+        "6-31+G**": -1827.443055
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -1829.675568,
+        "cc-pVDZ": -1829.942016,
+        "cc-pVTZ": -1830.309896
+      },
+      "CCSD(T)": {
+        "TZVP": -1828.20193
+      },
+      "CCSD(T)=FULL": {
+        "TZVP": -1828.424873
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

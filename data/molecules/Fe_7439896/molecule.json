@@ -1,0 +1,91 @@
+{
+  "casno": "7439896",
+  "charge": 0,
+  "formula": "Fe",
+  "name": "Iron atom",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Kh",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "daug-cc-pVTZ": -1262.372441
+      },
+      "BLYP": {
+        "6-31G*": -1263.530734
+      },
+      "B3LYP": {
+        "TZVP": -1263.655895
+      },
+      "M06-2X": {
+        "3-21G*": -1257.52695
+      },
+      "PBE1PBE": {
+        "6-31G*": -1263.262024
+      },
+      "HSEh1PBE": {
+        "3-21G": -1257.326181,
+        "6-31+G**": -1263.304701,
+        "cc-pVTZ": -1263.458206
+      },
+      "TPSSh": {
+        "6-31G(2df,p)": -1263.487438
+      },
+      "wB97X-D": {
+        "3-21G*": -1257.549085,
+        "6-31G*": -1263.40017,
+        "6-31+G**": -1263.539257,
+        "6-311G**": -1263.603468,
+        "TZVP": -1263.638471,
+        "cc-pVDZ": -1263.539257,
+        "cc-pVTZ": -1263.649243,
+        "aug-cc-pVTZ": -1263.68493
+      },
+      "B97D3": {
+        "3-21G": -1257.512912,
+        "6-31G*": -1263.835831,
+        "6-31+G**": -1263.992603,
+        "6-311G**": -1264.059954,
+        "6-311+G(3df,2p)": -1264.087329,
+        "TZVP": -1264.128446,
+        "cc-pVTZ": -1264.164332,
+        "aug-cc-pVTZ": -1264.159133
+      },
+      "MP2": {
+        "6-31G*": -1262.267646,
+        "6-311G*": -1262.41173,
+        "TZVP": -1262.462172
+      },
+      "B2PLYP": {
+        "6-31G*": -1263.089657
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

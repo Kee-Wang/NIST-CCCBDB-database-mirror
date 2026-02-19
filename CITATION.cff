@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "NIST CCCBDB Database Mirror"
+message: "If you use this data, please cite it as below."
+type: dataset
+authors:
+  - given-names: Qingfeng
+    family-names: Wang
+    email: q.kee.wang@gmail.com
+version: "1.0.0"
+date-released: "2026-02-17"
+license: MIT
+repository-code: "https://github.com/Kee-Wang/NIST-CCCBDB-database-mirror"
+references:
+  - type: database
+    title: "NIST Computational Chemistry Comparison and Benchmark Database"
+    authors:
+      - given-names: Russell D.
+        family-names: Johnson III
+    version: "Release 22"
+    date-released: "2022-05-01"
+    url: "https://cccbdb.nist.gov"
+    doi: "10.18434/T47C7Z"
+    publisher:
+      name: "National Institute of Standards and Technology"

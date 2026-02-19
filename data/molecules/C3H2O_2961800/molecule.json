@@ -1,0 +1,63 @@
+{
+  "casno": "2961800",
+  "charge": 0,
+  "formula": "C3H2O",
+  "name": "cyclopropenone",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C2v",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null,
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rCO",
+          "value": 1.212,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1973Ben/Fly:2772-2777",
+          "comment": ""
+        },
+        {
+          "description": "rCC",
+          "value": 1.412,
+          "atoms": [
+            2,
+            3
+          ],
+          "reference": "1973Ben/Fly:2772-2777",
+          "comment": ""
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -190.457157,
+        "cc-pVDZ": -190.472748,
+        "cc-pVTZ": -190.581966,
+        "aug-cc-pVTZ": -190.59085
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

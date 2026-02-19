@@ -1,0 +1,26 @@
+{
+  "casno": "7440020",
+  "charge": 0,
+  "formula": "Ni",
+  "name": "Nickel atom",
+  "fetched_date": "2026-02-18",
+  "spin": {},
+  "point_group_cccbdb": "Kh",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "B2PLYP=FULLultrafine": {
+        "aug-cc-pVTZ": -1508.169447
+      }
+    },
+    "basis_sets": [
+      "aug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

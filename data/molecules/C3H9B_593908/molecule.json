@@ -1,0 +1,94 @@
+{
+  "casno": "593908",
+  "charge": 0,
+  "formula": "C3H9B",
+  "name": "trimethylborane",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C3h",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null,
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rBC",
+          "value": 1.578,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1993Man/Blu:9412-9419",
+          "comment": ""
+        },
+        {
+          "description": "rHC",
+          "value": 1.114,
+          "atoms": [
+            2,
+            5
+          ],
+          "reference": "1993Man/Blu:9412-9419",
+          "comment": "average of C-H bond lengths"
+        }
+      ],
+      "angles": [
+        {
+          "description": "aCBC",
+          "value": 120.0,
+          "atoms": [
+            2,
+            1,
+            3
+          ],
+          "reference": "1993Man/Blu:9412-9419",
+          "comment": ""
+        },
+        {
+          "description": "aHCB",
+          "value": 112.5,
+          "atoms": [
+            1,
+            2,
+            5
+          ],
+          "reference": "1993Man/Blu:9412-9419",
+          "comment": "average"
+        }
+      ],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "M06-2X": {
+        "6-311+G(3df,2p)": -144.568741
+      },
+      "B97D3": {
+        "daug-cc-pVTZ": -144.569913
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -144.398469,
+        "cc-pVDZ": -144.420262,
+        "cc-pVTZ": -144.521659,
+        "aug-cc-pVTZ": -144.528526
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

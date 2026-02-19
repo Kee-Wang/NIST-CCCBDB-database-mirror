@@ -1,0 +1,49 @@
+{
+  "casno": "372189",
+  "charge": 0,
+  "formula": "C6H4F2",
+  "name": "metadifluorobenzene",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C2v",
+  "geometries": {
+    "experimental": null,
+    "calculated": {},
+    "best_available": null
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "M06-2X": {
+        "3-21G*": -428.198799,
+        "6-311+G(3df,2p)": -430.710025
+      },
+      "B97D3": {
+        "TZVP": -430.628078,
+        "daug-cc-pVTZ": -430.634798
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -430.31866,
+        "cc-pVDZ": -430.359497,
+        "cc-pVTZ": -430.606886,
+        "aug-cc-pVTZ": -430.627208
+      }
+    },
+    "basis_sets": [
+      "3-21G*",
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

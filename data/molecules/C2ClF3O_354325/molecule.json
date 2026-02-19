@@ -1,0 +1,110 @@
+{
+  "casno": "354325",
+  "charge": 0,
+  "formula": "C2ClF3O",
+  "name": "trifluoroacetyl chloride",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Cs",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "MP3=FULL": {
+        "6-31+G**": {
+          "xyz": "C 0.538600 -0.687600 0.000000\nC 0.072600 0.790100 0.000000\nO 0.823000 1.707900 0.000000\nF 1.865300 -0.740500 0.000000\nF 0.072600 -1.310100 1.087000\nF 0.072600 -1.310100 -1.087000\nCl -1.667500 0.939300 0.000000",
+          "point_group": "Cs",
+          "n_atoms": 7,
+          "method_id": 71,
+          "basis_id": 4,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=71&basis=4"
+        }
+      }
+    },
+    "best_available": "calculated/MP3=FULL/6-31+G**"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -908.390724,
+        "TZVP": -908.585107,
+        "daug-cc-pVTZ": -908.611451
+      },
+      "BLYP": {
+        "6-31G*": -911.076491
+      },
+      "B3LYP": {
+        "TZVP": -911.356452
+      },
+      "M06-2X": {
+        "3-21G*": -906.389758,
+        "6-311+G(3df,2p)": -911.182469
+      },
+      "TPSSh": {
+        "6-31G*": -911.140347,
+        "6-31+G**": -911.165267,
+        "cc-pVTZ": -911.358826
+      },
+      "wB97X-D": {
+        "3-21G*": -906.460767,
+        "6-31G*": -911.002301,
+        "6-31+G**": -911.024923,
+        "6-311G**": -911.156917,
+        "TZVP": -911.208204,
+        "cc-pVDZ": -911.024923,
+        "cc-pVTZ": -911.217468,
+        "aug-cc-pVTZ": -911.225078
+      },
+      "B97D3": {
+        "3-21G": -906.264639,
+        "6-31G*": -910.924924,
+        "6-31+G**": -910.952385,
+        "6-311G**": -911.087709,
+        "6-311+G(3df,2p)": -911.137107,
+        "TZVP": -911.138848,
+        "cc-pVTZ": -911.146988,
+        "aug-cc-pVTZ": -911.155745,
+        "daug-cc-pVTZ": -911.156989
+      },
+      "MP2": {
+        "6-31G*": -909.459381,
+        "TZVP": -909.794165
+      },
+      "MP3": {
+        "6-31+G**": -909.459341
+      },
+      "MP3=FULL": {
+        "6-31G*": -909.487784,
+        "6-31+G**": -909.521847
+      },
+      "B2PLYP": {
+        "cc-pVTZ": -910.964344
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -910.634929,
+        "cc-pVDZ": -910.700677,
+        "cc-pVTZ": -910.997889,
+        "aug-cc-pVTZ": -911.020989
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G**",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "casno": "7782992",
+  "charge": 0,
+  "formula": "H2O3S",
+  "name": "Sulfurous acid",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "Cs",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "aug-cc-pVDZ": {
+          "xyz": "S 0.305800 0.352900 0.000000\nO -1.064600 0.974800 0.000000\nO 0.305800 -0.729000 1.289800\nO 0.305800 -0.729000 -1.289800\nH -0.633900 -0.890700 1.502700\nH -0.633900 -0.890700 -1.502700",
+          "point_group": "Cs",
+          "n_atoms": 6,
+          "method_id": 63,
+          "basis_id": 17,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=17"
+        }
+      }
+    },
+    "best_available": "calculated/CCSD(T)=FULL/aug-cc-pVDZ"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "daug-cc-pVTZ": -623.351382
+      },
+      "BLYP": {
+        "6-31G*": -624.94997
+      },
+      "M06-2X": {
+        "3-21G*": -621.766736,
+        "6-311+G(3df,2p)": -625.043632
+      },
+      "wB97X-D": {
+        "3-21G*": -621.819428,
+        "6-31G*": -624.900636,
+        "6-31+G**": -624.928876,
+        "6-311G**": -624.997852,
+        "TZVP": -625.024225,
+        "cc-pVDZ": -624.928876,
+        "cc-pVTZ": -625.064777,
+        "aug-cc-pVTZ": -625.072926
+      },
+      "B97D3": {
+        "3-21G": -621.619686,
+        "6-31G*": -624.873763,
+        "6-31+G**": -624.905153,
+        "6-311G**": -624.979266,
+        "6-311+G(3df,2p)": -625.048699,
+        "TZVP": -625.005704,
+        "cc-pVTZ": -625.040428,
+        "aug-cc-pVTZ": -625.050082,
+        "daug-cc-pVTZ": -625.050774
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -624.646347,
+        "cc-pVDZ": -624.68408,
+        "cc-pVTZ": -624.899594,
+        "aug-cc-pVTZ": -624.918729
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G**",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

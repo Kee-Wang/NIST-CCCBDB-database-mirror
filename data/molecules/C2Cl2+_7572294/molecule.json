@@ -1,0 +1,176 @@
+{
+  "casno": "7572294",
+  "charge": 1,
+  "formula": "C2Cl2",
+  "name": "dichloroacetylene cation",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.763,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "D∞h",
+  "geometries": {
+    "experimental": {
+      "xyz": "C 0.000000 0.000000 0.623000\nC 0.000000 0.000000 -0.623000\nCl 0.000000 0.000000 2.234800\nCl 0.000000 0.000000 -2.234800",
+      "point_group": "D∞h",
+      "n_atoms": 4,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=7572294&charge=1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "6-31G*": {
+          "xyz": "C 0.000000 0.000000 0.637300\nC 0.000000 0.000000 -0.637300\nCl 0.000000 0.000000 2.334800\nCl 0.000000 0.000000 -2.334800",
+          "point_group": "D∞h",
+          "n_atoms": 4,
+          "method_id": 63,
+          "basis_id": 1,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=1"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rCC",
+          "value": 1.246,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1995Kuchitsu(II/23)",
+          "comment": "re"
+        },
+        {
+          "description": "rCCl",
+          "value": 1.612,
+          "atoms": [
+            1,
+            3
+          ],
+          "reference": "1995Kuchitsu(II/23)",
+          "comment": "re"
+        }
+      ],
+      "angles": [
+        {
+          "description": "aCCCl",
+          "value": 180.0,
+          "atoms": [
+            2,
+            1,
+            3
+          ],
+          "reference": "1995Kuchitsu(II/23)",
+          "comment": ""
+        }
+      ],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -994.255938,
+        "TZVP": -994.323516,
+        "daug-cc-pVTZ": -994.365057
+      },
+      "BLYP": {
+        "6-31G*": -996.103246
+      },
+      "B3LYP": {
+        "TZVP": -996.21718
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -996.252475
+      },
+      "M06-2X": {
+        "3-21G*": -991.449247,
+        "6-31G*": -996.039436,
+        "6-311+G(3df,2p)": -996.147902
+      },
+      "PBE1PBE": {
+        "6-31G*": -995.723163
+      },
+      "HSEh1PBE": {
+        "3-21G": -990.902488,
+        "6-31G*": -995.76584,
+        "6-31+G**": -995.767559,
+        "cc-pVTZ": -995.871729
+      },
+      "TPSSh": {
+        "6-31G*": -996.154036,
+        "6-31+G**": -996.155879,
+        "6-31G(2df,p)": -996.174775,
+        "cc-pVTZ": -996.261286
+      },
+      "wB97X-D": {
+        "3-21G*": -991.473365,
+        "6-31G*": -996.073994,
+        "6-31+G**": -996.075634,
+        "6-311G**": -996.141965,
+        "TZVP": -996.146495,
+        "cc-pVDZ": -996.075634,
+        "cc-pVTZ": -996.181212,
+        "aug-cc-pVTZ": -996.182491
+      },
+      "B97D3": {
+        "3-21G": -991.270747,
+        "6-31G*": -996.129642,
+        "6-31+G**": -996.131352,
+        "6-311G**": -996.198436,
+        "6-311+G(3df,2p)": -996.227249,
+        "TZVP": -996.202077,
+        "cc-pVTZ": -996.235257,
+        "aug-cc-pVTZ": -996.23619,
+        "daug-cc-pVTZ": -996.236542
+      },
+      "MP2": {
+        "6-31G*": -994.743984,
+        "6-311G*": -994.831651,
+        "TZVP": -994.835993
+      },
+      "MP2=FULL": {
+        "aug-cc-pVTZ": -995.117698
+      },
+      "MP3": {
+        "6-31+G**": -994.769378
+      },
+      "MP3=FULL": {
+        "6-31G*": -994.798464,
+        "6-31+G**": -994.803982
+      },
+      "B2PLYP": {
+        "6-31G*": -995.745932,
+        "cc-pVTZ": -995.89914
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -995.755203,
+        "cc-pVDZ": -995.803162,
+        "cc-pVTZ": -995.927979,
+        "aug-cc-pVTZ": -995.934957
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "casno": "12285642",
+  "charge": 0,
+  "formula": "F2Na2",
+  "name": "Sodium Fluoride Dimer",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "D2h",
+  "geometries": {
+    "experimental": {
+      "xyz": "Na 0.000000 0.000000 1.401000\nNa 0.000000 0.000000 -1.401000\nF 0.000000 1.539000 0.000000\nF 0.000000 -1.539000 0.000000",
+      "point_group": "D2h",
+      "n_atoms": 4,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=12285642&charge=0",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {},
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rFNa",
+          "value": 2.081,
+          "atoms": [
+            1,
+            3
+          ],
+          "reference": "1988Har/Fin:6058-6063",
+          "comment": ""
+        }
+      ],
+      "angles": [
+        {
+          "description": "aFNaF",
+          "value": 84.6,
+          "atoms": [
+            3,
+            1,
+            4
+          ],
+          "reference": "1988Har/Fin:6058-6063",
+          "comment": ""
+        },
+        {
+          "description": "aNaFNa",
+          "value": 95.4,
+          "atoms": [
+            1,
+            3,
+            2
+          ],
+          "reference": "1988Har/Fin:6058-6063",
+          "comment": "by symmetry"
+        }
+      ],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "M06-2X": {
+        "6-311+G(3df,2p)": -524.389058
+      },
+      "B97D3": {
+        "daug-cc-pVTZ": -524.384941
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -524.023097,
+        "cc-pVDZ": -524.078143,
+        "cc-pVTZ": -524.214459,
+        "aug-cc-pVTZ": -524.226117
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

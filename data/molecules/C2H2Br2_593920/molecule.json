@@ -1,0 +1,59 @@
+{
+  "casno": "593920",
+  "charge": 0,
+  "formula": "C2H2Br2",
+  "name": "1,1-dibromoethene",
+  "fetched_date": "2026-02-18",
+  "spin": {
+    "S_squared": 0.0,
+    "closed_shell": true,
+    "multiplicity": 1,
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C2v",
+  "geometries": {
+    "experimental": null,
+    "calculated": {
+      "HF": {
+        "daug-cc-pVTZ": {
+          "xyz": "C 0.000000 0.000000 0.702500\nC 0.000000 0.000000 2.010200\nBr 0.000000 1.593800 -0.305600\nBr 0.000000 -1.593800 -0.305600\nH 0.000000 0.921400 2.557400\nH 0.000000 -0.921400 2.557400",
+          "point_group": "C2v",
+          "n_atoms": 6,
+          "method_id": 1,
+          "basis_id": 35,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=1&basis=35"
+        }
+      }
+    },
+    "best_available": "calculated/HF/daug-cc-pVTZ"
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "daug-cc-pVTZ": -5221.815468
+      },
+      "M06-2X": {
+        "6-311+G(3df,2p)": -5225.718029
+      },
+      "B97D3": {
+        "daug-cc-pVTZ": -5228.404778
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -5219.755685,
+        "cc-pVDZ": -5224.703676,
+        "cc-pVTZ": -5224.985647,
+        "aug-cc-pVTZ": -5224.999433
+      }
+    },
+    "basis_sets": [
+      "6-31G*",
+      "6-311+G(3df,2p)",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

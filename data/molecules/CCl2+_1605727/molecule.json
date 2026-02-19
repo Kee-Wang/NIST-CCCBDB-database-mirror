@@ -1,0 +1,163 @@
+{
+  "casno": "1605727",
+  "charge": 1,
+  "formula": "CCl2",
+  "name": "dichloromethylene cation",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.75,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C2v",
+  "geometries": {
+    "experimental": {
+      "xyz": "C 0.000000 0.000000 0.842400\nCl 0.000000 1.395100 -0.148700\nCl 0.000000 -1.395100 -0.148700",
+      "point_group": "C2v",
+      "n_atoms": 3,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=1605727&charge=1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "6-31G*": {
+          "xyz": "C 0.000000 0.000000 0.617800\nCl 0.000000 1.562700 -0.109000\nCl 0.000000 -1.562700 -0.109000",
+          "point_group": "C2v",
+          "n_atoms": 3,
+          "method_id": 63,
+          "basis_id": 1,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=1"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rCCl",
+          "value": 1.711,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "2002Dem/Mar:3282",
+          "comment": "re"
+        }
+      ],
+      "angles": [
+        {
+          "description": "aClCCl",
+          "value": 109.22,
+          "atoms": [
+            2,
+            1,
+            3
+          ],
+          "reference": "2002Dem/Mar:3282",
+          "comment": "equilibrium"
+        }
+      ],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -956.406614,
+        "TZVP": -956.464827,
+        "daug-cc-pVTZ": -956.505209
+      },
+      "BLYP": {
+        "6-31G*": -958.018683
+      },
+      "B3LYP": {
+        "TZVP": -958.109923
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -958.144321
+      },
+      "M06-2X": {
+        "3-21G*": -953.570871,
+        "6-31G*": -957.957871,
+        "6-311+G(3df,2p)": -958.053393
+      },
+      "PBE1PBE": {
+        "6-31G*": -957.674986
+      },
+      "HSEh1PBE": {
+        "3-21G": -953.047794,
+        "6-31G*": -957.713947,
+        "6-31+G**": -957.715542,
+        "cc-pVTZ": -957.80831
+      },
+      "TPSSh": {
+        "6-31G*": -958.058613,
+        "6-31+G**": -958.060253,
+        "6-31G(2df,p)": -958.075512,
+        "cc-pVTZ": -958.153676
+      },
+      "wB97X-D": {
+        "3-21G*": -953.59754,
+        "6-31G*": -957.996127,
+        "6-31+G**": -957.997719,
+        "6-311G**": -958.055919,
+        "TZVP": -958.057252,
+        "cc-pVDZ": -957.997719,
+        "cc-pVTZ": -958.091313,
+        "aug-cc-pVTZ": -958.092527
+      },
+      "B97D3": {
+        "3-21G": -953.404984,
+        "6-31G*": -958.062745,
+        "6-31+G**": -958.06411,
+        "6-311G**": -958.122863,
+        "6-311+G(3df,2p)": -958.146142,
+        "TZVP": -958.123209,
+        "cc-pVTZ": -958.155008,
+        "aug-cc-pVTZ": -958.15594,
+        "daug-cc-pVTZ": -958.156274
+      },
+      "MP2": {
+        "6-31G*": -956.770182,
+        "6-311G*": -956.846723,
+        "TZVP": -956.849792
+      },
+      "MP3": {
+        "6-31+G**": -956.792241
+      },
+      "MP3=FULL": {
+        "6-31G*": -956.81533,
+        "6-31+G**": -956.820699
+      },
+      "B2PLYP": {
+        "6-31G*": -957.691619,
+        "cc-pVTZ": -957.825851
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -957.699087,
+        "cc-pVDZ": -957.747964,
+        "cc-pVTZ": -957.849767,
+        "aug-cc-pVTZ": -957.855325
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

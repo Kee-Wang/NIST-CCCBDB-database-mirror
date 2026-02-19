@@ -1,0 +1,157 @@
+{
+  "casno": "13598226",
+  "charge": 1,
+  "formula": "BeS",
+  "name": "Beryllium monosulfide cation",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.75,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)=FULL",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C∞v",
+  "geometries": {
+    "experimental": {
+      "xyz": "Be 0.000000 0.000000 0.000000\nS 0.000000 0.000000 1.741500",
+      "point_group": "C∞v",
+      "n_atoms": 2,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=13598226&charge=1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "6-31G*": {
+          "xyz": "Be 0.000000 0.000000 -1.467000\nS 0.000000 0.000000 0.366700",
+          "point_group": "C∞v",
+          "n_atoms": 2,
+          "method_id": 63,
+          "basis_id": 1,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=1"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rBeS",
+          "value": 1.742,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1979HUB/HER",
+          "comment": "re"
+        }
+      ],
+      "angles": [],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -411.821128,
+        "TZVP": -411.836972,
+        "daug-cc-pVTZ": -411.86034
+      },
+      "ROHF": {
+        "6-31G*": -411.817687
+      },
+      "BLYP": {
+        "6-31G*": -412.540825
+      },
+      "B3LYP": {
+        "TZVP": -412.58183
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -412.601488
+      },
+      "M06-2X": {
+        "3-21G*": -410.572754,
+        "6-31G*": -412.516687,
+        "6-311+G(3df,2p)": -412.554739
+      },
+      "PBE1PBE": {
+        "6-31G*": -412.373822
+      },
+      "HSEh1PBE": {
+        "3-21G": -410.351028,
+        "6-31G*": -412.393229,
+        "6-31+G**": -412.393767,
+        "cc-pVTZ": -412.430805
+      },
+      "TPSSh": {
+        "6-31G*": -412.562514,
+        "6-31+G**": -412.56302,
+        "6-31G(2df,p)": -412.566938,
+        "cc-pVTZ": -412.600518
+      },
+      "wB97X-D": {
+        "3-21G*": -410.592801,
+        "6-31G*": -412.539667,
+        "6-31+G**": -412.540168,
+        "6-311G**": -412.56789,
+        "TZVP": -412.556359,
+        "cc-pVDZ": -412.540168,
+        "cc-pVTZ": -412.577302,
+        "aug-cc-pVTZ": -412.577702
+      },
+      "B97D3": {
+        "3-21G": -410.517634,
+        "6-31G*": -412.557855,
+        "6-31+G**": -412.558357,
+        "6-311G**": -412.587364,
+        "6-311+G(3df,2p)": -412.592552,
+        "TZVP": -412.576388,
+        "cc-pVTZ": -412.59512,
+        "aug-cc-pVTZ": -412.595481,
+        "daug-cc-pVTZ": -412.595602
+      },
+      "MP2": {
+        "6-31G*": -411.939268,
+        "6-311G*": -411.969888,
+        "TZVP": -411.955923
+      },
+      "MP3": {
+        "6-31+G**": -411.955451
+      },
+      "MP3=FULL": {
+        "6-31G*": -411.969426,
+        "6-31+G**": -411.971261
+      },
+      "MP4": {
+        "cc-pVTZ": -412.048914
+      },
+      "B2PLYP": {
+        "6-31G*": -412.38645,
+        "cc-pVTZ": -412.437677
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -412.390858,
+        "cc-pVDZ": -412.412213,
+        "cc-pVTZ": -412.450863,
+        "aug-cc-pVTZ": -412.453599
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}

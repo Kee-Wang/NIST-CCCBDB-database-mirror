@@ -1,0 +1,169 @@
+{
+  "casno": "13814250",
+  "charge": 1,
+  "formula": "F2S",
+  "name": "sulfur difluoride cation",
+  "fetched_date": "2026-02-16",
+  "spin": {
+    "S_squared": 0.774,
+    "closed_shell": false,
+    "multiplicity": 2,
+    "method": "CCSD(T)",
+    "source_url": "https://cccbdb.nist.gov/spin2x.asp"
+  },
+  "point_group_cccbdb": "C2v",
+  "geometries": {
+    "experimental": {
+      "xyz": "S 0.000000 0.000000 0.551100\nF 0.000000 1.198500 -0.489900\nF 0.000000 -1.198500 -0.489900",
+      "point_group": "C2v",
+      "n_atoms": 3,
+      "source_url": "https://cccbdb.nist.gov/expgeom2x.asp?casno=13814250&charge=1",
+      "geometry_type": "equilibrium"
+    },
+    "calculated": {
+      "CCSD(T)=FULL": {
+        "6-31G*": {
+          "xyz": "S 0.000000 0.000000 0.595600\nF 0.000000 1.234400 -0.529400\nF 0.000000 -1.234400 -0.529400",
+          "point_group": "C2v",
+          "n_atoms": 3,
+          "method_id": 63,
+          "basis_id": 1,
+          "source_url": "https://cccbdb.nist.gov/geom3x.asp?method=63&basis=1"
+        }
+      }
+    },
+    "best_available": "experimental",
+    "experimental_internal_coords": {
+      "distances": [
+        {
+          "description": "rSF",
+          "value": 1.587,
+          "atoms": [
+            1,
+            2
+          ],
+          "reference": "1998Kuc",
+          "comment": ""
+        }
+      ],
+      "angles": [
+        {
+          "description": "aFSF",
+          "value": 98.048,
+          "atoms": [
+            2,
+            1,
+            3
+          ],
+          "reference": "1998Kuc",
+          "comment": ""
+        }
+      ],
+      "dihedrals": []
+    }
+  },
+  "energy": {
+    "hf_sto3g": null,
+    "methods": {
+      "HF": {
+        "6-31G*": -595.971793,
+        "TZVP": -596.069392,
+        "daug-cc-pVTZ": -596.112209
+      },
+      "BLYP": {
+        "6-31G*": -597.422634
+      },
+      "B3LYP": {
+        "TZVP": -597.539361
+      },
+      "B3LYPultrafine": {
+        "aug-cc-pVTZ": -597.571169
+      },
+      "M06-2X": {
+        "3-21G*": -594.396337,
+        "6-31G*": -597.323212,
+        "6-311+G(3df,2p)": -597.457195
+      },
+      "PBE1PBE": {
+        "6-31G*": -597.096042
+      },
+      "HSEh1PBE": {
+        "3-21G": -594.055916,
+        "6-31G*": -597.130317,
+        "6-31+G**": -597.138587,
+        "cc-pVTZ": -597.2609
+      },
+      "TPSSh": {
+        "6-31G*": -597.434311,
+        "6-31+G**": -597.442638,
+        "6-31G(2df,p)": -597.465322,
+        "cc-pVTZ": -597.565137
+      },
+      "wB97X-D": {
+        "3-21G*": -594.452766,
+        "6-31G*": -597.360334,
+        "6-31+G**": -597.367921,
+        "6-311G**": -597.42965,
+        "TZVP": -597.463131,
+        "cc-pVDZ": -597.367921,
+        "cc-pVTZ": -597.491665,
+        "aug-cc-pVTZ": -597.495711
+      },
+      "B97D3": {
+        "3-21G": -594.28817,
+        "6-31G*": -597.350786,
+        "6-31+G**": -597.359682,
+        "6-311G**": -597.425958,
+        "6-311+G(3df,2p)": -597.477631,
+        "TZVP": -597.456877,
+        "cc-pVTZ": -597.482702,
+        "aug-cc-pVTZ": -597.486563,
+        "daug-cc-pVTZ": -597.487487
+      },
+      "MP2": {
+        "6-31G*": -596.429323,
+        "6-311G*": -596.557891,
+        "TZVP": -596.597487
+      },
+      "MP2=FULL": {
+        "aug-cc-pVTZ": -596.837293
+      },
+      "MP3": {
+        "6-31+G**": -596.427505
+      },
+      "MP3=FULL": {
+        "6-31G*": -596.443403,
+        "6-31+G**": -596.456922
+      },
+      "MP4": {
+        "cc-pVTZ": -596.790783
+      },
+      "B2PLYP": {
+        "6-31G*": -597.137084,
+        "cc-pVTZ": -597.326291
+      },
+      "B2PLYP=FULLultrafine": {
+        "6-31G*": -597.142066,
+        "cc-pVDZ": -597.168622,
+        "cc-pVTZ": -597.344278,
+        "aug-cc-pVTZ": -597.354888
+      }
+    },
+    "basis_sets": [
+      "3-21G",
+      "3-21G*",
+      "6-31G*",
+      "6-31+G**",
+      "6-311G*",
+      "6-311G**",
+      "6-31G(2df,p)",
+      "6-311+G(3df,2p)",
+      "TZVP",
+      "cc-pVDZ",
+      "cc-pVTZ",
+      "aug-cc-pVTZ",
+      "daug-cc-pVTZ"
+    ],
+    "source_url": "https://cccbdb.nist.gov/energy2x.asp"
+  }
+}
