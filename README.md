@@ -29,8 +29,6 @@ Three access formats, from lightest to most complete:
 | `cccbdb-molecules.json.gz` | 3.8 MB | All parsed data for all 2,186 species (gzipped JSON) |
 | `data/molecules/` | 27 MB JSON + 597 MB HTML | Per-molecule JSON + archived source HTML pages |
 
-For programmatic access, see [curated-database-pipeline](https://github.com/Kee-Wang/curated-database-pipeline).
-
 ### Lightweight Download
 
 If you only need the parsed data (no HTML archives), download `cccbdb-molecules.json.gz` (3.8 MB) — it contains the same data as all 2,186 individual `molecule.json` files combined:
@@ -330,7 +328,7 @@ Ultrafine grid variants: `B3LYPultrafine`, `PBEPBEultrafine`, `B2PLYP=FULLultraf
 
 ## Related Projects
 
-This mirror is the data backend for [curated-database-pipeline](https://github.com/Kee-Wang/curated-database-pipeline) — a curated database system for quantum chemistry molecule screening. Use curated-database-pipeline for programmatic access and tutorials.
+This mirror is designed as a standalone data source for curated centralized database pipelines used in quantum chemistry molecule screening.
 
 ## License
 

@@ -311,18 +311,14 @@ formula count in all 5 cases.
 
 These are not data errors but important limitations that researchers should be aware of.
 
-### 9a. Spin HTML Archival Gap — RESOLVED
-- **Original finding**: Only 354 of 2,186 species (16.2%) had `spin2x.html` archived.
-- **Resolution**: All 2,186 species now have `spin2x.html` archived on disk (100% coverage),
-  achieved through subsequent fetch campaigns. Spin data can now be independently verified
-  against the archived source HTML for every species.
-
-### 9b. Energy Session Failures (27 species)
+### No Upstream Energy Data (27 species)
 - **Finding**: 27 molecules have `energy2x.html` on disk but no parsed energy data
-  in molecule.json. Inspection shows these HTML files contain empty tables, indicating
-  the CCCBDB session was not properly established during fetch.
-- **Impact**: These species appear to have no energy data, but the data may exist on
-  CCCBDB. Re-fetching with a fresh session could recover the data.
+  in molecule.json. All 27 HTML files contain the correct molecule name in the `<h1>`
+  tag (confirming the session was properly established), but the energy data tables
+  are empty. CCCBDB genuinely has no energy data for these species.
+- **Impact**: These species will have blank energy columns in the CSV export.
+  This is an upstream data limitation, not a recoverable gap — re-fetching will
+  not yield different results.
 - **Species affected**: BF3H3N (CAS 137019869), C3H5F (CAS 1184607),
   C3H6Cl2 (CAS 78999), C3H6F2 (CAS 420451), C3H7+ (CAS 2143615),
   C4H5N (CAS 109751), C4H8O2S (CAS 126330), C4H9F (CAS 359013),
@@ -331,7 +327,6 @@ These are not data errors but important limitations that researchers should be a
   CHS2+ (CAS 87552861), Cl5Sb (CAS 7647189), ClH2N (CAS 110599903),
   ClSb (CAS 19952126), Co (CAS 7440484), Cr (CAS 7440473),
   and 7 others (see DATA_GAPS_AUDIT.md for full list).
-- **Recommendation**: Re-fetch with `--pages energy --missing-only`.
 
 ---
 
