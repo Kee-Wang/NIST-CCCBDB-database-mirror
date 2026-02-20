@@ -81,10 +81,6 @@ Parsed data is validated at multiple levels:
 - **Gold-standard spot checks**: Tier 2 tests in `verify_archive.py` compare parsed values against independently verified reference data.
 - **105 automated tests**: Formula parsing (89 tests) and data integrity cross-validation (16 tests), runnable with `pytest tests/`.
 
-### Anomaly Investigation Protocol
-
-Every suspicious result is investigated with competing hypotheses and 3+ independent evidence sources (electron count, spin page text, energy methods, URL parameters, other species entries) before classifying as upstream error or parser bug. Full evidence for all 19 investigated anomalies is in [`ANOMALY_LOG.md`](data/suspected_errors/ANOMALY_LOG.md). Raw anomaly data is in [`anomalies.json`](data/suspected_errors/anomalies.json). Data gap classification and fetch campaign evidence is in [`DATA_GAPS_AUDIT.md`](data/suspected_errors/DATA_GAPS_AUDIT.md).
-
 ## CSV Quick Reference
 
 `cccbdb-selected-energy.csv` at the repo root provides a flat, one-row-per-species summary (2,186 rows, 20 columns). Selection philosophy: experimental geometry preferred over best *ab initio* (DFT excluded); spin from highest-level method; energy as a cheapest + best pair. For the full set of up to 42 methods × 32 basis sets per species, use the per-molecule JSON files.
@@ -97,9 +93,9 @@ Every suspicious result is investigated with competing hypotheses and 3+ indepen
 | `casno` | CAS registry number | CCCBDB `listallx.asp` | Digits only, no dashes |
 | `charge` | Net charge | CCCBDB `listallx.asp` | |
 | `point_group` | Molecular symmetry | CCCBDB `expgeom2x.asp` | From geometry page header. Blank (5.0%) if no geometry page |
-| `multiplicity` | Spin multiplicity 2S+1 | Derived | From S² + electron parity. Blank (1.9%) if no spin data |
-| `s_squared` | S² expectation value | CCCBDB `spin2x.asp` | Best method (CCSD(T) preferred). Blank (1.9%) if no spin data |
-| `closed_shell` | All electrons paired | CCCBDB `spin2x.asp` | 1=yes, 0=no. Blank (1.9%) if no spin data |
+| `multiplicity` | Spin multiplicity 2S+1 | Derived | From S² + electron parity. Blank (1.3%) if no spin data |
+| `s_squared` | S² expectation value | CCCBDB `spin2x.asp` | Best method (CCSD(T) preferred). Blank (1.3%) if no spin data |
+| `closed_shell` | All electrons paired | CCCBDB `spin2x.asp` | 1=yes, 0=no. Blank (1.3%) if no spin data |
 | `n_electrons` | Total electrons | Derived | sum(Z × count) − charge |
 | `n_atoms` | Atom count | Derived | From formula |
 | `geometry_source` | Origin of coordinates | Derived | `experimental`, `calculated`, or `single atom`; blank (3.0%) if multi-atom with no geometry |
